@@ -66,30 +66,7 @@
   --fw-bold: 700;
   --eff-hover: var(--clr-green);
   --eff-trans: 0.15s ease-in-out;
-}
-
-body {
-  display: grid;
-  position: relative;
-  margin: 0;
-  font-family: var(--ff-sans);
-  font-weight: var(--fw-light);
-  line-height: 1.5;
-  font-size: 18px;
-  letter-spacing: 0.07rem;
-  background-color: var(--clr-dgray);
-  color: var(--clr-white);
-  background-image: radial-gradient(rgba(20, 20, 20, 0.6) 2px, transparent 2px);
-  background-size: 10px 10px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--ff-serif);
+  --ltr-size: 10vh;
 }
 
 /* UTILITIES */
@@ -116,4 +93,17 @@ h6 {
 }
 .mb-4 {
   margin-bottom: var(--margin-400);
+}
+
+/* Font */
+.thin {
+  font-weight: var(--fw-light);
+}
+
+.sans {
+  font-family: var(--ff-sans);
+}
+
+.bigger {
+  font-size: calc(var(--ltr-size) + 2vh) !important;
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../src/assets/logo.svg";
 import baerBuch from "../src/assets/BaerAbenteuerBuch.jpg";
 import instaLogo from "../src/assets/instagram-logo.svg";
 import globeIcon from "../src/assets/www-globe_white.svg";
@@ -9,25 +8,34 @@ function App() {
   return (
     <div className="App">
       <header>
-        <img
-          alt="Logo Sascha Nabrotzky Illustrationen"
-          className="logo mb-2 mt-2"
-          src={logo}
-        />
+        <div className="types">
+          <h2 className="letter">S</h2>
+          <h2 className="letter">A</h2>
+          <h2 className="letter">S</h2>
+          <h2 className="letter">C</h2>
+          <h2 className="letter">H</h2>
+          <h2 className="letter">A</h2>
+          <h2 className="letter thin sans bigger">N</h2>
+          <h2 className="letter">A</h2>
+          <h2 className="letter">B</h2>
+          <h2 className="letter">R</h2>
+          <h2 className="letter thin sans bigger">O</h2>
+          <h2 className="letter">T</h2>
+          <h2 className="letter">Z</h2>
+          <h2 className="letter">K</h2>
+          <h2 className="letter">Y</h2>
+        </div>
       </header>
       <main>
-        <h1>Illustration &amp; Charakter-Design</h1>
+        <h1 className="title">Grafikdesign &amp; Typografie</h1>
         <div className="text-normal">
           <h3>Hallo!</h3>
           <p>
-            {" "}
             Neben meinem Hauptjob als Webdesigner (UI/UX) habe ich noch eine
-            weitere Leidenschaft und zwar Illustration und Charakter-Design für
-            Kinderbücher, welches ich als Hobby betreibe, wenn ich etwas Zeit
-            freischaffen kann oder um den Kopf frei zu bekommen. Wie so viele
-            kreative Menschen, habe auch ich seit kindesalter meine
-            Zeichenstifte nie so richtig aus der Hand gelegt, später konnte ich
-            in meiner Ausbildung das Kreative mit dem Computer verbinden.{" "}
+            weitere Leidenschaft und zwar Grafikdesign und Typografie. In diesem Bereich 
+            experimentiere ich gerne mit handgemachten Collagen, Illustrationen, Schriften, 
+            Fotos und alles, was man kombinieren kann. Ich schärfe auf diesem Wege ebenfalls 
+            meine Intuition für UI-Design meiner Websites und Apps, die ich programmiere.
           </p>
         </div>
         <div className="image-right">
@@ -43,7 +51,7 @@ function App() {
           <img src={globeIcon} />
         </a>
         <a
-          href="https://www.instagram.com/sascha_nabrotzky"
+          href="https://www.instagram.com/sn.de.sign"
           target="_blank"
           title="Zu meinem Instagram-Account"
         >
