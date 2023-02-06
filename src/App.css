@@ -1,4 +1,4 @@
-@import '../src/variables.module.css';
+@import "../src/variables.module.css";
 
 .App {
   display: grid;
@@ -10,15 +10,15 @@ body {
   display: grid;
   position: relative;
   margin: 0;
-  background-color: var(--clr-dgray);
-  background-image: radial-gradient(rgba(20, 20, 20, 0.6) 2px, transparent 2px);
-  background-size: 10px 10px;
-  line-height: 1.5;
+  background-color: var(--clr-white);
+  background-image: url("../src/assets/DerAnfang.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
   letter-spacing: 0.07rem;
-  color: var(--clr-white);
+  color: var(--clr-black);
   font-family: var(--ff-sans);
   font-size: 18px;
-  font-weight: var(--fw-light);
 }
 
 h1,
@@ -62,14 +62,19 @@ main > h1 {
   position: absolute;
   bottom: 2rem;
   transition: 0.5s ease-in-out;
-  opacity: 0.1;
+  opacity: 0.5;
   line-height: 1.1;
   word-break: break-word;
   font-size: 100px;
+  letter-spacing: 0.8rem;
 }
 
 main > h1:hover {
   filter: blur(8px);
+}
+
+.text-normal p {
+  line-height: 2;
 }
 
 main img {
@@ -127,4 +132,17 @@ footer a > img {
   transition: var(--eff-trans);
   height: 30px;
   aspect-ratio: 1/1;
+}
+
+/* Yellow Line */
+.yellow-line {
+  position: fixed;
+  width: 5rem;
+  height: 100%;
+  left: 50%;
+  background-color: rgb(255, 238, 0);
+  transform: skew(-10deg);
+  transform-origin: bottom left;
+  pointer-events: none;
+  mix-blend-mode: multiply;
 }

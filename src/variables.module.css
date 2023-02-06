@@ -107,3 +107,7 @@
 .bigger {
   font-size: calc(var(--ltr-size) + 2vh) !important;
 }
+
+.moved {
+  transform: translateX(-70px);
+}
