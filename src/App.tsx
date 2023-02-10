@@ -1,5 +1,5 @@
 import React from "react";
-import collage from "../src/assets/Collage.jpg";
+import deranfang from "../src/assets/DerAnfang.jpg";
 import instaLogo from "../src/assets/instagram-logo.svg";
 import globeIcon from "../src/assets/www-globe_white.svg";
 import "./App.css";
@@ -9,20 +9,20 @@ function App() {
     <div className="App">
       <header>
         <div className="types">
-          <h2 className="letter">S</h2>
-          <h2 className="letter thin sans bigger moved">A</h2>
-          <h2 className="letter">S</h2>
-          <h2 className="letter">C</h2>
-          <h2 className="letter">H</h2>
-          <h2 className="letter">A</h2>
-          <h2 className="letter thin sans bigger">N</h2>
+          <h2 className="letter thin sans">S</h2>
+          <h2 className="letter thin sans">A</h2>
+          <h2 className="letter thin sans">S</h2>
+          <h2 className="letter thin sans">C</h2>
+          <h2 className="letter thin sans">H</h2>
+          <h2 className="letter thin sans">A</h2>
+          <h2 className="letter">N</h2>
           <h2 className="letter">A</h2>
           <h2 className="letter">B</h2>
           <h2 className="letter">R</h2>
-          <h2 className="letter thin sans bigger moved">O</h2>
+          <h2 className="letter">O</h2>
           <h2 className="letter">T</h2>
           <h2 className="letter">Z</h2>
-          <h2 className="letter moved">K</h2>
+          <h2 className="letter">K</h2>
           <h2 className="letter">Y</h2>
         </div>
       </header>
@@ -40,7 +40,7 @@ function App() {
           </p>
         </div>
         <div className="image-right">
-          <img src={collage} alt="Collage" />
+          <img src={deranfang} alt="Collage" />
         </div>
       </main>
       <footer className="mt-1">
