@@ -43,7 +43,7 @@ function App() {
           <img src={deranfang} alt="Collage" />
         </div>
       </main>
-      <footer className="mt-1">
+      <footer>
         <a
           href="https://sascha-nabrotzky.github.io"
           target="_blank"

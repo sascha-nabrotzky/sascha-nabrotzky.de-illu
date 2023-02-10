@@ -115,6 +115,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 1rem;
   padding: 1rem;
 }
 
@@ -135,12 +136,12 @@ footer a > img {
 /* Yellow Line */
 .yellow-line {
   position: fixed;
-  width: 14rem;
-  height: 100%;
   left: 50%;
-  background-color: rgb(255, 238, 0);
   transform: skew(-10deg);
   transform-origin: bottom left;
-  pointer-events: none;
   mix-blend-mode: multiply;
+  background-color: rgb(255, 238, 0);
+  width: 14rem;
+  height: 100%;
+  pointer-events: none;
 }
