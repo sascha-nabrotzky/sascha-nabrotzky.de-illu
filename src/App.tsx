@@ -27,7 +27,7 @@ function App() {
         </div>
       </header>
       <main className="grid gap-16">
-        <h1 className="absolute bottom-8 opacity-20 tracking-wider break-all font-serif">Grafikdesign &amp; Illustration</h1>
+        <h1 className="absolute bottom-8 opacity-20 tracking-wider break-all font-serif ml-16">Grafikdesign &amp; Illustration</h1>
         <div className="text-lg tracking-wider">
           <h3>Hallo!</h3>
           <p>
@@ -36,7 +36,7 @@ function App() {
             Bereichen experimentiere ich gerne mit handgemachten Collagen,
             Illustrationen, Schriften, Fotos und alles, was man kombinieren
             kann. Ich schärfe auf diesem Wege ebenfalls meine Intuition für
-            UI-Design meiner Websites und Apps.
+            das UI-Design meiner Websites und Apps.
           </p>
         </div>
         <div className="image-right flex overflow-hidden place-items-center">
