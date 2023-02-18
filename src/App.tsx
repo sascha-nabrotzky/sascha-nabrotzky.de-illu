@@ -6,52 +6,52 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <div className="types">
-          <h2 className="letter thin sans">S</h2>
-          <h2 className="letter thin sans">A</h2>
-          <h2 className="letter thin sans">S</h2>
-          <h2 className="letter thin sans">C</h2>
-          <h2 className="letter thin sans">H</h2>
-          <h2 className="letter thin sans">A</h2>
-          <h2 className="letter">N</h2>
-          <h2 className="letter">A</h2>
-          <h2 className="letter">B</h2>
-          <h2 className="letter">R</h2>
-          <h2 className="letter">O</h2>
-          <h2 className="letter">T</h2>
-          <h2 className="letter">Z</h2>
-          <h2 className="letter">K</h2>
-          <h2 className="letter">Y</h2>
+    <div className="App grid">
+      <header className="flex p-4">
+        <div className="types flex flex-wrap justify-between">
+          <h2 className="letter font-sans mx-12">S</h2>
+          <h2 className="letter font-sans mx-12">A</h2>
+          <h2 className="letter font-sans mx-12">S</h2>
+          <h2 className="letter font-sans mx-12">C</h2>
+          <h2 className="letter font-sans mx-12">H</h2>
+          <h2 className="letter font-sans mx-12">A</h2>
+          <h2 className="letter font-serif mx-12">N</h2>
+          <h2 className="letter font-serif mx-12">A</h2>
+          <h2 className="letter font-serif mx-12">B</h2>
+          <h2 className="letter font-serif mx-12">R</h2>
+          <h2 className="letter font-serif mx-12">O</h2>
+          <h2 className="letter font-serif mx-12">T</h2>
+          <h2 className="letter font-serif mx-12">Z</h2>
+          <h2 className="letter font-serif mx-12">K</h2>
+          <h2 className="letter font-serif mx-12">Y</h2>
         </div>
       </header>
-      <main>
-        <h1>Grafikdesign &amp; Typografie</h1>
-        <div className="text-normal">
+      <main className="grid gap-16">
+        <h1 className="absolute bottom-8 opacity-20 tracking-wider break-all font-serif">Grafikdesign &amp; Illustration</h1>
+        <div className="text-lg tracking-wider">
           <h3>Hallo!</h3>
           <p>
-            Neben meinem Hauptjob als Webdesigner (UI/UX) habe ich noch eine
-            weitere Leidenschaft und zwar Grafikdesign und Typografie. In diesem
-            Bereich experimentiere ich gerne mit handgemachten Collagen,
+            Neben meinem Hauptjob als Webdesigner (UI/UX) habe ich noch
+            weitere Leidenschaften und zwar Grafikdesign und Illustration. In diesen
+            Bereichen experimentiere ich gerne mit handgemachten Collagen,
             Illustrationen, Schriften, Fotos und alles, was man kombinieren
             kann. Ich schärfe auf diesem Wege ebenfalls meine Intuition für
-            UI-Design meiner Websites und Apps, die ich programmiere.
+            UI-Design meiner Websites und Apps.
           </p>
         </div>
-        <div className="image-right">
-          <img src={deranfang} alt="Collage" />
+        <div className="image-right flex overflow-hidden place-items-center">
+          <img className="w-full" src={deranfang} alt="Collage" />
         </div>
       </main>
-      <footer>
-        <a
+      <footer className="flex justify-center p-4">
+        <a className="mx-4 hover:opacity-50"
           href="https://sascha-nabrotzky.github.io"
           target="_blank"
           title="Zu meiner GitHub-Website"
         >
           <img src={globeIcon} />
         </a>
-        <a
+        <a className="mx-4 hover:opacity-50"
           href="https://www.instagram.com/sn.de.sign"
           target="_blank"
           title="Zu meinem Instagram-Account"
@@ -59,7 +59,7 @@ function App() {
           <img src={instaLogo} />
         </a>
       </footer>
-      <div className="yellow-line" />
+      <div className="yellow-line bg-yellow-400" />
     </div>
   );
 }

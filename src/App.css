@@ -1,89 +1,36 @@
 @import "../src/variables.module.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .App {
-  display: grid;
   grid-template-rows: min-content 1fr;
   height: 100vh;
 }
 
 body {
-  display: grid;
-  position: relative;
-  margin: 0;
-  background-color: var(--clr-dgray);
   background-image: radial-gradient(rgba(20, 20, 20, 0.6) 2px, transparent 2px);
   background-size: 10px 10px;
-  letter-spacing: 0.07rem;
-  color: var(--clr-white);
-  font-family: var(--ff-sans);
-  font-size: 18px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--ff-serif);
 }
 
 /* HEADER */
-header {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  padding: 1rem;
-}
-
-.types {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
-}
-
 .letter {
   font-size: var(--ltr-size);
-  margin-inline: 4rem;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 /* MAIN */
-main {
-  display: grid;
-  gap: 2rem;
-}
-
 main > h1 {
-  position: absolute;
-  bottom: 2rem;
   transition: 0.5s ease-in-out;
-  opacity: 0.2;
   line-height: 1.1;
-  word-break: break-word;
   font-size: 100px;
-  letter-spacing: 0.8rem;
 }
 
 main > h1:hover {
   filter: blur(8px);
 }
 
-.text-normal p {
-  line-height: 2;
-}
-
-main img {
-  width: 100%;
-}
-
 .image-right {
-  display: flex;
   max-height: 500px;
-  overflow: hidden;
-  place-items: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -111,24 +58,11 @@ main img {
 }
 
 /* FOOTER */
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 1rem;
-  padding: 1rem;
-}
-
 footer a {
-  margin-inline: 20px;
-}
-
-a:hover img {
-  opacity: 0.5;
+  transition: var(--eff-trans);
 }
 
 footer a > img {
-  transition: var(--eff-trans);
   height: 30px;
   aspect-ratio: 1/1;
 }
@@ -140,7 +74,6 @@ footer a > img {
   transform: skew(-10deg);
   transform-origin: bottom left;
   mix-blend-mode: multiply;
-  background-color: rgb(255, 238, 0);
   width: 14rem;
   height: 100%;
   pointer-events: none;
