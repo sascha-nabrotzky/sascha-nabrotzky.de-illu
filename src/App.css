@@ -1,11 +1,10 @@
-@import "../src/variables.module.css";
+@import "../src/fonts.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .App {
   grid-template-rows: min-content 1fr;
-  height: 100vh;
 }
 
 body {
@@ -13,32 +12,7 @@ body {
   background-size: 10px 10px;
 }
 
-/* HEADER */
-.letter {
-  font-size: var(--ltr-size);
-}
-
 /* MAIN */
-main > h1 {
-  transition: 0.5s ease-in-out;
-  line-height: 1.1;
-  font-size: 100px;
-}
-
-main > h1:hover {
-  filter: blur(8px);
-}
-
-.image-right {
-  max-height: 500px;
-}
-
-@media screen and (max-width: 768px) {
-  main {
-    padding-inline: 1rem;
-  }
-}
-
 @media screen and (min-width: 769px) {
   main {
     grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(0, 30rem)) minmax(
@@ -47,24 +21,6 @@ main > h1:hover {
       );
     grid-template-rows: min-content 1fr;
   }
-
-  main > div:first-of-type {
-    grid-column: 2 / 3;
-  }
-
-  .image-right {
-    grid-column: 3 / 5;
-  }
-}
-
-/* FOOTER */
-footer a {
-  transition: var(--eff-trans);
-}
-
-footer a > img {
-  height: 30px;
-  aspect-ratio: 1/1;
 }
 
 /* Yellow Line */
