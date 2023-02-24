@@ -25,12 +25,7 @@ body {
 
 /* Yellow Line */
 .yellow-line {
-  position: fixed;
-  left: 50%;
   transform: skew(-10deg);
   transform-origin: bottom left;
-  mix-blend-mode: multiply;
   width: 14rem;
-  height: 100%;
-  pointer-events: none;
 }
