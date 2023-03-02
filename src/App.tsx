@@ -5,6 +5,7 @@ import Photography from "./Photography";
 import instaLogo from "../src/assets/instagram-logo.svg";
 import globeIcon from "../src/assets/www-globe_white.svg";
 import "./App.css";
+import Navigation from "./Navigation";
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
           <h2 className="text-8xl font-serif mx-12">Y</h2>
         </div>
       </header>
+
+      <Navigation />
 
       <main className="grid gap-16 p-4 md:p-0 md:grid-cols-[minmax(2rem,_1fr)_repeat(2,_minmax(0,_30rem))_minmax(_2rem,_1fr)]">
         <Routes>

@@ -9,21 +9,21 @@ function Photography() {
         <div className="md:col-start-2 md:col-span-1 text-lg tracking-wider">
           <h3>Fotografie</h3>
           <p>
-            Hier kommt ein Slider mit Fotos hin.
+            Hier kommt der Text zu den Fotos hin.
           </p>
         </div>
         
-        <div id="default-carousel" className="relative" data-carousel="static">
-            <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-                <div className="hidden duration-700 ease-in-out" data-carousel-item="active">
+        <div id="default-carousel" className="relative md:col-start-3 md:col-span-2" data-carousel="static">
+            <div className="relative h-56 overflow-hidden rounded-l-lg md:h-full">
+                <div className="hidden duration-700 ease-in-out" data-carousel-item>
                     <span className="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-                    <img src="https://picsum.photos/200" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                    <img src="https://picsum.photos/800/700" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
                 </div>
                 <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="https://picsum.photos/200" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                    <img src="https://picsum.photos/800/700" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
                 </div>
                 <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="https://picsum.photos/200" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                    <img src="https://picsum.photos/800/700" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
                 </div>
             </div>
             <div className="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
@@ -44,7 +44,6 @@ function Photography() {
                 </span>
             </button>
         </div>
-
       </>
     )
 };
