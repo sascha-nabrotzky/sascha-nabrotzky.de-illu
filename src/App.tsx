@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./home";
+import Home from "./Home";
 import Photography from "./Photography";
 import instaLogo from "../src/assets/instagram-logo.svg";
 import globeIcon from "../src/assets/www-globe_white.svg";
