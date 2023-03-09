@@ -5,6 +5,7 @@ import Photography from "./Photography";
 import instaLogo from "../src/assets/instagram-logo.svg";
 import globeIcon from "../src/assets/www-globe_white.svg";
 import "./App.css";
+import Navigation from "./Navigation";
 
 function App() {
   return (
@@ -30,12 +31,33 @@ function App() {
           </div>
         </header>
 
+        <Navigation />
+
         <main className="grid gap-16 p-4 md:p-0 md:grid-cols-[minmax(2rem,_1fr)_repeat(2,_minmax(0,_30rem))_minmax(_2rem,_1fr)]">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/photo" element={<Photography />} />
           </Routes>
         </main>
+
+        <footer className="flex justify-center p-4 z-10">
+          <a
+            className="mx-4 transition-opacity duration-300 hover:opacity-50"
+            href="https://sascha-nabrotzky.github.io"
+            target="_blank"
+            title="Zu meiner GitHub-Website"
+          >
+            <img className="h-8" src={globeIcon} />
+          </a>
+          <a
+            className="mx-4 transition-opacity duration-300 hover:opacity-50"
+            href="https://www.instagram.com/sn.de.sign"
+            target="_blank"
+            title="Zu meinem Instagram-Account"
+          >
+            <img className="h-8" src={instaLogo} />
+          </a>
+        </footer>
 
         <footer className="flex justify-center p-4 z-10">
           <a
