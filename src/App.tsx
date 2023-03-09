@@ -59,25 +59,6 @@ function App() {
           </a>
         </footer>
 
-        <footer className="flex justify-center p-4 z-10">
-          <a
-            className="mx-4 transition-opacity duration-300 hover:opacity-50"
-            href="https://sascha-nabrotzky.github.io"
-            target="_blank"
-            title="Zu meiner GitHub-Website"
-          >
-            <img className="h-8" src={globeIcon} />
-          </a>
-          <a
-            className="mx-4 transition-opacity duration-300 hover:opacity-50"
-            href="https://www.instagram.com/sn.de.sign"
-            target="_blank"
-            title="Zu meinem Instagram-Account"
-          >
-            <img className="h-8" src={instaLogo} />
-          </a>
-        </footer>
-
         <div className="yellow-line w-56 -skew-x-12 bg-yellow-400 h-full fixed left-1/2 mix-blend-multiply pointer-events-none" />
       </div>
     </Router>
