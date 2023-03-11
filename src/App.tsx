@@ -6,6 +6,7 @@ import instaLogo from "../src/assets/instagram-logo.svg";
 import globeIcon from "../src/assets/www-globe_white.svg";
 import "./App.css";
 import Navigation from "./Navigation";
+import "flowbite";
 
 function App() {
   return (
