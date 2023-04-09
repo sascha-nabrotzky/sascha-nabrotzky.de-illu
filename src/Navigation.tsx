@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Navigation() {
     return (
-        <ul className="fixed top-1/2 ml-8 tracking-widest uppercase">
+        <ul className="fixed top-4 md:top-1/2 ml-8 tracking-widest uppercase">
             <li>
                 <Link to="/">Home</Link>
             </li>
