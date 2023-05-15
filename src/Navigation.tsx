@@ -1,16 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Navigation() {
+const Navigation = () => {
     return (
-        <ul className="fixed top-4 md:top-1/2 ml-8 tracking-widest uppercase">
-            <li>
-                <Link to="/">Home</Link>
-            </li>
-            <li>
-                <Link to="/photo">Fotografie</Link>
-            </li>
-        </ul>
+        <nav className="fixed top-4 md:top-1/2 ml-8 tracking-widest uppercase z-10">
+            <div className="bg-gray-500 mb-2 px-1">
+                <Link to="/illustration">Illustration</Link>
+            </div>
+            <div className="bg-gray-500 mb-2 px-1">
+                <Link to="/kinderbuecher">Kinderbücher</Link>
+            </div>
+            <div className="bg-gray-500 mb-2 px-1">
+                <Link to="/">Über mich</Link>
+            </div>
+        </nav>
     )
 }
 

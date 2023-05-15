@@ -6,15 +6,15 @@ import image3 from "../src/assets/images/3.jpg";
 import image4 from "../src/assets/images/4.jpg";
 import image5 from "../src/assets/images/5.jpg";
 
-function Photography() {
+const Childrensbooks = () => {
   return (
     <>
-      <h1 className="absolute bottom-8 opacity-20 tracking-wider break-all font-serif text-8xl ml-16 transition-filter duration-300 hover:blur">
-        Fotografie
+      <h1 className="absolute bottom-8 opacity-20 tracking-wider break-all font-serif text-8xl ml-8 md:ml-16 transition-filter duration-300 hover:blur">
+        Kinderbücher
       </h1>
       <div className="md:col-start-2 md:col-span-1 text-lg tracking-wider">
-        <h3>Fotografie</h3>
-        <p>Hier kommt der Text zu den Fotos hin.</p>
+        <h3>Kinderbücher</h3>
+        <p>Hier kommt der Text zu meinen Kinderbüchern hin.</p>
       </div>
       <div className="md:col-start-3 md:col-span-2 h-96 md:h-72 lg:h-80 xl:h-[30rem] 2xl:h-[38rem]">
         <Carousel>
@@ -44,4 +44,4 @@ function Photography() {
   );
 }
 
-export default Photography;
+export default Childrensbooks;
