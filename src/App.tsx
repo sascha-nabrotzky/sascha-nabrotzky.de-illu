@@ -61,10 +61,10 @@ const App = () => {
           </a>
         </footer>
 
-        <div className="yellow-line w-56 -skew-x-12 bg-yellow-400 h-full fixed left-1/2 mix-blend-multiply pointer-events-none" />
+        <div className="hidden md:block w-56 -skew-x-12 bg-yellow-400 h-full fixed left-1/2 mix-blend-multiply pointer-events-none" />
       </div>
     </Router>
   );
-}
+};
 
 export default App;
