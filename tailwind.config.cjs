@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./index.html", 
+    "./src/**/*.{js,jsx,ts,tsx}", 
+    "./node_modules/flowbite/**/*.js",
+    "./node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
     fontFamily: {
       'sans': ["Merriweather Sans"],
@@ -13,8 +18,13 @@ module.exports = {
       },
       backgroundSize: {
         '10': '10px 10px',
-      }
+      },
+      gridTemplateColumns: {
+        'default': 'minmax(2rem, 1fr) repeat(2, minmax(0, 30rem)) minmax( 2rem, 1fr)',
+    },
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin'),
+  ],
 }
