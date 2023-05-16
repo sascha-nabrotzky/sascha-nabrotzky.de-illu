@@ -14,7 +14,7 @@ const Illustration = () => {
         Illustration
       </h1>
       <div className="md:col-start-2 md:col-span-1 max-md:px-6 text-lg tracking-wider">
-        <h2 className="mb-4">Vieles digital, alles andere aber am Liebsten handgemacht</h2>
+        <h2 className="mb-4">Vieles digital, alles andere aber am liebsten handgemacht</h2>
         <p>Hauptsächlich erstelle ich viele Illustrationen für Kinder, aber auch für den Editorial-Bereich habe ich schon einige Sachen gemacht.</p>
         <p>Grundsätzlich versuche ich den handgemachten, skizzenhaften Look meiner Illustrationen herauszuarbeiten, wenn ich digital arbeite oder erstelle meine diese direkt mit Aquarellstiften und Wasserfarben.</p>
         <p>Der Reiz der Wasserfarben liegt darin, dass man diese nicht immer so kontrollieren kann und immer etwas unvorhergesehnes passiert.</p>
