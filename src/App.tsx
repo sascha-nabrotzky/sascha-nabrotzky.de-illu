@@ -14,7 +14,7 @@ const App = () => {
     <Router>
       <div className="App relative grid h-screen grid-rows-[min-content_1fr]">
         <header className="flex justify-center p-4 mt-24 md:mt-8 mb-8 md:mb-16">
-            <Logo className="h-48 text-white" />
+            <Logo className="w-full max-w-md text-white" />
         </header>
 
         <Navigation />
