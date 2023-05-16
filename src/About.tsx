@@ -8,7 +8,7 @@ const Home = () => {
         Über mich
       </h1>
       <div className="md:col-start-2 md:col-span-1 text-lg tracking-wider">
-        <h3>Hallo!</h3>
+        <h2>Hallo!</h2>
         <p>
           Neben meinem Hauptjob als Webdesigner (UI/UX) habe ich noch Illustration und das erstellen von Kinderbüchern als weitere Leidenschaft.
         </p>

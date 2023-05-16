@@ -13,7 +13,7 @@ const Childrensbooks = () => {
         Kinderbücher
       </h1>
       <div className="md:col-start-2 md:col-span-1 text-lg tracking-wider">
-        <h3>Kinderbücher</h3>
+        <h2>Kinderbücher</h2>
         <p>Hier kommt der Text zu meinen Kinderbüchern hin.</p>
       </div>
       <div className="md:col-start-3 md:col-span-2 h-96 md:h-72 lg:h-80 xl:h-[30rem] 2xl:h-[38rem]">

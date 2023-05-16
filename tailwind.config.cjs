@@ -18,7 +18,10 @@ module.exports = {
       },
       backgroundSize: {
         '10': '10px 10px',
-      }
+      },
+      gridTemplateColumns: {
+        'default': 'minmax(2rem, 1fr) repeat(2, minmax(0, 30rem)) minmax( 2rem, 1fr)',
+    },
     },
   },
   plugins: [

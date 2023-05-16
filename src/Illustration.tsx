@@ -12,8 +12,8 @@ const Illustration = () => {
       <h1 className="absolute bottom-8 opacity-20 tracking-wider break-all font-serif text-8xl ml-8 md:ml-16 transition-filter duration-300 hover:blur">
         Illustration
       </h1>
-      <div className="md:col-start-2 md:col-span-1 text-lg tracking-wider">
-        <h3>Illustration</h3>
+      <div className="md:col-start-2 md:col-span-1 max-md:px-6 text-lg tracking-wider">
+        <h2>Illustration</h2>
         <p>Hier kommt der Text zu den Illustrationen hin</p>
       </div>
       <div className="md:col-start-3 md:col-span-2 h-96 md:h-72 lg:h-80 xl:h-[30rem] 2xl:h-[38rem]">

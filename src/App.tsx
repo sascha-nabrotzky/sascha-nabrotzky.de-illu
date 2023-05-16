@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Home";
+import About from "./About";
 import Illustration from "./Illustration";
 import Childrensbooks from "./Childrensbooks";
 import instaLogo from "../src/assets/instagram-logo.svg";
@@ -34,11 +34,11 @@ const App = () => {
 
         <Navigation />
 
-        <main className="grid gap-16 p-4 md:p-0 md:grid-cols-[minmax(2rem,_1fr)_repeat(2,_minmax(0,_30rem))_minmax(_2rem,_1fr)]">
+        <main className="grid gap-16 p-4 md:p-0 md:grid-cols-default">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/illustration" element={<Illustration />} />
+            <Route path="/" element={<Illustration />} />
             <Route path="/kinderbuecher" element={<Childrensbooks />} />
+            <Route path="/ueber-mich" element={<About />} />
           </Routes>
         </main>
 
@@ -61,7 +61,7 @@ const App = () => {
           </a>
         </footer>
 
-        <div className="hidden md:block w-56 -skew-x-12 bg-yellow-400 h-full fixed left-1/2 mix-blend-multiply pointer-events-none" />
+        <div className="max-md:hidden w-28 -skew-x-12 bg-yellow-400/40 h-full fixed left-1/4 mix-blend-multiply pointer-events-none" />
       </div>
     </Router>
   );
