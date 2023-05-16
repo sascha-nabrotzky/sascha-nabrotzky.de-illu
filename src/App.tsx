@@ -5,6 +5,7 @@ import Illustration from "./Illustration";
 import Childrensbooks from "./Childrensbooks";
 import instaLogo from "../src/assets/instagram-logo.svg";
 import globeIcon from "../src/assets/www-globe_white.svg";
+import { ReactComponent as Logo } from "../src/assets/images/logo_sn.svg";
 import "./App.css";
 import Navigation from "./Navigation";
 
@@ -12,29 +13,13 @@ const App = () => {
   return (
     <Router>
       <div className="App relative grid h-screen grid-rows-[min-content_1fr]">
-        <header className="flex p-4 mb-8">
-          <div className="types flex flex-wrap justify-between">
-            <h2 className="text-4xl md:text-8xl font-sans mx-6 md:mx-12">S</h2>
-            <h2 className="text-4xl md:text-8xl font-sans mx-6 md:mx-12">A</h2>
-            <h2 className="text-4xl md:text-8xl font-sans mx-6 md:mx-12">S</h2>
-            <h2 className="text-4xl md:text-8xl font-sans mx-6 md:mx-12">C</h2>
-            <h2 className="text-4xl md:text-8xl font-sans mx-6 md:mx-12">H</h2>
-            <h2 className="text-4xl md:text-8xl font-sans mx-6 md:mx-12">A</h2>
-            <h2 className="text-4xl md:text-8xl font-serif mx-6 md:mx-12">N</h2>
-            <h2 className="text-4xl md:text-8xl font-serif mx-6 md:mx-12">A</h2>
-            <h2 className="text-4xl md:text-8xl font-serif mx-6 md:mx-12">B</h2>
-            <h2 className="text-4xl md:text-8xl font-serif mx-6 md:mx-12">R</h2>
-            <h2 className="text-4xl md:text-8xl font-serif mx-6 md:mx-12">O</h2>
-            <h2 className="text-4xl md:text-8xl font-serif mx-6 md:mx-12">T</h2>
-            <h2 className="text-4xl md:text-8xl font-serif mx-6 md:mx-12">Z</h2>
-            <h2 className="text-4xl md:text-8xl font-serif mx-6 md:mx-12">K</h2>
-            <h2 className="text-4xl md:text-8xl font-serif mx-6 md:mx-12">Y</h2>
-          </div>
+        <header className="flex justify-center p-4 mt-24 md:mt-8 mb-8 md:mb-16">
+            <Logo className="h-48 text-white" />
         </header>
 
         <Navigation />
 
-        <main className="grid gap-16 p-4 md:p-0 md:grid-cols-default">
+        <main className="grid gap-16 p-4 md:p-0 md:grid-cols-default text-white">
           <Routes>
             <Route path="/" element={<Illustration />} />
             <Route path="/kinderbuecher" element={<Childrensbooks />} />
@@ -60,8 +45,6 @@ const App = () => {
             <img className="h-8" src={instaLogo} />
           </a>
         </footer>
-
-        <div className="max-md:hidden w-28 -skew-x-12 bg-yellow-400/40 h-full fixed left-1/4 mix-blend-multiply pointer-events-none" />
       </div>
     </Router>
   );
