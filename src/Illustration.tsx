@@ -24,26 +24,32 @@ const Illustration = () => {
           <img
             src={image1}
             alt="Illustration Alebrije"
+            loading="lazy"
           />
           <img
             src={image2}
             alt="Illustration Tiere"
+            loading="lazy"
           />
           <img
             src={image3}
             alt="Illustration Artenvielfalt"
+            loading="lazy"
           />
           <img
             src={image4}
             alt="Illustration Hund"
+            loading="lazy"
           />
           <img
             src={image5}
             alt="Illustration Neantertalerjunge"
+            loading="lazy"
           />
           <img
             src={image6}
             alt="Illustration Morla"
+            loading="lazy"
           />
         </Carousel>
       </div>

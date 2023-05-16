@@ -22,18 +22,22 @@ const Childrensbooks = () => {
           <img
             src={image1}
             alt="Mein viertes Kinderbuch"
+            loading="lazy"
           />
           <img
             src={image2}
             alt="Mein erstes Kinderbuch"
+            loading="lazy"
           />
           <img
             src={image3}
             alt="Mein zweites Kinderbuch"
+            loading="lazy"
           />
           <img
             src={image4}
             alt="Mein drittes Kinderbuch"
+            loading="lazy"
           />
         </Carousel>
       </div>
