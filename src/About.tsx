@@ -4,7 +4,7 @@ import deranfang from "../src/assets/images/DerAnfang.jpg";
 const Home = () => {
   return (
     <>
-      <h1 className="absolute bottom-8 opacity-20 uppercase tracking-widest break-all font-serif text-8xl ml-8 md:ml-16 transition-filter duration-300 hover:blur">
+      <h1 className="absolute bottom-8 opacity-10 uppercase tracking-widest break-all font-sans text-8xl ml-8 md:ml-16 transition-filter duration-300 hover:blur">
         Über mich
       </h1>
       <div className="md:col-start-2 md:col-span-1 text-lg tracking-wider">

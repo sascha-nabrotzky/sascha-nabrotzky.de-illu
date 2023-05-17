@@ -10,7 +10,7 @@ import image6 from "../src/assets/images/illuMorla.jpg";
 const Illustration = () => {
   return (
     <>
-      <h1 className="absolute bottom-8 opacity-20 uppercase tracking-widest break-all font-serif text-8xl ml-8 md:ml-16 transition-filter duration-300 hover:blur">
+      <h1 className="absolute bottom-8 opacity-20 uppercase tracking-widest break-all font-sans text-8xl ml-8 md:ml-16 transition-filter duration-300 hover:blur">
         Illustration
       </h1>
       <div className="md:col-start-2 md:col-span-1 max-md:px-6 text-lg tracking-wider">
