@@ -1,5 +1,6 @@
 import React from "react";
 import deranfang from "../src/assets/images/DerAnfang.jpg";
+import { ReactComponent as AngleRight } from "../src/assets/images/angle-right.svg";
 
 const Home = () => {
     return (
@@ -14,7 +15,15 @@ const Home = () => {
                   Neben meinem Hauptjob als Webdesigner (UI/UX) habe ich noch Illustration und das erstellen von Kinderbüchern als weitere Leidenschaft, 
                   welche ich als Hobby betreibe.
                 </p>
-                <p></p>
+                <a
+                    className="flex mt-12 transition-opacity duration-300 text-teal-400 hover:opacity-50"
+                    href="https://www.instagram.com/sascha_nabrotzky"
+                    target="_blank"
+                    title="Zu meinem Instagram-Account"
+                >
+                        Kontakt
+                    <AngleRight className="h-7"/>
+                </a>
             </div>
             <div className="md:col-start-3 md:col-span-2 flex overflow-hidden place-items-center h-96 md:h-72 lg:h-80 xl:h-[30rem] 2xl:h-[38rem]">
                 <img className="w-full" src={deranfang} alt="Collage" loading="lazy"/>
