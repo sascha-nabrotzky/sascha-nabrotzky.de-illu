@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import deranfang from "../src/assets/images/DerAnfang.jpg";
 import { ReactComponent as AngleRight } from "../src/assets/images/angle-right.svg";
 
 const Home = () => {
+    const [currentMail, setMail] = useState("")
+
+    function addMail() {
+        setMail('mailto:illustration@sascha-nabrotzky.de')
+    }
+
     return (
         <>
             <h1 className="absolute bottom-8 opacity-10 uppercase tracking-widest break-all font-sans text-8xl ml-8 md:ml-16 transition-filter duration-300 hover:blur">
@@ -17,11 +23,12 @@ const Home = () => {
                 </p>
                 <a
                     className="flex mt-12 transition-opacity duration-300 text-teal-400 hover:opacity-50"
-                    href="https://www.instagram.com/sascha_nabrotzky"
+                    href={`${currentMail}`}
                     target="_blank"
-                    title="Zu meinem Instagram-Account"
+                    rel="noreferrer"
+                    onClick={addMail}
                 >
-                        Kontakt
+                    Kontakt
                     <AngleRight className="h-7"/>
                 </a>
             </div>

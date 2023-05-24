@@ -12,6 +12,9 @@ module.exports = {
             'serif': ["Merriweather"]
         },
         extend: {
+            colors: {
+                beige: '#eae1d5',
+            },
             backgroundImage: {
                 dot: "radial-gradient(rgba(20, 20, 20, 0.6) 2px, transparent 2px)",
             },

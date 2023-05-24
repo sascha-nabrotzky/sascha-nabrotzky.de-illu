@@ -14,12 +14,12 @@ const App = () => {
         <Router>
             <div className="App relative grid h-screen grid-rows-[min-content_1fr]">
                 <header className="flex justify-center p-4 mt-48 md:mt-8 mb-8 md:mb-16">
-                    <Logo className="w-full max-w-md text-white" />
+                    <Logo className="w-full max-w-md text-stone-800" />
                 </header>
 
                 <Navigation />
 
-                <main className="grid gap-16 p-4 md:p-0 md:grid-cols-default text-white">
+                <main className="grid gap-16 p-4 md:p-0 md:grid-cols-default text-stone-800">
                     <Routes>
                         <Route path="/" element={<Illustration />} />
                         <Route path="/kinderbuecher" element={<Childrensbooks />} />
