@@ -10,17 +10,18 @@ import image6 from "../src/assets/images/illuMorla.jpg";
 const Illustration = () => {
     return (
         <>
-            <h1 className="absolute bottom-8 opacity-20 uppercase tracking-widest break-all font-sans text-8xl ml-8 md:ml-16 transition-filter duration-300 hover:blur">
-        Illustration
-            </h1>
-            <div className="md:col-start-2 md:col-span-1 max-md:px-6 text-lg tracking-wider">
+            
+            <div className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
+                <h1 className="uppercase tracking-widest text-2xl mb-4">
+                     Illustration
+                </h1>
                 <h2 className="mb-4">Vieles digital, alles andere aber am liebsten handgemacht</h2>
                 <p>Ich erstelle Illustrationen sowohl im Bereich Kinderbuch als auch für den Bereich Editorial, wo ich eine Zeit lang für Bildagenturen kreativ werden durfte.</p>
                 <p>Grundsätzlich versuche ich einen handgemachten, skizzenhaften Look in meinen digitalen Illustrationen herauszuarbeiten, oder arbeite direkt mit Aquarellstiften und Wasserfarben.</p>
                 <p>Der Reiz der Wasserfarben liegt darin, dass man diese nicht immer so kontrollieren kann und immer etwas unvorhergesehnes passiert.</p>
             </div>
             <div className="md:col-start-3 md:col-span-2 h-96 md:h-72 lg:h-80 xl:h-[30rem] 2xl:h-[38rem]">
-                <Carousel>
+                <Carousel className="z-20">
                     <img
                         src={image1}
                         alt="Illustration Alebrije"

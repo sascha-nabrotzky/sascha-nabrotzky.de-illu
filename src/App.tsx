@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./About";
 import Illustration from "./Illustration";
 import Childrensbooks from "./Childrensbooks";
-import instaLogo from "../src/assets/instagram-logo.svg";
-import globeIcon from "../src/assets/www-globe_white.svg";
+import { ReactComponent as InstaLogo } from "../src/assets/instagram-logo.svg";
+import { ReactComponent as GlobeIcon } from "../src/assets/www-globe_white.svg";
 import { ReactComponent as Logo } from "../src/assets/images/logo_sn.svg";
 import "./App.css";
 import Navigation from "./Navigation";
@@ -13,13 +13,14 @@ const App = () => {
     return (
         <Router>
             <div className="App relative grid h-screen grid-rows-[min-content_1fr]">
+
                 <header className="flex justify-center p-4 mt-48 md:mt-8 mb-8 md:mb-16">
-                    <Logo className="w-full max-w-md text-stone-800" />
+                    <Logo className="w-full max-w-md text-stone-700" />
                 </header>
 
                 <Navigation />
 
-                <main className="grid gap-16 p-4 md:p-0 md:grid-cols-default text-stone-800">
+                <main className="grid gap-16 p-4 md:p-0 md:grid-cols-default text-stone-700">
                     <Routes>
                         <Route path="/" element={<Illustration />} />
                         <Route path="/kinderbuecher" element={<Childrensbooks />} />
@@ -27,14 +28,14 @@ const App = () => {
                     </Routes>
                 </main>
 
-                <footer className="flex justify-center p-4 z-10">
+                <footer className="flex justify-center p-4">
                     <a
                         className="mx-4 transition-opacity duration-300 hover:opacity-50"
                         href="https://sascha-nabrotzky.github.io"
                         target="_blank"
                         title="Zu meiner GitHub-Website"
                     >
-                        <img className="h-8" src={globeIcon} />
+                        <GlobeIcon className="h-8 text-stone-700" />
                     </a>
                     <a
                         className="mx-4 transition-opacity duration-300 hover:opacity-50"
@@ -42,7 +43,7 @@ const App = () => {
                         target="_blank"
                         title="Zu meinem Instagram-Account"
                     >
-                        <img className="h-8" src={instaLogo} />
+                        <InstaLogo className="h-8 text-stone-700" />
                     </a>
                 </footer>
             </div>

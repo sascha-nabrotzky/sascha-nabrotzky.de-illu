@@ -60,3 +60,21 @@ body {
 [data-testid="carousel"] > div {
     border-radius: 0;
 }
+
+/* Noise */
+.gradient::before {
+  position: fixed;
+  top: 0;
+  content: '';
+  height: 100%;
+  width: 100%;
+  display: block;
+  filter: url(#noiseFilter);
+  mix-blend-mode: screen; /* or multiply to make it darker */
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+.gradient-svg {
+  display: none;
+}
