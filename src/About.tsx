@@ -22,7 +22,7 @@ const Home = () => {
                   welche ich als Hobby betreibe.
                 </p>
                 <a
-                    className="flex mt-12 transition-opacity duration-300 text-teal-600 hover:opacity-50"
+                    className="flex mt-12 transition-color duration-300 text-teal-600 hover:text-terracotta"
                     href={`${currentMail}`}
                     target="_blank"
                     rel="noreferrer"

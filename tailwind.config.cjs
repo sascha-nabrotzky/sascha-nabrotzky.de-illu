@@ -13,12 +13,11 @@ module.exports = {
         },
         extend: {
             colors: {
-                beige: '#e9dac6',
-                beige2: '#ccbca8',
                 terracotta: '#a57973',
             },
             backgroundImage: {
                 dot: "radial-gradient(rgba(20, 20, 20, 0.6) 2px, transparent 2px)",
+                grungedot: "url('./src/assets/images/GrungeDot11.webp')"
             },
             backgroundSize: {
                 '10': '10px 10px',
