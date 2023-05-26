@@ -10,7 +10,6 @@ import image6 from "../src/assets/images/illuMorla.jpg";
 const Illustration = () => {
     return (
         <>
-            
             <div className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
                 <h1 className="uppercase tracking-widest text-2xl mb-4">
                      Illustration
