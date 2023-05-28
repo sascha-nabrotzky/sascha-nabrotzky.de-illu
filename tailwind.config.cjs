@@ -25,7 +25,7 @@ module.exports = {
             },
             gridTemplateColumns: {
                 'default': 'minmax(2rem, 1fr) repeat(2, minmax(0, 30rem)) minmax(2rem, 1fr)',
-                'imgBox': 'minmax(2rem, 1fr) repeat(3, 1fr) minmax( 2rem, 1fr)',
+                'imgBox': 'minmax(2rem, 1fr) repeat(4, 1fr) minmax( 2rem, 1fr)',
             },
         },
     },

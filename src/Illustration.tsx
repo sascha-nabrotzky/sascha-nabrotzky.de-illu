@@ -53,7 +53,7 @@ const Illustration = () => {
                     />
                 </Carousel>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 col-start-1 md:col-span-4 gap-4 p-4 bg-stone-700">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 col-start-1 md:col-span-4 gap-4 p-4 lg:my-16 bg-stone-700">
                 <figure>
                     <img
                         src={image6}
@@ -71,6 +71,15 @@ const Illustration = () => {
                         className=""
                     />
                     <figcaption className="mt-2 text-xs">Bild 2</figcaption>
+                </figure>
+                <figure>
+                    <img
+                        src={image6}
+                        alt="Illustration Morla"
+                        loading="lazy"
+                        className=""
+                    />
+                    <figcaption className="mt-2 text-xs">Bild 3</figcaption>
                 </figure>
                 <figure>
                     <img
