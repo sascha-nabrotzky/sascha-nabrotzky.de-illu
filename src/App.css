@@ -60,8 +60,3 @@ body {
 [data-testid="carousel"] > div {
     border-radius: 0;
 }
-
-/* .bg-grungedot { */
-  /* background-image: url('~@/src/assets/GrungeDot11.png'); */
-  /* background-image: url('./src/assets/images/GrungeDot11.png'); */
-/* } */
