@@ -26,7 +26,7 @@ const App = () => {
                         <Route path="/datenschutz" element={<Datenschutz />} />
                     </Routes>
                 </main>
-                <Footer/>
+                <Footer />
             </div>
         </Router>
     );
