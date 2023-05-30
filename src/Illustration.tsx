@@ -6,10 +6,10 @@ import image3 from "../src/assets/images/IlluArten.jpg";
 import image4 from "../src/assets/images/illuTheo.jpg";
 import image5 from "../src/assets/images/illuNean.jpg";
 import image6 from "../src/assets/images/illuMorla.jpg";
-import imageBox7 from "../src/assets/images/Billigfleisch_400x600.jpg";
-import imageBox8 from "../src/assets/images/Dreams_400x600.jpg";
-import imageBox9 from "../src/assets/images/Hochhaus_400x600.jpg";
-import imageBox10 from "../src/assets/images/KatzenHunde_400x600.jpg";
+import illuBilligfleisch from "../src/assets/images/Billigfleisch_400x600.jpg";
+import illuDreams from "../src/assets/images/Dreams_400x600.jpg";
+import illuHochhaus from "../src/assets/images/Hochhaus_400x600.jpg";
+import illuKatzenHunde from "../src/assets/images/KatzenHunde_400x600.jpg";
 
 const Illustration = () => {
     return (
@@ -53,7 +53,7 @@ const Illustration = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 col-start-1 md:col-span-4 gap-4 p-4 lg:my-16 bg-stone-700">
                 <figure>
                     <img
-                        src={imageBox9}
+                        src={illuHochhaus}
                         alt="Illustration Armut in USA"
                         loading="lazy"
                         className=""
@@ -62,7 +62,7 @@ const Illustration = () => {
                 </figure>
                 <figure>
                     <img
-                        src={imageBox7}
+                        src={illuBilligfleisch}
                         alt="Illustration Billigfleisch"
                         loading="lazy"
                         className=""
@@ -71,7 +71,7 @@ const Illustration = () => {
                 </figure>
                 <figure>
                     <img
-                        src={imageBox8}
+                        src={illuDreams}
                         alt="Illustration Dreams"
                         loading="lazy"
                         className=""
@@ -80,7 +80,7 @@ const Illustration = () => {
                 </figure>
                 <figure>
                     <img
-                        src={imageBox10}
+                        src={illuKatzenHunde}
                         alt="Illustration Es regnet Katzen und Hunde"
                         loading="lazy"
                         className=""
