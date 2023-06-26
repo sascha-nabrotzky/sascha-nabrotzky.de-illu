@@ -1,15 +1,15 @@
 import React from "react";
 import { Carousel } from "flowbite-react";
-import image1 from "../src/assets/images/illuAlebrije.jpg";
-import image2 from "../src/assets/images/illuAnimals.jpg";
-import image3 from "../src/assets/images/IlluArten.jpg";
-import image4 from "../src/assets/images/illuTheo.jpg";
-import image5 from "../src/assets/images/illuNean.jpg";
-import image6 from "../src/assets/images/illuMorla.jpg";
-import illuBilligfleisch from "../src/assets/images/Billigfleisch_400x600.jpg";
-import illuDreams from "../src/assets/images/Dreams_400x600.jpg";
-import illuHochhaus from "../src/assets/images/Hochhaus_400x600.jpg";
-import illuKatzenHunde from "../src/assets/images/KatzenHunde_400x600.jpg";
+import image1 from "../src/assets/images/illuAlebrije.webp";
+import image2 from "../src/assets/images/illuAnimals.webp";
+import image3 from "../src/assets/images/IlluArten.webp";
+import image4 from "../src/assets/images/illuTheo.webp";
+import image5 from "../src/assets/images/illuNean.webp";
+import image6 from "../src/assets/images/illuMorla.webp";
+import illuBilligfleisch from "../src/assets/images/Billigfleisch_400x600.webp";
+import illuDreams from "../src/assets/images/Dreams_400x600.webp";
+import illuHochhaus from "../src/assets/images/Hochhaus_400x600.webp";
+import illuKatzenHunde from "../src/assets/images/KatzenHunde_400x600.webp";
 
 const Illustration = () => {
     return (

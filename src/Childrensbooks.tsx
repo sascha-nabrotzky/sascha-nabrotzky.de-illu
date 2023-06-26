@@ -1,9 +1,9 @@
 import React from "react";
 import { Carousel } from "flowbite-react";
-import image1 from "../src/assets/images/Book4.jpg";
-import image2 from "../src/assets/images/Book1.jpg";
-import image3 from "../src/assets/images/Book2.jpg";
-import image4 from "../src/assets/images/Book3.jpg";
+import image1 from "../src/assets/images/Book4.webp";
+import image2 from "../src/assets/images/Book1.webp";
+import image3 from "../src/assets/images/Book2.webp";
+import image4 from "../src/assets/images/Book3.webp";
 
 const Childrensbooks = () => {
     return (

@@ -1,5 +1,5 @@
 import React from "react";
-import deranfang from "../src/assets/images/DerAnfang.jpg";
+import deranfang from "../src/assets/images/DerAnfang.webp";
 
 const About = () => {
     return (
