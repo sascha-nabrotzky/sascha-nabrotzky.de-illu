@@ -14,12 +14,12 @@ import illuKatzenHunde from "../src/assets/images/KatzenHunde_400x600.webp";
 const Illustration = () => {
     return (
         <>
-            <div className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
+            <section className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
                 <h1 className="uppercase tracking-widest text-2xl mb-4">
           Illustration
                 </h1>
                 <h2 className="mb-4">
-          Vieles digital, alles andere aber am liebsten handgemacht
+        Illustrationen aus Ladbergen, die die Fantasie beflügeln oder zum Nachdenken anregen.
                 </h2>
                 <p>
           Ich erstelle Illustrationen sowohl im Bereich Kinderbuch als auch für
@@ -28,14 +28,14 @@ const Illustration = () => {
                 </p>
                 <p>
           Grundsätzlich versuche ich einen handgemachten, skizzenhaften Look in
-          meinen digitalen Illustrationen herauszuarbeiten oder arbeite direkt
-          mit Aquarellstiften und Wasserfarben.
+          meinen digitalen Illustrationen herauszuarbeiten aber noch lieber kombiniere ich
+          Wasserfarben mit Aquarellstiften, Wachspastell, Tinte, Buntstifte, Acrylfarben und Papiercollagen.
                 </p>
                 <p>
-          Der Reiz der Wasserfarben liegt darin, dass man diese nicht immer so
-          kontrollieren kann und immer etwas unvorhergesehnes passiert.
+          Der Reiz meiner recht intuitiven Mixed-Media-Technik liegt darin, dass man diese nicht immer so
+          kontrollieren kann, wenn man es zulässt, und man schnell schöne Zufälle erstellt.
                 </p>
-            </div>
+            </section>
             <div className="md:col-start-3 md:col-span-2 h-96 md:h-72 lg:h-80 xl:h-[30rem] 2xl:h-[38rem]">
                 <Carousel className="z-20">
                     <img src={image1} alt="Illustration Alebrije" loading="lazy" />
@@ -50,7 +50,7 @@ const Illustration = () => {
                     <img src={image6} alt="Illustration Morla" loading="lazy" />
                 </Carousel>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 col-start-1 md:col-span-4 gap-4 p-4 lg:my-16 bg-stone-700">
+            <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 col-start-1 md:col-span-4 gap-4 p-4 lg:my-16 bg-stone-700">
                 <figure>
                     <img
                         src={illuHochhaus}
@@ -87,7 +87,7 @@ const Illustration = () => {
                     />
                     <figcaption className="mt-2 text-xs">"Es regnet Katzen und Hunde" (Wettbewerb Rheinwerkverlag)</figcaption>
                 </figure>
-            </div>
+            </section>
         </>
     );
 };

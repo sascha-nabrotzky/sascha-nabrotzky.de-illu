@@ -6,7 +6,7 @@ import { ReactComponent as MailIcon } from "../src/assets/icons/mail.svg";
 
 
 const Footer = () => {
-    const [currentMail, setMail] = useState("");
+    const [currentMail, setMail] = useState("anti@spam-mail.de");
 
     function addMail() {
         setMail('mailto:illustration@sascha-nabrotzky.de')
@@ -15,14 +15,6 @@ const Footer = () => {
     return (
         <footer className="flex flex-col items-center pt-16 pb-10">
             <div className="flex">
-                <a
-                    className="mx-4 transition-color duration-200 text-stone-200 hover:text-terracotta"
-                    href="https://sascha-nabrotzky.github.io"
-                    target="_blank"
-                    title="Zu meiner GitHub-Website"
-                >
-                    <GlobeIcon className="h-8" />
-                </a>
                 <a
                     className="mx-4 transition-color duration-200 text-stone-200 hover:text-terracotta"
                     href="https://www.instagram.com/sascha_nabrotzky"
@@ -40,6 +32,14 @@ const Footer = () => {
                     onClick={addMail}
                 >
                     <MailIcon className="h-8" />
+                </a>
+                <a
+                    className="mx-4 transition-color duration-200 text-stone-200 hover:text-terracotta"
+                    href="https://sascha-nabrotzky.github.io"
+                    target="_blank"
+                    title="Zu meiner GitHub-Website"
+                >
+                    <GlobeIcon className="h-8" />
                 </a>
             </div>
             <div className="flex mt-6 pt-5 border-t border-stone-200">
