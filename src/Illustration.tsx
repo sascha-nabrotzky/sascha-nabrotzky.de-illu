@@ -51,6 +51,7 @@ const Illustration = () => {
                 </Carousel>
             </div>
             <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 col-start-1 md:col-span-4 gap-4 p-4 lg:my-16 bg-stone-700">
+                <h3 className="text-2xl col-span-4 mb-2">Highlights digitale Illustrationen</h3>
                 <figure>
                     <img
                         src={illuHochhaus}
