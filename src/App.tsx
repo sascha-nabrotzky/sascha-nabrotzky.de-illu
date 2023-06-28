@@ -17,7 +17,7 @@ const App = () => {
             <div className="App relative grid h-screen grid-rows-[min-content_1fr_min-content]">
                 <Navigation />
                 <Header />
-                <main className="grid gap-16 p-4 md:p-0 md:grid-cols-default text-stone-200">
+                <main className="grid gap-x-16 gap-y-20 md:grid-cols-default text-stone-200">
                     <Routes>
                         <Route path="/" element={<Illustration />} />
                         <Route path="/kinderbuecher" element={<Childrensbooks />} />

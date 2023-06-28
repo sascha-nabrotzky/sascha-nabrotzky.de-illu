@@ -1,5 +1,4 @@
 import React from "react";
-import deranfang from "../src/assets/images/DerAnfang.webp";
 
 const About = () => {
     return (
@@ -16,7 +15,7 @@ const About = () => {
                 </p>
             </div>
             <div className="md:col-start-3 md:col-span-2 flex overflow-hidden place-items-center h-96 md:h-72 lg:h-80 xl:h-[30rem] 2xl:h-[38rem]">
-                <img className="w-full" src={deranfang} alt="Collage" loading="lazy"/>
+                <p className="text-xs text-center text-gray-400 w-full tracking-widest">Swipe down / Website under contruction</p>
             </div>
         </>
     );
