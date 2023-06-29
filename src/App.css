@@ -59,3 +59,19 @@ body {
 [data-testid="carousel"] > div {
   border-radius: 0;
 }
+
+/* .flying {
+  animation: flying 2.5s linear infinite;
+} */
+
+/* @keyframes flying {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+} */
