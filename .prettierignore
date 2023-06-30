@@ -1,2 +1,1 @@
-/src/*.tsx
-/src/*.js
+!**/*.{css,scss,html,svg}
