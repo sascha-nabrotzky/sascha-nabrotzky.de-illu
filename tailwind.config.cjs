@@ -29,12 +29,12 @@ module.exports = {
                 default: '0 3px 7px rgb(0 0 0 / 0.5)',
             },
             animation: {
-                'flying': 'flying 2.5s linear infinite',
+                'flying': 'flying 2s linear infinite',
             },
             keyframes: {
                 'flying': {
                     '0%': {transform: 'translateY(0px)' },
-                    '50%': {transform: 'translateY(10px)' },
+                    '50%': {transform: 'translateY(20px)' },
                     '100%': {transform: 'translateY(0px)' },
                 }
                 

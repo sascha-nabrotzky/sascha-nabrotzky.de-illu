@@ -16,9 +16,6 @@ const Childrensbooks = () => {
           Am Anfang stand das Characterdesign der Hauptfiguren und ein Farbschema wurde ausgearbeitet. Die Skizzen wurden eingescannt und digital weiterverarbeitet, um Farben und Hintergründe besser anpassen zu können.</p>
                 <p>Für das vierte Buch, habe ich die drei vorherigen komplett überarbeitet und die verschiedenen Zeichenstile so gut es geht angeglichen. Alle Seiten enthalten doppleseitige Illustrationen.</p>
             </div>
-            <div className="md:col-start-3 md:col-span-2 h-96 md:h-72 lg:h-80 xl:h-[30rem] 2xl:h-[38rem]">
-                <p className="text-xs text-center text-gray-400 w-full tracking-widest">Swipe down / Website under contruction</p>
-            </div>
             <section className="grid grid-cols-1 sm:grid-cols-2 col-start-1 md:col-span-4 gap-4 p-4 bg-stone-700">
                 <h3 className="text-2xl col-span-1 sm:col-span-2 mb-2">Übersicht meiner Kinderbücher</h3>
                 <figure>
