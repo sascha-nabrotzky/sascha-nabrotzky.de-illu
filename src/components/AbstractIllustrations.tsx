@@ -1,10 +1,10 @@
 import React from "react";
-import illuBilligfleisch from "../assets/images/Billigfleisch_400x600.webp";
-import illuDreams from "../assets/images/Dreams_400x600.webp";
-import illuArtenvielfalt from "../assets/images/Artenvielfalt.webp";
-import illuKatzenHunde from "../assets/images/KatzenHunde_400x600.webp";
+import illuSketchGeom from "../assets/images/Sketch2.webp";
+import illuSketchFleck from "../assets/images/Sketch3.webp";
+import illuSketchHouse from "../assets/images/Sketch4.webp";
+import illuSketchBirds from "../assets/images/Sketch1.webp";
 
-const DigitalIllustrations = () => {
+const SketchbookIllustrations = () => {
   return (
     <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 col-start-1 md:col-span-4 gap-4 p-4 bg-stone-700">
       <h3 className="text-2xl col-span-1 sm:col-span-2 md:col-span-3 lg:col-span-4 mb-2">
@@ -12,50 +12,46 @@ const DigitalIllustrations = () => {
       </h3>
       <figure>
         <img
-          src={illuArtenvielfalt}
-          alt="Illustration Armut in USA"
+          src={illuSketchGeom}
+          alt="Illustration geometrische Statue"
           loading="lazy"
-          className=""
         />
         <figcaption className="mt-2 text-xs">
-          Artenvielfalt (Coverillustration eines Magazins)
+          Geometrische Illustration "Statue" 
         </figcaption>
       </figure>
       <figure>
         <img
-          src={illuBilligfleisch}
-          alt="Illustration Billigfleisch"
+          src={illuSketchFleck}
+          alt="Illustration aus einem Fleck heraus"
           loading="lazy"
-          className=""
         />
         <figcaption className="mt-2 text-xs">
-          "Billigfleisch" (Wettbewerb Greenpeace)
+        Illustration aus einem Fleck heraus
         </figcaption>
       </figure>
       <figure>
         <img
-          src={illuDreams}
-          alt="Illustration Dreams"
+          src={illuSketchHouse}
+          alt="Illustration versch. Häuser"
           loading="lazy"
-          className=""
         />
         <figcaption className="mt-2 text-xs">
-          Dreams (Illustration aus einer Skizze)
+          Häuser in versch. Techniken
         </figcaption>
       </figure>
       <figure>
         <img
-          src={illuKatzenHunde}
+          src={illuSketchBirds}
           alt="Illustration Es regnet Katzen und Hunde"
           loading="lazy"
-          className=""
         />
         <figcaption className="mt-2 text-xs">
-          "Es regnet Katzen und Hunde" (Wettbewerb Rheinwerkverlag)
+          Vögel in versch. Techniken
         </figcaption>
       </figure>
     </section>
   );
 };
 
-export default DigitalIllustrations;
+export default SketchbookIllustrations;

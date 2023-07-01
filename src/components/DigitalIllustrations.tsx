@@ -15,7 +15,6 @@ const DigitalIllustrations = () => {
           src={illuArtenvielfalt}
           alt="Illustration Armut in USA"
           loading="lazy"
-          className=""
         />
         <figcaption className="mt-2 text-xs">
           Artenvielfalt (Coverillustration eines Magazins)
@@ -26,7 +25,6 @@ const DigitalIllustrations = () => {
           src={illuBilligfleisch}
           alt="Illustration Billigfleisch"
           loading="lazy"
-          className=""
         />
         <figcaption className="mt-2 text-xs">
           "Billigfleisch" (Wettbewerb Greenpeace)
@@ -37,7 +35,6 @@ const DigitalIllustrations = () => {
           src={illuDreams}
           alt="Illustration Dreams"
           loading="lazy"
-          className=""
         />
         <figcaption className="mt-2 text-xs">
           Dreams (Illustration aus einer Skizze)
@@ -48,7 +45,6 @@ const DigitalIllustrations = () => {
           src={illuKatzenHunde}
           alt="Illustration Es regnet Katzen und Hunde"
           loading="lazy"
-          className=""
         />
         <figcaption className="mt-2 text-xs">
           "Es regnet Katzen und Hunde" (Wettbewerb Rheinwerkverlag)
