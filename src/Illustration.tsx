@@ -1,5 +1,6 @@
 import React from "react";
 import DigitalIllustrations from "./components/DigitalIllustrations";
+import AbstractIllustrations from "./components/AbstractIllustrations";
 import illuBiene from "../src/assets/images/Biene.webp";
 
 const Illustration = () => {
@@ -22,11 +23,11 @@ const Illustration = () => {
           man diese nicht immer so kontrollieren kann, wenn man es zulässt und
           dadurch schnell schöne Zufälle erstellt.
           <br />
-          Bei meinen Kinderbüchern arbeite ich meist digital und arbeite immer
+          Bei meinen Kinderbüchern zeichne ich meist digital und arbeite immer
           einen handgemachten, skizzenhaften Look heraus.
         </p>
       </section>
-      <div className="md:col-start-3 md:col-span-2 h-96 md:h-72 lg:h-80 xl:h-[30rem] 2xl:h-[38rem]">
+      <div className="md:col-start-3 md:col-span-2">
         <div className="flex justify-center">
           <img
             src={illuBiene}
@@ -37,6 +38,13 @@ const Illustration = () => {
         </div>
       </div>
       <DigitalIllustrations />
+      <div className="md:col-start-3 md:col-span-1 text-lg tracking-wider">
+        <h2 className="uppercase tracking-widest text-2xl mb-4">Mein Sketchbook ist immer dabei</h2>
+        <p>In diesem teste ich jede Menge Farben und Zeichentechniken, wenn die Ergebnisse dann auch schon gut genug sind, dann
+          werden die "Versuche" auch sofort eingescannt und zu vollwertigen Illustrationen.
+        </p>
+      </div>
+      <AbstractIllustrations />
     </>
   );
 };
