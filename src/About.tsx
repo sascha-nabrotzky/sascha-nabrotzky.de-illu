@@ -1,4 +1,5 @@
 import React from "react";
+import Profilfoto from "../src/assets/images/Sascha_Nabrotzky_sw.webp"
 
 const About = () => {
     return (
@@ -14,8 +15,16 @@ const About = () => {
                   welche ich als Hobby und Ausgleich zum Alltag betreibe.
                 </p>
             </div>
-            <div className="md:col-start-3 md:col-span-2 flex">
-                <p className="text-xs text-center text-gray-400 w-full tracking-widest">Bild folgt / Website under contruction</p>
+            <div className="md:col-start-3 md:col-span-2">
+                <div className="flex justify-center">
+                    <div className="rounded-full overflow-hidden">
+                        <img
+                            src={Profilfoto}
+                            alt="Foto von Sascha Nabrotzky"
+                            loading="lazy"
+                        />
+                    </div>
+                </div>
             </div>
         </>
     );
