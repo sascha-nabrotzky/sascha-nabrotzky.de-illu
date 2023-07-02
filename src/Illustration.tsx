@@ -38,9 +38,10 @@ const Illustration = () => {
         </div>
       </div>
       <DigitalIllustrations />
-      <div className="md:col-start-3 md:col-span-1 text-lg tracking-wider">
-        <h2 className="uppercase tracking-widest text-2xl mb-4">Mein Sketchbook ist immer dabei</h2>
-        <p>In diesem teste ich jede Menge Farben und Zeichentechniken, wenn die Ergebnisse dann auch schon gut genug sind, dann
+      <div className="md:col-start-3 md:col-span-1 max-md:px-4 text-lg tracking-wider">
+        <h2 className="uppercase tracking-widest text-2xl mb-4">Mein Skizzenbuch ist immer dabei</h2>
+        <p>
+          In diesem teste ich jede Menge Farben und Zeichentechniken, wenn die Ergebnisse dann auch schon gut genug sind, dann
           werden die "Versuche" auch sofort eingescannt und zu vollwertigen Illustrationen.
         </p>
       </div>
