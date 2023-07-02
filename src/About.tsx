@@ -14,8 +14,8 @@ const About = () => {
                   welche ich als Hobby und Ausgleich zum Alltag betreibe.
                 </p>
             </div>
-            <div className="md:col-start-3 md:col-span-2 flex overflow-hidden place-items-center h-96 md:h-72 lg:h-80 xl:h-[30rem] 2xl:h-[38rem]">
-                <p className="text-xs text-center text-gray-400 w-full tracking-widest">Swipe down / Website under contruction</p>
+            <div className="md:col-start-3 md:col-span-2 flex">
+                <p className="text-xs text-center text-gray-400 w-full tracking-widest">Bild folgt / Website under contruction</p>
             </div>
         </>
     );
