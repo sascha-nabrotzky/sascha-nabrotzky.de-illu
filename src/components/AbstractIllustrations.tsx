@@ -8,7 +8,7 @@ const SketchbookIllustrations = () => {
   return (
     <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 col-start-1 md:col-span-4 gap-4 p-4 bg-stone-700">
       <h3 className="text-2xl col-span-1 sm:col-span-2 md:col-span-3 lg:col-span-4 mb-2">
-        Highlights Illustrationen Sketchbook
+        Highlights Illustrationen Skizzenbuch
       </h3>
       <figure>
         <img
