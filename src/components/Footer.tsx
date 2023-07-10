@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="flex">
         <a
           className="mx-4 transition-color duration-200 text-stone-200 hover:text-terracotta"
-          href="https://www.instagram.com/sascha_nabrotzky"
+          href="https://www.instagram.com/sascha.illustrates"
           target="_blank"
           title="Zu meinem Instagram-Account"
         >
