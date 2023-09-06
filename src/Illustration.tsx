@@ -12,17 +12,13 @@ const Illustration = () => {
           Illustrationen aus Ladbergen, die die Fantasie beflügeln
         </h1>
         <p>
-          Ich erstelle Illustrationen hauptsächlich im Bereich Kinderbuch, wo
-          ich es immer spannend finde, Geschichten visuell und emotional zu
-          erzählen.
+          Ich erstelle Illustrationen hauptsächlich mit Wasser-/Gouachefarben
+          und kombiniere diese mit Aquarellstiften, ich es immer spannend
+          Geschichten visuell und emotional zu erzählen.
         </p>
         <p>
-          Am liebsten kombiniere ich Wasserfarben mit Aquarellstiften,
-          Wachspastell, Tinte, Buntstifte, Acrylfarben und Papiercollagen.{" "}
-          <br />
-          Der Reiz meiner recht intuitiven Mixed-Media-Technik liegt darin, dass
-          man diese nicht immer so kontrollieren kann, wenn man es zulässt und
-          dadurch schnell schöne Zufälle erstellt.
+          Der Reiz von Wasserfarben liegt darin, dass man diese nicht immer so
+          kontrollieren kann und dadurch schnell schöne Zufälle erhält.
           <br />
           Bei meinen Kinderbüchern zeichne ich meist digital und arbeite immer
           einen handgemachten, skizzenhaften Look heraus.
@@ -44,9 +40,10 @@ const Illustration = () => {
           Mein Skizzenbuch ist immer dabei
         </h2>
         <p>
-          In diesem teste ich jede Menge Farben und Zeichentechniken, wenn die
-          Ergebnisse dann auch schon gut genug sind, dann werden die "Versuche"
-          auch sofort eingescannt und zu vollwertigen Illustrationen.
+          In diesem zeichne ich auch ganz gerne in Mixed-Media-Technik, um jede
+          Menge Farben und Zeichentechniken auszuprobieren, wenn die Ergebnisse
+          dann auch schon gut genug sind, werden die "Versuche" auch sofort
+          eingescannt und zu vollwertigen Illustrationen.
         </p>
       </div>
       <AbstractIllustrations />
