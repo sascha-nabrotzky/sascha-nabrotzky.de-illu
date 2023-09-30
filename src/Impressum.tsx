@@ -1,28 +1,30 @@
 import React from "react";
+import MainLayout from "./components/MainLayout";
 
 const Impressum = () => {
-    return (
-        <div className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
-            <h2>Impressum</h2>
-            <h4>Angaben gemäß § 5 TMG:</h4>
-            <p className="mt-4">
+  return (
+    <MainLayout>
+      <div className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
+        <h2>Impressum</h2>
+        <h4>Angaben gemäß § 5 TMG:</h4>
+        <p className="mt-4">
           Sascha Nabrotzky
-                <br />
+          <br />
           Koldefeld 11
-                <br />
+          <br />
           49549 Ladbergen
-            </p>
+        </p>
 
-            <h4>Kontakt:</h4>
-            <p className="mt-4">
+        <h4>Kontakt:</h4>
+        <p className="mt-4">
           Telefon: 05485 207979
-                <br />
+          <br />
           E-Mail: sascha.nabrotzky (at) online (dot) de
-            </p>
+        </p>
 
-            <h3>Haftungsausschluss Disclaimer</h3>
-            <h4>Haftung für Inhalte</h4>
-            <p className="mt-4">
+        <h3>Haftungsausschluss Disclaimer</h3>
+        <h4>Haftung für Inhalte</h4>
+        <p className="mt-4">
           Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte
           auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach
           §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht
@@ -34,10 +36,10 @@ const Impressum = () => {
           Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei
           Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese
           Inhalte umgehend entfernen.
-            </p>
+        </p>
 
-            <h4>Haftung für Links</h4>
-            <p className="mt-4">
+        <h4>Haftung für Links</h4>
+        <p className="mt-4">
           Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren
           Inhalte wir keinen Einfluss haben. Deshalb können wir für diese
           fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der
@@ -49,9 +51,9 @@ const Impressum = () => {
           konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei
           Bekanntwerden von Rechtsverletzungen werden wir derartige Links
           umgehend entfernen.
-            </p>
-            <h4>Urheberrecht</h4>
-            <p className="mt-4">
+        </p>
+        <h4>Urheberrecht</h4>
+        <p className="mt-4">
           Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen
           Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung,
           Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der
@@ -64,9 +66,10 @@ const Impressum = () => {
           eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen
           entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen
           werden wir derartige Inhalte umgehend entfernen.
-            </p>
-        </div>
-    );
-}
+        </p>
+      </div>
+    </MainLayout>
+  );
+};
 
 export default Impressum;
