@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as Logo } from "../assets/images/logo_sn.svg";
+import Logo from "../assets/images/logo_sn.svg?react";
 import colorSplat from "../assets/images/circle.webp";
 
 const Header = () => {

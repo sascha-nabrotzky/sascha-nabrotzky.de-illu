@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { ReactComponent as InstaLogo } from "../assets/icons/instagram-logo.svg";
-import { ReactComponent as GlobeIcon } from "../assets/icons/www-globe_white.svg";
-import { ReactComponent as MailIcon } from "../assets/icons/mail.svg";
+import InstaLogo from "../assets/icons/instagram-logo.svg?react"; //?react and svgr/client in vite-env.d.ts is needed to make the svg work
+import GlobeIcon from "../assets/icons/www-globe_white.svg?react";
+import MailIcon from "../assets/icons/mail.svg?react";
 
 const Footer = () => {
   const [currentMail, setMail] = useState("anti@spam-mail.de");
