@@ -1,7 +1,6 @@
 import React from "react";
 import MainLayout from "./components/MainLayout";
 import DigitalIllustrations from "./components/DigitalIllustrations";
-import AbstractIllustrations from "./components/AbstractIllustrations";
 import illuBiene from "../src/assets/images/Biene.webp";
 
 const Illustration = () => {
@@ -11,12 +10,12 @@ const Illustration = () => {
         <h1 className="uppercase tracking-widest text-2xl mb-4">
           Illustrationen aus Ladbergen, die die Fantasie beflügeln
         </h1>
-        <p>
+        <p className="font-serif">
           Ich erstelle Illustrationen hauptsächlich mit Wasser-/Gouachefarben
           und kombiniere diese mit Aquarellstiften, ich es immer spannend
           Geschichten visuell und emotional zu erzählen.
         </p>
-        <p>
+        <p className="font-serif">
           Der Reiz von Wasserfarben liegt darin, dass man diese nicht immer so
           kontrollieren kann und dadurch schnell schöne Zufälle erhält.
           <br />
@@ -39,14 +38,13 @@ const Illustration = () => {
         <h2 className="uppercase tracking-widest text-2xl mb-4">
           Mein Skizzenbuch ist immer dabei
         </h2>
-        <p>
+        <p className="font-serif">
           In diesem zeichne ich auch ganz gerne in Mixed-Media-Technik, um jede
           Menge Farben und Zeichentechniken auszuprobieren, wenn die Ergebnisse
           dann auch schon gut genug sind, werden die "Versuche" auch sofort
           eingescannt und zu vollwertigen Illustrationen.
         </p>
       </div>
-      <AbstractIllustrations />
     </MainLayout>
   );
 };

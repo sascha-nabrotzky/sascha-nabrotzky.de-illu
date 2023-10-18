@@ -5,7 +5,7 @@ import colorSplat from "../assets/images/circle.webp";
 const Header = () => {
   return (
     <header className="relative flex justify-center mt-48 mb-24 md:mt-16 md:mb-28">
-      <Logo className="w-full max-w-md text-stone-200 z-10 pt-10" />
+      <Logo className="w-full max-w-md text-stone-800 z-10 pt-10" />
       <img
         className="absolute h-60 sm:h-64"
         src={colorSplat}

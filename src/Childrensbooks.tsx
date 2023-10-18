@@ -39,32 +39,36 @@ const Childrensbooks = () => {
         </div>
       </div>
 
-      <section className="grid grid-cols-1 sm:grid-cols-2 col-start-1 md:col-span-4 gap-4 p-4 bg-stone-700">
-        <h3 className="text-2xl col-span-1 sm:col-span-2 mb-2 uppercase tracking-wider">
-          &bdquo;Die Puschelblüte&ldquo;
-        </h3>
-        <figure>
-          <img
-            src={SpreadEating}
-            className="w-full"
-            alt="Doppelseite meines zweiten Kinderbuches"
-            loading="lazy"
-          />
-          <figcaption className="mt-2 text-xs">
-            Doppelseite meines zweiten Kinderbuches
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src={SpreadBlowing}
-            className="w-full"
-            alt="Doppelseite meines zweiten Kinderbuches"
-            loading="lazy"
-          />
-          <figcaption className="mt-2 text-xs">
-            Doppelseite meines zweiten Kinderbuches
-          </figcaption>
-        </figure>
+      <section className="md:col-span-4">
+        <div className="col-span-4 bg-line-top bg-repeat-x h-[30px]" />
+        <div className="grid grid-cols-1 sm:grid-cols-2 col-start-1 gap-4 p-4 bg-pharlap-200">
+          <h3 className="text-2xl col-span-1 sm:col-span-2 mb-2 uppercase tracking-wider">
+            &bdquo;Die Puschelblüte&ldquo;
+          </h3>
+          <figure>
+            <img
+              src={SpreadEating}
+              className="w-full"
+              alt="Doppelseite meines zweiten Kinderbuches"
+              loading="lazy"
+            />
+            <figcaption className="mt-2 text-xs">
+              Doppelseite meines zweiten Kinderbuches
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src={SpreadBlowing}
+              className="w-full"
+              alt="Doppelseite meines zweiten Kinderbuches"
+              loading="lazy"
+            />
+            <figcaption className="mt-2 text-xs">
+              Doppelseite meines zweiten Kinderbuches
+            </figcaption>
+          </figure>
+        </div>
+        <div className="col-span-4 bg-line-bottom bg-repeat-x h-[30px]" />
       </section>
 
       <div className="md:col-start-3 md:col-span-1 max-md:px-4 text-lg tracking-wider">
@@ -80,32 +84,36 @@ const Childrensbooks = () => {
         </p>
       </div>
 
-      <section className="grid grid-cols-1 sm:grid-cols-2 col-start-1 md:col-span-4 gap-4 p-4 bg-stone-700">
-        <h3 className="text-2xl col-span-1 sm:col-span-2 mb-2 uppercase tracking-wider">
-          &bdquo;Wach auf kleiner Bär&ldquo;
-        </h3>
-        <figure>
-          <img
-            src={SpreadWiese}
-            className="w-full"
-            alt="Doppelseite meines zweiten Kinderbuches"
-            loading="lazy"
-          />
-          <figcaption className="mt-2 text-xs">
-            Doppelseite meines ersten Kinderbuches
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src={SpreadForest}
-            className="w-full"
-            alt="Doppelseite meines zweiten Kinderbuches"
-            loading="lazy"
-          />
-          <figcaption className="mt-2 text-xs">
-            Doppelseite meines ersten Kinderbuches
-          </figcaption>
-        </figure>
+      <section className="md:col-span-4">
+        <div className="col-span-4 bg-line-top bg-repeat-x h-[30px]" />
+        <div className="grid grid-cols-1 sm:grid-cols-2 col-start-1 gap-4 p-4 bg-pharlap-200">
+          <h3 className="text-2xl col-span-1 sm:col-span-2 mb-2 uppercase tracking-wider">
+            &bdquo;Wach auf kleiner Bär&ldquo;
+          </h3>
+          <figure>
+            <img
+              src={SpreadWiese}
+              className="w-full"
+              alt="Doppelseite meines zweiten Kinderbuches"
+              loading="lazy"
+            />
+            <figcaption className="mt-2 text-xs">
+              Doppelseite meines ersten Kinderbuches
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src={SpreadForest}
+              className="w-full"
+              alt="Doppelseite meines zweiten Kinderbuches"
+              loading="lazy"
+            />
+            <figcaption className="mt-2 text-xs">
+              Doppelseite meines ersten Kinderbuches
+            </figcaption>
+          </figure>
+        </div>
+        <div className="col-span-4 bg-line-bottom bg-repeat-x h-[30px]" />
       </section>
     </MainLayout>
   );

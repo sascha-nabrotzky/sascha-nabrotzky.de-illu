@@ -8,7 +8,7 @@ const MainLayout: FunctionComponent<PropsWithChildren> = ({ children }) => {
     <div className="App relative grid h-screen grid-rows-[min-content_1fr_min-content]">
       <Navigation />
       <Header />
-      <main className="grid gap-x-16 gap-y-20 md:grid-cols-default text-stone-200">
+      <main className="grid gap-x-16 gap-y-20 md:grid-cols-default text-stone-700">
         {children}
       </main>
       <Footer />

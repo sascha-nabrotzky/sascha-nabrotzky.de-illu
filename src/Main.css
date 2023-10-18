@@ -55,7 +55,3 @@
 body {
   overscroll-behavior: none;
 }
-
-[data-testid="carousel"] > div {
-  border-radius: 0;
-}
