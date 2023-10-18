@@ -1,6 +1,7 @@
 import React from "react";
 import MainLayout from "./components/MainLayout";
 import DigitalIllustrations from "./components/DigitalIllustrations";
+import ChildrensIllustrations from "./components/ChildrensIllustrations";
 import illuBiene from "../src/assets/images/Biene.webp";
 
 const Illustration = () => {
@@ -12,15 +13,14 @@ const Illustration = () => {
         </h1>
         <p className="font-serif">
           Ich erstelle Illustrationen hauptsächlich mit Wasser-/Gouachefarben
-          und kombiniere diese mit Aquarellstiften, ich es immer spannend
-          Geschichten visuell und emotional zu erzählen.
+          und kombiniere diese mit Aquarellstiften.
         </p>
         <p className="font-serif">
           Der Reiz von Wasserfarben liegt darin, dass man diese nicht immer so
           kontrollieren kann und dadurch schnell schöne Zufälle erhält.
           <br />
-          Bei meinen Kinderbüchern zeichne ich meist digital und arbeite immer
-          einen handgemachten, skizzenhaften Look heraus.
+          Bei meinen Kinderbüchern zeichne ich meist digital in einem
+          handgemachten Stil.
         </p>
       </section>
       <div className="md:col-start-3 md:col-span-2">
@@ -36,15 +36,15 @@ const Illustration = () => {
       <DigitalIllustrations />
       <div className="md:col-start-3 md:col-span-1 max-md:px-4 text-lg tracking-wider">
         <h2 className="uppercase tracking-widest text-2xl mb-4">
-          Mein Skizzenbuch ist immer dabei
+          Meine Website befindet sich derzeit in Bearbeitung ...
         </h2>
         <p className="font-serif">
-          In diesem zeichne ich auch ganz gerne in Mixed-Media-Technik, um jede
-          Menge Farben und Zeichentechniken auszuprobieren, wenn die Ergebnisse
-          dann auch schon gut genug sind, werden die "Versuche" auch sofort
-          eingescannt und zu vollwertigen Illustrationen.
+          und wird sich demnächst ändern, ich werde mehr den Stil fokussieren,
+          der mir am meisten entspricht und den ich nach Außen hin präsentieren
+          möchte. Alles andere findet man bei mir auf Instagram.
         </p>
       </div>
+      <ChildrensIllustrations />
     </MainLayout>
   );
 };

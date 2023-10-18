@@ -37,7 +37,7 @@ module.exports = {
       },
       backgroundImage: {
         dot: "radial-gradient(rgba(20, 20, 20, 0.6) 2px, transparent 2px)",
-        grungedot: "url('~@/assets/images/GrungeDot11.webp')", // ~@ wird in vite.config für src gesetzt
+        grungedot: "url('~@/assets/images/GrungeDot11.png')", // ~@ wird in vite.config für src gesetzt
         "line-top": "url('~@/assets/icons/CurvedLineTop.svg')",
         "line-bottom": "url('~@/assets/icons/CurvedLineBottom.svg')",
       },
