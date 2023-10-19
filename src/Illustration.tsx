@@ -12,15 +12,17 @@ function Illustration() {
           Illustrationen aus Ladbergen, die die Fantasie beflügeln
         </h1>
         <p className="font-serif">
-          Ich erstelle Illustrationen hauptsächlich mit Wasser-/Gouachefarben
-          und kombiniere diese mit Aquarellstiften.
+          Ich erstelle Illustrationen häufig mit Wasser-/Gouachefarben und
+          kombiniere diese mit Bunt- oder Aquarellstiften, diesen handgemachten
+          Stil versuche ich auch bei meinen digitalen Zeichnungen beizubehalten.
         </p>
         <p className="font-serif">
           Der Reiz von Wasserfarben liegt darin, dass man diese nicht immer so
           kontrollieren kann und dadurch schnell schöne Zufälle erhält.
           <br />
-          Bei meinen Kinderbüchern zeichne ich meist digital in einem
-          handgemachten Stil.
+          Bei meinen Kinderbüchern zeichne ich meist von Anfang an digital und
+          kann <strong>komplette Buchprojekte</strong> von der Zeichnung über
+          das Layout bis zum Druck komplett umsetzen.
         </p>
       </section>
       <div className="md:col-start-3 md:col-span-2">

@@ -38,19 +38,16 @@ function Childrensbooks() {
     <MainLayout>
       <div className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
         <h1 className="uppercase tracking-widest text-2xl mb-4">
-          Kinderbücher
+          Aus einer kleinen Idee entstand ein Großprojekt ...
         </h1>
-        <h2 className="mb-3">
-          Aus einer Idee entstand eine Zusammenarbeit ...
-        </h2>
-        <p>
+        <p className="font-serif">
           und jetzt sind schon drei Kinderbücher von mir privat illustriert
           worden. Am Anfang stand das Characterdesign der Hauptfiguren und ein
           Farbschema wurde ausgearbeitet. Die Skizzen wurden eingescannt und
           digital weiterverarbeitet, um Farben und Hintergründe besser anpassen
           zu können.
         </p>
-        <p>
+        <p className="font-serif">
           Für das vierte Buch, habe ich die drei vorherigen komplett
           überarbeitet und die verschiedenen Zeichenstile so gut es geht
           angeglichen. Alle Seiten enthalten doppleseitige Illustrationen.
@@ -76,7 +73,7 @@ function Childrensbooks() {
         <h2 className="uppercase tracking-widest text-2xl mb-4">
           Digitale Arbeitsweise
         </h2>
-        <p>
+        <p className="font-serif">
           Wenn es darauf ankommt und speziell bei meinen Kinderbüchern arbeite
           ich von Anfang an digital, denn nur so kann ich leichter Korrekturen
           durchführen, wenn noch etwas auffallen sollte. Für den Druck der
