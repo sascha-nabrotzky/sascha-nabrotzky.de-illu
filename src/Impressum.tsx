@@ -1,7 +1,7 @@
 import React from "react";
 import MainLayout from "./components/MainLayout";
 
-const Impressum = () => {
+function Impressum() {
   return (
     <MainLayout>
       <div className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
@@ -70,6 +70,6 @@ const Impressum = () => {
       </div>
     </MainLayout>
   );
-};
+}
 
 export default Impressum;

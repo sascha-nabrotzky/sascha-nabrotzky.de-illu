@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import InstaLogo from "../assets/icons/instagram-logo.svg?react"; //?react and svgr/client in vite-env.d.ts is needed to make the svg work
 import MailIcon from "../assets/icons/mail.svg?react";
 
-const Footer = () => {
+function Footer() {
   const [currentMail, setMail] = useState("anti@spam-mail.de");
 
   function addMail() {
@@ -48,6 +48,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;

@@ -1,9 +1,9 @@
-import React, { FunctionComponent, PropsWithChildren } from "react";
+import React, { PropsWithChildren } from "react";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
-const MainLayout: FunctionComponent<PropsWithChildren> = ({ children }) => {
+function MainLayout({ children }: PropsWithChildren<object>) {
   return (
     <div className="App relative grid h-screen grid-rows-[min-content_1fr_min-content]">
       <Navigation />
@@ -14,6 +14,6 @@ const MainLayout: FunctionComponent<PropsWithChildren> = ({ children }) => {
       <Footer />
     </div>
   );
-};
+}
 
 export default MainLayout;

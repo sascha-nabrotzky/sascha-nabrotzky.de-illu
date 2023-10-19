@@ -4,7 +4,7 @@ import DigitalIllustrations from "./components/DigitalIllustrations";
 import ChildrensIllustrations from "./components/ChildrensIllustrations";
 import illuBiene from "../src/assets/images/Biene.webp";
 
-const Illustration = () => {
+function Illustration() {
   return (
     <MainLayout>
       <section className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
@@ -47,6 +47,6 @@ const Illustration = () => {
       <ChildrensIllustrations />
     </MainLayout>
   );
-};
+}
 
 export default Illustration;

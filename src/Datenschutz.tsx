@@ -1,7 +1,7 @@
 import React from "react";
 import MainLayout from "./components/MainLayout";
 
-const Datenschutz = () => {
+function Datenschutz() {
   return (
     <MainLayout>
       <div className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
@@ -785,6 +785,6 @@ const Datenschutz = () => {
       </div>
     </MainLayout>
   );
-};
+}
 
 export default Datenschutz;

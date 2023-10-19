@@ -1,12 +1,39 @@
 import React from "react";
 import MainLayout from "./components/MainLayout";
+import Highlights from "./components/Highlights";
 import Book4 from "../src/assets/images/Book4.webp";
 import SpreadEating from "../src/assets/images/SpreadpageEating.webp";
 import SpreadBlowing from "../src/assets/images/SpreadpageBlowing.webp";
 import SpreadWiese from "../src/assets/images/SpreadpageWiese.webp";
 import SpreadForest from "../src/assets/images/SpreadpageForest.webp";
 
-const Childrensbooks = () => {
+const imgsBook1 = [
+  {
+    figcaption: "Doppelseite meines zweiten Kinderbuches",
+    src: SpreadWiese,
+    alt: "Doppelseite meines zweiten Kinderbuches",
+  },
+  {
+    figcaption: "Doppelseite meines zweiten Kinderbuches",
+    src: SpreadForest,
+    alt: "Doppelseite meines zweiten Kinderbuches",
+  },
+];
+
+const imgsBook2 = [
+  {
+    figcaption: "Doppelseite meines ersten Kinderbuches",
+    src: SpreadEating,
+    alt: "Doppelseite meines ersten Kinderbuches",
+  },
+  {
+    figcaption: "Doppelseite meines ersten Kinderbuches",
+    src: SpreadBlowing,
+    alt: "Doppelseite meines ersten Kinderbuches",
+  },
+];
+
+function Childrensbooks() {
   return (
     <MainLayout>
       <div className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
@@ -39,37 +66,11 @@ const Childrensbooks = () => {
         </div>
       </div>
 
-      <section className="md:col-span-4">
-        <div className="col-span-4 bg-line-top bg-repeat-x h-[30px]" />
-        <div className="grid grid-cols-1 sm:grid-cols-2 col-start-1 gap-4 p-4 bg-pharlap-200">
-          <h3 className="text-2xl col-span-1 sm:col-span-2 mb-2 uppercase tracking-wider">
-            &bdquo;Die Puschelblüte&ldquo;
-          </h3>
-          <figure>
-            <img
-              src={SpreadEating}
-              className="w-full"
-              alt="Doppelseite meines zweiten Kinderbuches"
-              loading="lazy"
-            />
-            <figcaption className="mt-2 text-xs">
-              Doppelseite meines zweiten Kinderbuches
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              src={SpreadBlowing}
-              className="w-full"
-              alt="Doppelseite meines zweiten Kinderbuches"
-              loading="lazy"
-            />
-            <figcaption className="mt-2 text-xs">
-              Doppelseite meines zweiten Kinderbuches
-            </figcaption>
-          </figure>
-        </div>
-        <div className="col-span-4 bg-line-bottom bg-repeat-x h-[30px]" />
-      </section>
+      <Highlights
+        cols={2}
+        imgs={imgsBook1}
+        title="Wach auf, kleiner Bär, es ist Frühling!"
+      />
 
       <div className="md:col-start-3 md:col-span-1 max-md:px-4 text-lg tracking-wider">
         <h2 className="uppercase tracking-widest text-2xl mb-4">
@@ -84,39 +85,9 @@ const Childrensbooks = () => {
         </p>
       </div>
 
-      <section className="md:col-span-4">
-        <div className="col-span-4 bg-line-top bg-repeat-x h-[30px]" />
-        <div className="grid grid-cols-1 sm:grid-cols-2 col-start-1 gap-4 p-4 bg-pharlap-200">
-          <h3 className="text-2xl col-span-1 sm:col-span-2 mb-2 uppercase tracking-wider">
-            &bdquo;Wach auf kleiner Bär&ldquo;
-          </h3>
-          <figure>
-            <img
-              src={SpreadWiese}
-              className="w-full"
-              alt="Doppelseite meines zweiten Kinderbuches"
-              loading="lazy"
-            />
-            <figcaption className="mt-2 text-xs">
-              Doppelseite meines ersten Kinderbuches
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              src={SpreadForest}
-              className="w-full"
-              alt="Doppelseite meines zweiten Kinderbuches"
-              loading="lazy"
-            />
-            <figcaption className="mt-2 text-xs">
-              Doppelseite meines ersten Kinderbuches
-            </figcaption>
-          </figure>
-        </div>
-        <div className="col-span-4 bg-line-bottom bg-repeat-x h-[30px]" />
-      </section>
+      <Highlights cols={2} imgs={imgsBook2} title="Die Puschelblüte" />
     </MainLayout>
   );
-};
+}
 
 export default Childrensbooks;

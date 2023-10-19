@@ -2,7 +2,7 @@ import React from "react";
 import Profilfoto from "../src/assets/images/Sascha_Nabrotzky_sw.webp";
 import MainLayout from "./components/MainLayout";
 
-const About = () => {
+function About() {
   return (
     <MainLayout>
       <div className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
@@ -33,6 +33,6 @@ const About = () => {
       </div>
     </MainLayout>
   );
-};
+}
 
 export default About;

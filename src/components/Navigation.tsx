@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Navigation = () => {
+function Navigation() {
   return (
     <nav className="fixed flex flex-col top-4 lg:top-8 text-white tracking-widest uppercase z-20">
       <Link
@@ -24,6 +24,6 @@ const Navigation = () => {
       </Link>
     </nav>
   );
-};
+}
 
 export default Navigation;
