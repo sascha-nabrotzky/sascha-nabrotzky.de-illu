@@ -3,30 +3,30 @@ import Highlights from "./Highlights";
 
 const imgs = [
   {
-    figcaption: "Artenvielfalt (Coverillustration eines Magazins)",
+    figcaption: "sdfsdfaf asdffdsf",
     src: "https://placehold.co/400x600/333333/444444",
-    alt: "Artenvielfalt",
+    alt: "sdasdf",
   },
   {
-    figcaption: '"Billigfleisch" (Wettbewerb Greenpeace)',
+    figcaption: '"sdf sdfsd fs adfsd f',
     src: "https://placehold.co/400x600/333333/444444",
-    alt: "Billigfleisch",
+    alt: "asdfsdfgds",
   },
   {
-    figcaption: "Dreams (Illustration aus einer Skizze)",
+    figcaption: "sd fs fdadsfksdh f",
     src: "https://placehold.co/400x600/333333/444444",
-    alt: "Dreams",
+    alt: "asdfsdfsd",
   },
   {
-    figcaption: '"Es regnet Katzen und Hunde" (Wettbewerb Rheinwerkverlag)',
+    figcaption: '" asldfjldsj flkjöds',
     src: "https://placehold.co/400x600/333333/444444",
-    alt: "Es regnet Katzen und Hunde",
+    alt: "asdsdfgdfsa",
   },
 ];
 
 function ChildrensSketchbookIllustrations() {
   return (
-    <Highlights cols={4} imgs={imgs} title="Highlights Kinder-Illustrationen" />
+    <Highlights cols={4} imgs={imgs} title="Highlights Kinderillustrationen" />
   );
 }
 
