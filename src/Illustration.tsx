@@ -47,13 +47,14 @@ function Illustration() {
             Illustrationen aus Ladbergen
           </h2>
           <h1 className="uppercase tracking-widest text-2xl mb-4 font-bold">
-            Tauchen Sie ein in meine farbenfrohe Welt!
+            Willkommen in meiner skizzenartigen Welt!
           </h1>
           <p className="font-serif">
             Ich bin ein Illustrator, der sich auf die Verwendung von
-            Gouache-Farben, Wasserfarben, Buntstiften und Aquarellstiften
-            spezialisiert hat, aber auch digital arbeitet, wenn es professionell
-            sein soll.
+            Wasser-/Gouache-Farben, Bunt- und Aquarellstiften spezialisiert hat
+            und es liebt, die ursprüngliche Skizze beizubehalten, aber auch
+            komplett digital arbeitet, wenn die Zeichnung weiterverabeitet
+            werden soll.
           </p>
         </section>
         <div className="md:col-start-3 md:col-span-2">
@@ -69,12 +70,10 @@ function Illustration() {
         <DigitalIllustrations />
         <div className="md:col-start-3 md:col-span-1 max-md:px-4 text-lg tracking-wider">
           <p className="font-serif">
-            Auf meinen Seiten präsentiere ich stolz eine Auswahl meiner Werke,
-            die meine kreative Reise und meinen einzigartigen Stil
-            widerspiegeln. Tauchen Sie ein in meine farbenfrohe Welt und lassen
-            Sie sich von meinen Illustrationen verzaubern. Ich hoffe, dass Sie
-            genauso viel Freude daran haben, meine Arbeiten zu entdecken, wie
-            ich sie beim Erstellen hatte. Viel Spaß beim Durchstöbern!
+            Tauchen Sie ein in meine farbenfrohe Welt mit meinem einzigartigen
+            Stil und lassen Sie sich von meinen Illustrationen verzaubern. Ich
+            hoffe, dass Sie genauso viel Freude daran haben, meine Arbeiten zu
+            entdecken, wie ich sie beim Erstellen hatte.
           </p>
         </div>
         <ChildrensIllustrations />
