@@ -66,7 +66,7 @@ function About() {
         </div>
         <div className="md:col-start-3 md:col-span-2">
           <div className="flex justify-center">
-            <div className="rounded-full overflow-hidden">
+            <div className="md:rounded-l-xl overflow-hidden">
               <img
                 src={Profilfoto}
                 alt="Foto von Sascha Nabrotzky"
