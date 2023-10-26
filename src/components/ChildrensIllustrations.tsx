@@ -1,26 +1,33 @@
 import React from "react";
 import Highlights from "./Highlights";
+import seiMutig from "../assets/images/Sei_mutig.webp";
+import seiNett from "../assets/images/Sei_nett.webp";
+import seiFrech from "../assets/images/Sei_frech.webp";
+import seiEntspannt from "../assets/images/Sei_entspannt.webp";
 
 const imgs = [
   {
-    figcaption: "sdfsdfaf asdffdsf",
-    src: "https://placehold.co/400x600/333333/444444",
-    alt: "sdasdf",
+    figcaption:
+      '"Sei mutig" (Teil einer Illustrations-Serie für eine Kindertagespflege)',
+    src: seiMutig,
+    alt: '"Sei mutig" (Teil einer Illustrations-Serie für eine Kindertagespflege)',
   },
   {
-    figcaption: '"sdf sdfsd fs adfsd f',
-    src: "https://placehold.co/400x600/333333/444444",
-    alt: "asdfsdfgds",
+    figcaption: '"Sei frech" digitale Illustration',
+    src: seiFrech,
+    alt: '"Sei frech" digitale Illustration',
   },
   {
-    figcaption: "sd fs fdadsfksdh f",
-    src: "https://placehold.co/400x600/333333/444444",
-    alt: "asdfsdfsd",
+    figcaption:
+      '"Sei entspannt" digitale Illustration für die Garderobe in einer Kita',
+    src: seiEntspannt,
+    alt: '"Sei entspannt" digitale Illustration für die Garderobe in einer Kita',
   },
   {
-    figcaption: '" asldfjldsj flkjöds',
-    src: "https://placehold.co/400x600/333333/444444",
-    alt: "asdsdfgdfsa",
+    figcaption:
+      '"Sei nett" digitale Illustration mit Motivationsspruch für jedes Kind',
+    src: seiNett,
+    alt: '"Sei nett" digitale Illustration mit Motivationsspruch für jedes Kind',
   },
 ];
 

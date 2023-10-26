@@ -67,7 +67,7 @@ function Illustration() {
             />
           </div>
         </div>
-        <DigitalIllustrations />
+        <ChildrensIllustrations />
         <div className="md:col-start-3 md:col-span-1 max-md:px-4 text-lg tracking-wider">
           <p className="font-serif">
             Tauchen Sie ein in meine farbenfrohe Welt mit meinem einzigartigen
@@ -76,7 +76,7 @@ function Illustration() {
             entdecken, wie ich sie beim Erstellen hatte.
           </p>
         </div>
-        <ChildrensIllustrations />
+        <DigitalIllustrations />
       </MainLayout>
     </>
   );
