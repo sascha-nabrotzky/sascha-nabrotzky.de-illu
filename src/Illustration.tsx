@@ -55,6 +55,11 @@ function Illustration() {
             und es liebt, die ursprüngliche Skizze beizubehalten, aber auch
             komplett digital arbeitet, wenn die Zeichnung weiterverabeitet
             werden soll.
+            <br />
+            Tauchen Sie ein in meine farbenfrohe Welt mit meinem einzigartigen
+            Stil und lassen Sie sich von meinen Illustrationen verzaubern. Ich
+            hoffe, dass Sie genauso viel Freude daran haben, meine Arbeiten zu
+            entdecken, wie ich sie beim Erstellen hatte.
           </p>
         </section>
         <div className="md:col-start-3 md:col-span-2">
@@ -69,11 +74,16 @@ function Illustration() {
         </div>
         <ChildrensIllustrations />
         <div className="md:col-start-3 md:col-span-1 max-md:px-4 text-lg tracking-wider">
+          <h2 className="uppercase tracking-widest text-2xl mb-4 font-bold">
+            Bereiche
+          </h2>
           <p className="font-serif">
-            Tauchen Sie ein in meine farbenfrohe Welt mit meinem einzigartigen
-            Stil und lassen Sie sich von meinen Illustrationen verzaubern. Ich
-            hoffe, dass Sie genauso viel Freude daran haben, meine Arbeiten zu
-            entdecken, wie ich sie beim Erstellen hatte.
+            Meine hauptsächlichen Bereiche sind{" "}
+            <strong>Kinderbücher, Cover- und Editorial-Illustration</strong> in
+            denen ich meine kreative Ader voll ausleben kann. Im Bereich
+            Kinderbücher habe ich bereits einige eigene Projekte umgesetzt und
+            konnte auch schon für eine Kindertagespflegeeinrichtung
+            illustrieren.
           </p>
         </div>
         <DigitalIllustrations />
