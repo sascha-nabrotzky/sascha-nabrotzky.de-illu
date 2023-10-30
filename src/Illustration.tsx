@@ -46,7 +46,7 @@ function Illustration() {
           <h2 className="uppercase pb-2 mb-4 border-b border-pelorous-400 tracking-widest">
             Illustrationen aus Ladbergen
           </h2>
-          <h1 className="uppercase tracking-widest text-2xl mb-4 font-bold">
+          <h1 className="uppercase text-2xl mb-4 font-bold">
             Was ich in meiner bunten Welt so mache:
           </h1>
           <p className="font-serif">
@@ -59,7 +59,7 @@ function Illustration() {
           <ul className="mt-4">
             <li className="mb-2">Kinder-Illustration</li>
             <li className="mb-2">Cover-Illustration</li>
-            <li className="mb-2">Kinderbücher</li>
+            <li className="mb-2">Kinderbücher (komplett)</li>
             <li className="mb-2">Logodesign</li>
           </ul>
         </section>

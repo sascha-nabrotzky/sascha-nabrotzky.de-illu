@@ -33,7 +33,7 @@ const imgs = [
 
 function ChildrensSketchbookIllustrations() {
   return (
-    <Highlights cols={4} imgs={imgs} title="Highlights Kinderillustrationen" />
+    <Highlights cols={4} imgs={imgs} title="Highlights Kinder-Illustrationen" />
   );
 }
 

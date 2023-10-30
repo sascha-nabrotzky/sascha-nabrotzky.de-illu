@@ -82,7 +82,7 @@ function About() {
             Private-Spa-Bereich
           </p>
           <p className="font-serif py-2">
-            <span className="font-bold">Frontendentwickler</span> in einer
+            <span className="font-bold">Frontend-Entwickler</span> in einer
             Agentur
           </p>
           <p className="font-serif py-2">
