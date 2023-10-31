@@ -58,8 +58,8 @@ function Illustration() {
           </p>
           <ul className="mt-4">
             <li className="mb-2 font-bold">Kinder-Illustration</li>
-            <li className="mb-2 font-bold">Cover-Illustration</li>
             <li className="mb-2 font-bold">Kinderbücher (komplett)</li>
+            <li className="mb-2 font-bold">Editorial-Illustration</li>
             <li className="mb-2 font-bold">Logodesign</li>
           </ul>
         </section>
