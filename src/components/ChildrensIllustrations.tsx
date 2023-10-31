@@ -32,9 +32,7 @@ const imgs = [
 ];
 
 function ChildrensSketchbookIllustrations() {
-  return (
-    <Highlights cols={4} imgs={imgs} title="Highlights Kinder-Illustrationen" />
-  );
+  return <Highlights cols={4} imgs={imgs} title="Kinder-Illustrationen" />;
 }
 
 export default ChildrensSketchbookIllustrations;

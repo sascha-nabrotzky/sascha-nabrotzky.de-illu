@@ -80,15 +80,17 @@ function Childrensbooks() {
 
       <MainLayout>
         <div className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
-          <h1 className="uppercase tracking-widest text-2xl mb-4">
-            Aus einer kleinen Idee entstand ein Großprojekt ...
+          <h1 className="mb-4 uppercase tracking-widest text-2xl font-bold">
+            Aus einer kleinen Idee ...
           </h1>
           <p className="font-serif">
-            und jetzt sind schon drei Kinderbücher von mir privat illustriert
-            worden. Am Anfang stand das Characterdesign der Hauptfiguren und ein
-            Farbschema wurde ausgearbeitet. Die Skizzen wurden eingescannt und
-            digital weiterverarbeitet, um Farben und Hintergründe besser
-            anpassen zu können.
+            entstand ein Großprojekt und jetzt sind schon drei Kinderbücher von
+            mir privat illustriert worden. Am Anfang stand das{" "}
+            <strong>Characterdesign </strong>
+            der Hauptfiguren und ein <strong>Farbschema</strong> wurde
+            ausgearbeitet. Die <strong>Skizzen </strong>
+            wurden eingescannt und digital weiterverarbeitet, um Farben und
+            Hintergründe besser anpassen zu können.
           </p>
           <p className="font-serif">
             Für das vierte Buch, habe ich die drei vorherigen komplett
@@ -113,7 +115,7 @@ function Childrensbooks() {
         />
 
         <div className="md:col-start-3 md:col-span-1 max-md:px-4 text-lg tracking-wider">
-          <h2 className="uppercase tracking-widest text-2xl mb-4">
+          <h2 className="mb-4 uppercase tracking-widest text-2xl font-bold">
             Digitale Arbeitsweise
           </h2>
           <p className="font-serif">

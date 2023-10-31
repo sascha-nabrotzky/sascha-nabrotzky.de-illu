@@ -54,12 +54,21 @@ module.exports = {
       },
       animation: {
         flying: "flying 2s linear infinite",
+        slideUp: "clear 1s ease-in-out forwards",
       },
       keyframes: {
         flying: {
           "0%": { transform: "translateY(0px)" },
           "50%": { transform: "translateY(20px)" },
           "100%": { transform: "translateY(0px)" },
+        },
+        clear: {
+          "100%": {
+            opacity: 1,
+            transform: "translateY(0px)",
+            scale: 1,
+            rotate: 0,
+          },
         },
       },
     },

@@ -49,7 +49,7 @@ function About() {
 
       <MainLayout>
         <div className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
-          <h1 className="uppercase tracking-widest text-2xl mb-4">
+          <h1 className="mb-4 uppercase tracking-widest text-2xl font-bold">
             Zeichnerische Kreativität ...
           </h1>
           <p className="font-serif">
@@ -76,7 +76,9 @@ function About() {
         </div>
 
         <div className="md:col-start-3 md:col-span-1 max-md:px-4 text-lg tracking-wider">
-          <h2 className="uppercase tracking-widest text-2xl mb-4">Werdegang</h2>
+          <h2 className="mb-4 font-bold uppercase tracking-widest text-2xl">
+            Werdegang
+          </h2>
           <p className="font-serif py-2">
             <span className="font-bold">Webdesigner UI/UX</span> im
             Private-Spa-Bereich
