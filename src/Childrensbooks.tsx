@@ -11,27 +11,27 @@ import socMedImg from "../src/assets/images/SocMedImg.jpg";
 
 const imgsBook1 = [
   {
-    figcaption: "Doppelseite meines zweiten Kinderbuches",
+    figcaption: "Doppelseite meines ersten Kinderbuches",
     src: SpreadWiese,
-    alt: "Doppelseite meines zweiten Kinderbuches",
+    alt: "Doppelseite meines ersten Kinderbuches 1a",
   },
   {
-    figcaption: "Doppelseite meines zweiten Kinderbuches",
+    figcaption: "Doppelseite meines ersten Kinderbuches",
     src: SpreadForest,
-    alt: "Doppelseite meines zweiten Kinderbuches",
+    alt: "Doppelseite meines ersten Kinderbuches 1b",
   },
 ];
 
 const imgsBook2 = [
   {
-    figcaption: "Doppelseite meines ersten Kinderbuches",
+    figcaption: "Doppelseite meines zweiten Kinderbuches",
     src: SpreadEating,
-    alt: "Doppelseite meines ersten Kinderbuches",
+    alt: "Doppelseite meines zweiten Kinderbuches 2a",
   },
   {
-    figcaption: "Doppelseite meines ersten Kinderbuches",
+    figcaption: "Doppelseite meines zweiten Kinderbuches",
     src: SpreadBlowing,
-    alt: "Doppelseite meines ersten Kinderbuches",
+    alt: "Doppelseite meines zweiten Kinderbuches 2b",
   },
 ];
 

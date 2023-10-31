@@ -35,7 +35,7 @@ function DigitalIllustrations() {
     <Highlights
       cols={4}
       imgs={imgs}
-      title="Highlights Cover-/Posterillustrationen"
+      title="Highlights Cover-/Poster-Illustrationen"
     />
   );
 }
