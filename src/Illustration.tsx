@@ -76,10 +76,10 @@ function Illustration() {
         <ChildrensIllustrations />
         <div className="md:col-start-3 md:col-span-1 max-md:px-4 text-lg tracking-wider">
           <p className="font-serif">
-            Tauchen Sie ein in meine farbenfrohe Welt mit meinem einzigartigen
-            Stil und lassen Sie sich von meinen Illustrationen verzaubern. Ich
-            hoffe, dass Sie genauso viel Freude daran haben, meine Arbeiten zu
-            entdecken, wie ich sie beim Erstellen hatte.
+            Tauche ein in meine farbenfrohe Welt mit meinem einzigartigen Stil
+            und lasse dich von meinen Illustrationen verzaubern. Ich hoffe, dass
+            du genauso viel Freude daran hast, meine Arbeiten zu entdecken, wie
+            ich sie beim Erstellen hatte.
           </p>
         </div>
         <DigitalIllustrations />
