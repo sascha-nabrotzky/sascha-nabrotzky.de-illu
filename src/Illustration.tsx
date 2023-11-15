@@ -20,9 +20,9 @@ function Illustration() {
           Bereiche Kinderbücher, Editorial und Logodesign, aber auch vieles
           mehr. <br />
           Außderdem kann ich bei der Umsetzung deiner Buchidee helfen da ich
-          schon drei Kinderbücher komplett illustriert und layoutet habe.
+          schon mehrere Kinderbücher komplett illustriert und layoutet habe.
         </p>
-        <ul className="mt-4 pl-6">
+        <ul className="mt-8 pl-6">
           <li className="mb-2 font-bold">Charakter-Design</li>
           <li className="mb-2 font-bold">Kinderbücher (komplett)</li>
           <li className="mb-2 font-bold">Editorial-Illustration</li>
