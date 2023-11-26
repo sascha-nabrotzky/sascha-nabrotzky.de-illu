@@ -85,7 +85,7 @@ function Illustration() {
           </div>
         </div>
         <ChildrensIllustrations />
-        <div className="md:col-start-2">
+        <div className="md:col-start-2 max-md:px-4">
           <h3 className="font-bold text-2xl uppercase tracking-wider">
             Charakterdesign
           </h3>
