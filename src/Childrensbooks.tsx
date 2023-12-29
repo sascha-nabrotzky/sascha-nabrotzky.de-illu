@@ -6,6 +6,8 @@ import SpreadEating from "../src/assets/images/SpreadpageEating.webp";
 import SpreadBlowing from "../src/assets/images/SpreadpageBlowing.webp";
 import SpreadWiese from "../src/assets/images/SpreadpageWiese.webp";
 import SpreadForest from "../src/assets/images/SpreadpageForest.webp";
+import SpreadShadow1 from "../src/assets/images/SpreadpageShadow1.webp";
+import SpreadShadow2 from "../src/assets/images/SpreadpageShadow2.webp";
 
 const imgsBook1 = [
   {
@@ -30,6 +32,19 @@ const imgsBook2 = [
     figcaption: "Doppelseite meines zweiten Kinderbuches",
     src: SpreadBlowing,
     alt: "Doppelseite meines zweiten Kinderbuches 2b",
+  },
+];
+
+const imgsBook3 = [
+  {
+    figcaption: "Doppelseite meines dritten Kinderbuches",
+    src: SpreadShadow1,
+    alt: "Doppelseite meines dritten Kinderbuches 3a",
+  },
+  {
+    figcaption: "Doppelseite meines dritten Kinderbuches",
+    src: SpreadShadow2,
+    alt: "Doppelseite meines dritten Kinderbuches 3b",
   },
 ];
 
@@ -64,14 +79,21 @@ function Childrensbooks() {
           />
         </div>
       </div>
-
-      <Highlights
-        cols={2}
-        imgs={imgsBook1}
-        title="Wach auf, kleiner Bär, es ist Frühling!"
-      />
-
+      <Highlights cols={2} imgs={imgsBook3} title="Das dunkle Etwas" />
       <div className="md:col-start-3 md:col-span-1 max-md:px-4 text-lg tracking-wider">
+        <h2 className="mb-4 uppercase tracking-widest text-2xl font-bold">
+          Charakterdesign
+        </h2>
+        <p className="font-serif">
+          Seit dem zweiten Kinderbuch habe ich gemerkt, wie sehr eine Geschichte
+          von dem Storytelling und den Charakteren lebt, also habe ich für mein
+          drittes Kinderbuch "Das dunkle Etwas" Kurse bei einem ehemaligen
+          Disney-Animator durchgearbeitet und jede Menge Bücher durchgewälzt,
+          damit das Charakterdesign sehr glaubhaft ist.
+        </p>
+      </div>
+      <Highlights cols={2} imgs={imgsBook2} title="Die Puschelblüte" />
+      <div className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
         <h2 className="mb-4 uppercase tracking-widest text-2xl font-bold">
           Digitale Arbeitsweise
         </h2>
@@ -83,8 +105,11 @@ function Childrensbooks() {
           Übertragung aus dem Analogen.
         </p>
       </div>
-
-      <Highlights cols={2} imgs={imgsBook2} title="Die Puschelblüte" />
+      <Highlights
+        cols={2}
+        imgs={imgsBook1}
+        title="Wach auf, kleiner Bär, es ist Frühling!"
+      />
     </MainLayout>
   );
 }

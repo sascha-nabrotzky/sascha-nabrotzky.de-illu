@@ -5,6 +5,7 @@ import DigitalIllustrations from "./components/DigitalIllustrations";
 import ChildrensIllustrations from "./components/ChildrensIllustrations";
 import CharacterDesignSketches from "./components/CharacterdesignSketches";
 import illuBiene from "../src/assets/images/Biene.webp";
+import Theo from "../src/assets/images/Theo.webp";
 import socMedImg from "../src/assets/images/SocMedImg.jpg";
 
 function Illustration() {
@@ -74,14 +75,9 @@ function Illustration() {
             <br />
           </p>
         </section>
-        <div className="md:col-start-3 md:col-span-2">
+        <div className="md:col-start-3 md:col-span-1">
           <div className="flex justify-center">
-            <img
-              src={illuBiene}
-              alt="Illustration Biene in Wasserfarben"
-              loading="lazy"
-              className="animate-flying"
-            />
+            <img src={Theo} alt="Characterdesign eines Hundes" loading="lazy" />
           </div>
         </div>
         <ChildrensIllustrations />
@@ -99,6 +95,16 @@ function Illustration() {
         </div>
         <CharacterDesignSketches />
         <DigitalIllustrations />
+        <div className="md:col-start-2 md:col-span-2">
+          <div className="flex justify-center">
+            <img
+              src={illuBiene}
+              alt="Illustration Biene in Wasserfarben"
+              loading="lazy"
+              className="animate-flying mb-6"
+            />
+          </div>
+        </div>
       </MainLayout>
     </>
   );

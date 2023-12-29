@@ -7,6 +7,9 @@ module.exports = {
       serif: ["Merriweather"],
     },
     extend: {
+      screens: {
+        "3xl": "1920px",
+      },
       colors: {
         pelorous: {
           50: "#f2f9f9",
