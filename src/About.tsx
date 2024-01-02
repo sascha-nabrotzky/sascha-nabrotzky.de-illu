@@ -16,8 +16,9 @@ function About() {
         </p>
         <p className="font-serif">
           Neben meinem Hauptjob als Webdesigner UI/UX, habe ich noch
-          Illustration und das erstellen von Kinderbüchern als weitere
-          Leidenschaft, welche ich als Hobby und Ausgleich zum Alltag betreibe.
+          Illustration und das erstellen von Charakteren für Kinderbücher als
+          weitere Leidenschaft, welche ich als Hobby und Ausgleich zum Alltag
+          betreibe.
         </p>
       </div>
       <div className="md:col-start-3 md:col-span-2">
@@ -29,35 +30,6 @@ function About() {
             className="w-full"
           />
         </div>
-      </div>
-
-      <div className="md:col-start-3 md:col-span-1 max-md:px-4 text-lg tracking-wider">
-        <h2 className="mb-4 font-bold uppercase tracking-widest text-2xl">
-          Werdegang
-        </h2>
-        <p className="font-serif py-2">
-          <span className="font-bold">Webdesigner UI/UX</span> im
-          Private-Spa-Bereich
-        </p>
-        <p className="font-serif py-2">
-          <span className="font-bold">Frontend-Entwickler</span> in einer
-          Agentur
-        </p>
-        <p className="font-serif py-2">
-          <span className="font-bold">Mediengestalter Digital und Print</span>{" "}
-          bei einem Online-Shop
-        </p>
-        <p className="font-serif py-2">
-          <span className="font-bold">Mediengestalter Digital und Print</span>{" "}
-          bei einem Zeitungsverlag
-        </p>
-        <p className="font-serif py-2">
-          <span className="font-bold">Schriftsetzer</span> in einer Druckerei
-        </p>
-        <p className="font-serif py-2">
-          <span className="font-bold">Ausbildung Schriftsetzer</span> in einer
-          Druckerei
-        </p>
       </div>
     </MainLayout>
   );

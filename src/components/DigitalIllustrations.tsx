@@ -32,7 +32,11 @@ const imgs = [
 
 function DigitalIllustrations() {
   return (
-    <Highlights cols={4} imgs={imgs} title="Cover-/Poster-Illustrationen" />
+    <Highlights
+      cols={4}
+      imgs={imgs}
+      title="Charaktere in verschiedenen Illustrationen"
+    />
   );
 }
 

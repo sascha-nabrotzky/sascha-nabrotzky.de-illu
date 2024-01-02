@@ -32,7 +32,13 @@ const imgs = [
 ];
 
 function ChildrensSketchbookIllustrations() {
-  return <Highlights cols={4} imgs={imgs} title="Kinder-Illustrationen" />;
+  return (
+    <Highlights
+      cols={4}
+      imgs={imgs}
+      title="Charaktere für kleine Kinder als Zielgruppe"
+    />
+  );
 }
 
 export default ChildrensSketchbookIllustrations;

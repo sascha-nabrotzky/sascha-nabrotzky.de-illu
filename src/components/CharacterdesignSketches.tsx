@@ -23,7 +23,12 @@ const imgs = [
 ];
 
 function characterDesignSketches() {
-  return <SketchesLayout title="Skizzen" imgs={imgs} />;
+  return (
+    <SketchesLayout
+      title="Skizzen für verschiedene Interaktionen"
+      imgs={imgs}
+    />
+  );
 }
 
 export default characterDesignSketches;

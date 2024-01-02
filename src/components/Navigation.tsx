@@ -8,7 +8,7 @@ function Navigation() {
         to="/"
         className="bg-pelorous-400 mb-2 px-4 py-2 rounded-ee-xl hover:bg-pharlap-600 transition-colors duration-200 shadow-default"
       >
-        Illustration
+        Charakterdesign
       </Link>
       <Link
         to="/kinderbuecher"

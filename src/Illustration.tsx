@@ -12,11 +12,10 @@ function Illustration() {
   return (
     <>
       <Helmet>
-        <title>Sascha Nabrotzky | Illustration & Charakterdesign</title>
+        <title>Sascha Nabrotzky | Charakterdesign & Illustration</title>
         <meta
           name="description"
-          content="Illustrationen und Charakterdesign aus Ladbergen: Tauchen Sie ein in meine farbenfrohe
-          Welt!"
+          content="Entwickeln von Charakteren und Illustrationen für Kinderbücher, Spiele und vieles mehr."
         />
         <meta
           name="keywords"
@@ -30,12 +29,11 @@ function Illustration() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Sascha Nabrotzky | Illustration & Charakterdesign"
+          content="Sascha Nabrotzky | Charakterdesign & Illustration"
         />
         <meta
           property="og:description"
-          content="Illustrationen und Charakterdesign aus Ladbergen: Tauchen Sie ein in meine farbenfrohe
-          Welt!"
+          content="Entwickeln von Charakteren und Illustrationen für Kinderbücher, Spiele und vieles mehr."
         />
         <meta
           property="og:image"
@@ -47,12 +45,11 @@ function Illustration() {
         <meta property="twitter:url" content="http://www.sascha-nabrotzky.de" />
         <meta
           name="twitter:title"
-          content="Sascha Nabrotzky | Illustration & Charakterdesign"
+          content="Sascha Nabrotzky | Charakterdesign & Illustration"
         />
         <meta
           name="twitter:description"
-          content="Illustrationen und Charakterdesign aus Ladbergen: Tauchen Sie ein in meine farbenfrohe
-          Welt!"
+          content="Entwickeln von Charakteren und Illustrationen für Kinderbücher, Spiele und vieles mehr."
         />
         <meta
           name="twitter:image"
@@ -62,17 +59,13 @@ function Illustration() {
 
       <MainLayout>
         <section className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
-          <h2 className="uppercase pb-2 mb-4 border-b border-pelorous-400 tracking-widest">
-            Illustrationen aus Ladbergen
-          </h2>
           <h1 className="uppercase text-2xl mb-4 font-bold tracking-wider">
-            Tauche ein in meine farbenfrohe Welt
+            Charakterdesign und Illustration
           </h1>
           <p className="font-serif">
-            Ich bin Illustrator und habe mich mit meinem einzigartigen Stil mit
-            Stiften, Wasserfarbe und Tinte auf die Erstellung von Illustrationen
-            mit interessanten Charakteren spezialisiert.
-            <br />
+            Ich bin Illustrator aus Ladbergen und habe mich mit meinem
+            einzigartigen Stil mit Stiften, Wasserfarbe und Tinte auf die
+            Erstellung von Charakteren für Kinderbücher spezialisiert.
           </p>
         </section>
         <div className="md:col-start-3 md:col-span-1">
@@ -81,16 +74,12 @@ function Illustration() {
           </div>
         </div>
         <ChildrensIllustrations />
-        <div className="md:col-start-2 max-md:px-4">
-          <h3 className="font-bold text-2xl uppercase tracking-wider">
-            Charakterdesign
-          </h3>
-        </div>
         <div className="md:col-start-3 md:col-span-1 max-md:px-4 text-lg tracking-wider">
           <p className="font-serif">
-            Lasse dich von meinen Charakteren und Illustrationen verzaubern. Ich
-            hoffe, dass du genauso viel Freude daran hast, meine Arbeiten zu
-            entdecken, wie ich sie beim Erstellen hatte.
+            Auf dem Weg zum fertigen Buch illustriere ich die Charaktere zuerst
+            in verschiedenen Posen, um sie dann in der gewünschten Umgebung zu
+            platzieren. So entsteht eine Geschichte, die die Kinder in ihren
+            Bann zieht.
           </p>
         </div>
         <CharacterDesignSketches />
