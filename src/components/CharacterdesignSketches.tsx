@@ -8,17 +8,17 @@ const imgs = [
   {
     figcaption: "",
     src: Sketch1,
-    alt: "Placeholder",
+    alt: "Skizze eines Hasen mit einem Eichhörnchen auf dem Kopf",
   },
   {
     figcaption: "",
     src: Sketch3,
-    alt: "Placeholder",
+    alt: "Skizze eines Bären der seinen Schattne umarmt",
   },
   {
     figcaption: "",
     src: Sketch2,
-    alt: "Placeholder",
+    alt: "Skizze eines Eichhörnchens",
   },
 ];
 

@@ -15,11 +15,11 @@ function Illustration() {
         <title>Sascha Nabrotzky | Charakterdesign & Illustration</title>
         <meta
           name="description"
-          content="Entwickeln von Charakteren und Illustrationen für Kinderbücher, Spiele und vieles mehr."
+          content="Entwickeln von Charakteren und Illustrationen für Kinderbücher, Editorial und vieles mehr - Illustrationen aus Ladbergen."
         />
         <meta
           name="keywords"
-          content="Charakterdesign, Illustration, Kinderbücher, Ladbergen, Münster, Osnabrück"
+          content="Charakterdesign, Illustration, Kinderbücher, Editorial, Ladbergen, Münster, Osnabrück"
         />
         <meta
           name="image"
@@ -33,7 +33,7 @@ function Illustration() {
         />
         <meta
           property="og:description"
-          content="Entwickeln von Charakteren und Illustrationen für Kinderbücher, Spiele und vieles mehr."
+          content="Entwickeln von Charakteren und Illustrationen für Kinderbücher, Editorial und vieles mehr - Illustrationen aus Ladbergen."
         />
         <meta
           property="og:image"
@@ -65,7 +65,8 @@ function Illustration() {
           <p className="font-serif">
             Ich bin Illustrator aus Ladbergen und habe mich mit meinem
             einzigartigen Stil mit Stiften, Wasserfarbe und Tinte auf die
-            Erstellung von Charakteren für Kinderbücher spezialisiert.
+            Erstellung von Charakteren für Kinderbücher und Editorial
+            spezialisiert.
           </p>
         </section>
         <div className="md:col-start-3 md:col-span-1">

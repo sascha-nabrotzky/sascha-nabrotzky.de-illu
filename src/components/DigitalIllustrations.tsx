@@ -8,25 +8,25 @@ import illuKatzenHunde from "../assets/images/KatzenHunde_400x600.webp";
 const imgs = [
   {
     figcaption:
-      'Magazin-Cover "Artenvielfalt" (Skizze mit Kugelschreiber, digital koloriert)',
+      'Magazin-Cover "Artenvielfalt" (Skizze mit Kugelschreiber digital koloriert)',
     src: illuArtenvielfalt,
-    alt: "Artenvielfalt",
+    alt: 'Magazin-Cover "Artenvielfalt" (Skizze mit Kugelschreiber digital koloriert)',
   },
   {
     figcaption: 'Poster "Billigfleisch" (Wettbewerb Greenpeace)',
     src: illuBilligfleisch,
-    alt: "Billigfleisch",
+    alt: 'Poster "Billigfleisch" (Wettbewerb Greenpeace)',
   },
   {
-    figcaption: 'Poster "Dreams" (kleine Skizze, digital koloriert)',
+    figcaption: 'Poster "Dreams" (kleine Skizze digital koloriert)',
     src: illuDreams,
-    alt: "Dreams",
+    alt: 'Poster "Dreams" (kleine Skizze digital koloriert)',
   },
   {
     figcaption:
-      'Poster "Es regnet Katzen und Hunde" (Wettbewerb Rheinwerkverlag (unter den 10 besten)))',
+      'Poster "Es regnet Katzen und Hunde" (Wasserfarbe und digital zusammengestellt)',
     src: illuKatzenHunde,
-    alt: "Es regnet Katzen und Hunde",
+    alt: 'Poster "Es regnet Katzen und Hunde" (Wasserfarbe und digital zusammengestellt)',
   },
 ];
 
