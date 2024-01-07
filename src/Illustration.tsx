@@ -65,7 +65,7 @@ function Illustration() {
           <p className="font-serif">
             Ich bin Illustrator aus Ladbergen und habe mich mit meinem
             einzigartigen Stil mit Stiften, Wasserfarbe und Tinte auf die
-            Erstellung von Charakteren für Kinderbücher und Editorial
+            Erstellung von Charakteren für Websites, Kinderbücher und Editorial
             spezialisiert.
           </p>
         </section>
