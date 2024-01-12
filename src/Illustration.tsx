@@ -65,12 +65,7 @@ function Illustration() {
           <h1 className="uppercase text-2xl mb-4 font-bold tracking-wider">
             {t("title")}
           </h1>
-          <p className="font-serif">
-            Ich bin Illustrator aus Ladbergen und habe mich mit meinem
-            einzigartigen Stil mit Stiften, Wasserfarbe und Tinte auf die
-            Erstellung von Charakteren für Websites, Kinderbücher und Editorial
-            spezialisiert.
-          </p>
+          <p className="font-serif">{t("text1")}</p>
         </section>
         <div className="md:col-start-3 md:col-span-1">
           <div className="flex justify-center">
