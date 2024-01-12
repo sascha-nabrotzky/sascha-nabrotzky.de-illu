@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
 import MainLayout from "./components/MainLayout";
 import DigitalIllustrations from "./components/DigitalIllustrations";
 import ChildrensIllustrations from "./components/ChildrensIllustrations";
@@ -9,6 +10,8 @@ import Theo from "../src/assets/images/Theo.webp";
 import socMedImg from "../src/assets/images/SocMedImg.jpg";
 
 function Illustration() {
+  const { t } = useTranslation("pages", { keyPrefix: "illustration" });
+
   return (
     <>
       <Helmet>
@@ -60,7 +63,7 @@ function Illustration() {
       <MainLayout>
         <section className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
           <h1 className="uppercase text-2xl mb-4 font-bold tracking-wider">
-            Charakterdesign und Illustration
+            {t("title")}
           </h1>
           <p className="font-serif">
             Ich bin Illustrator aus Ladbergen und habe mich mit meinem
