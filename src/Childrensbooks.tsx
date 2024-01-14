@@ -15,40 +15,40 @@ function Childrensbooks() {
 
   const imgsBook1 = [
     {
-      figcaption: "Doppelseite meines ersten Kinderbuches",
+      figcaption: `${t("book1.img1")}`,
       src: SpreadWiese,
-      alt: "Doppelseite meines ersten Kinderbuches 1a",
+      alt: `${t("book1.img2")}`,
     },
     {
-      figcaption: "Doppelseite meines ersten Kinderbuches",
+      figcaption: `${t("book1.img2")}`,
       src: SpreadForest,
-      alt: "Doppelseite meines ersten Kinderbuches 1b",
+      alt: `${t("book1.img3")}`,
     },
   ];
 
   const imgsBook2 = [
     {
-      figcaption: "Doppelseite meines zweiten Kinderbuches",
+      figcaption: `${t("book2.img1")}`,
       src: SpreadEating,
-      alt: "Doppelseite meines zweiten Kinderbuches 2a",
+      alt: `${t("book2.img1")}`,
     },
     {
-      figcaption: "Doppelseite meines zweiten Kinderbuches",
+      figcaption: `${t("book2.img2")}`,
       src: SpreadBlowing,
-      alt: "Doppelseite meines zweiten Kinderbuches 2b",
+      alt: `${t("book2.img2")}`,
     },
   ];
 
   const imgsBook3 = [
     {
-      figcaption: "Doppelseite meines dritten Kinderbuches",
+      figcaption: `${t("book3.img1")}`,
       src: SpreadShadow1,
-      alt: "Doppelseite meines dritten Kinderbuches 3a",
+      alt: `${t("book3.img1")}`,
     },
     {
-      figcaption: "Doppelseite meines dritten Kinderbuches",
+      figcaption: `${t("book3.img2")}`,
       src: SpreadShadow2,
-      alt: "Doppelseite meines dritten Kinderbuches 3b",
+      alt: `${t("book3.img2")}`,
     },
   ];
 
@@ -66,11 +66,7 @@ function Childrensbooks() {
       </div>
       <div className="md:col-start-3 md:col-span-1">
         <div className="flex justify-center">
-          <img
-            src={Book4}
-            alt="Cover meines vierten Kinderbuches"
-            loading="lazy"
-          />
+          <img src={Book4} alt={t("book1.img1")} loading="lazy" />
         </div>
       </div>
       <Highlights cols={2} imgs={imgsBook3} title="Das dunkle Etwas" />
@@ -87,11 +83,7 @@ function Childrensbooks() {
         </h2>
         <p className="font-serif">{t("text3")}</p>
       </div>
-      <Highlights
-        cols={2}
-        imgs={imgsBook1}
-        title="Wach auf, kleiner Bär, es ist Frühling!"
-      />
+      <Highlights cols={2} imgs={imgsBook1} title={t("book1.title")} />
     </MainLayout>
   );
 }
