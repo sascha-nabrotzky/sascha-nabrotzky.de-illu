@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import InstaLogo from "../assets/icons/instagram-logo.svg?react"; //?react and svgr/client in vite-env.d.ts is needed to make the svg work
 import MailIcon from "../assets/icons/mail.svg?react";
 
 function Footer() {
+  const { t } = useTranslation("footer");
   const [currentMail, setMail] = useState("anti@spam-mail.de");
 
   function addMail() {
@@ -17,7 +19,7 @@ function Footer() {
           className="mx-4 transition-color duration-200 text-stone-700 hover:text-pharlap-600"
           href="https://www.instagram.com/sascha.illustrates"
           target="_blank"
-          title="Zu meinem Instagram-Account"
+          title={t("instagram")}
         >
           <InstaLogo className="h-8" />
         </a>
@@ -26,7 +28,7 @@ function Footer() {
           href={`${currentMail}`}
           target="_blank"
           rel="noreferrer"
-          title="Schreib mir eine E-Mail"
+          title={t("mail")}
           onClick={addMail}
         >
           <MailIcon className="h-8" />
@@ -37,13 +39,13 @@ function Footer() {
           to="/impressum"
           className="text-stone-700 hover:text-pharlap-600 transition-color duration-200 uppercase tracking-widest text-xs mx-4"
         >
-          Impressum
+          {t("impressum")}
         </Link>
         <Link
           to="/datenschutz"
           className="text-stone-700 hover:text-pharlap-600 transition-color duration-200 uppercase tracking-widest text-xs mx-4"
         >
-          Datenschutz
+          {t("datenschutz")}
         </Link>
       </div>
     </footer>

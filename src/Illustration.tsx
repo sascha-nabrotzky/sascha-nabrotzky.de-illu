@@ -74,12 +74,7 @@ function Illustration() {
         </div>
         <ChildrensIllustrations />
         <div className="md:col-start-3 md:col-span-1 max-md:px-4 text-lg tracking-wider">
-          <p className="font-serif">
-            Auf dem Weg zum fertigen Buch illustriere ich die Charaktere zuerst
-            in verschiedenen Posen, um sie dann in der gewünschten Umgebung zu
-            platzieren. So entsteht eine Geschichte, die die Kinder in ihren
-            Bann zieht.
-          </p>
+          <p className="font-serif">{t("text2")}</p>
         </div>
         <CharacterDesignSketches />
         <DigitalIllustrations />
