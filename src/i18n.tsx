@@ -69,10 +69,10 @@ i18next.use(initReactI18next).init({
       highlights: {
         childrensIllustrations: {
           title: "Charaktere für kleine Kinder als Zielgruppe",
-          img1: "Sei mutig (Teil einer Illustrations-Serie für eine Kindertagespflege)",
-          img2: "Sei frech digitale Illustration",
-          img3: "Sei entspannt digitale Illustration für die Garderobe in einer Kita",
-          img4: "Sei nett digitale Illustration mit Motivationsspruch für jedes Kind",
+          img1: '"Sei mutig" (Teil einer Illustrations-Serie für eine Kindertagespflege)',
+          img2: '"Sei frech" digitale Illustration',
+          img3: '"Sei entspannt" digitale Illustration für die Garderobe in einer Kita',
+          img4: '"Sei nett" digitale Illustration mit Motivationsspruch für jedes Kind',
         },
         digitalIllustrations: {
           title: "Charaktere in verschiedenen Illustrationen",
@@ -137,7 +137,6 @@ i18next.use(initReactI18next).init({
           book3: {
             title: "The dark something",
             img1: "Double page of my third children's book",
-            img2: "Double page of my third children's book",
           },
         },
         about: {
