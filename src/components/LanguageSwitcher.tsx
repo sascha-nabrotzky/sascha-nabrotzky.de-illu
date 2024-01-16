@@ -29,6 +29,7 @@ function LanguageSwitcher() {
 
   return (
     <select
+      id="languageSwitcher"
       className="bg-pharlap-300 mt-8 px-4 py-2 hover:bg-pharlap-400 transition-colors duration-200"
       onChange={(event) => handleLanguageChange(event.target.value)}
       value={i18n.language}

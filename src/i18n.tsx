@@ -44,18 +44,18 @@ i18next.use(initReactI18next).init({
             "Wenn es darauf ankommt und speziell bei meinen Kinderbüchern arbeite ich von Anfang an digital, denn nur so kann ich leichter Korrekturen durchführen, wenn noch etwas auffallen sollte. Für den Druck der Bücher muss ich eh alles digital vorliegen haben und ich spare mir die Übertragung aus dem Analogen.",
           book1: {
             title: "Wach auf, kleiner Bär, es ist Frühling!",
-            img1: "Doppelseite meines ersten Kinderbuches",
-            img2: "Doppelseite meines ersten Kinderbuches",
+            img1: "Der kleine Bär entdeckt den Löwenzahn (Doppelseite)",
+            img2: "Im dunklen Wald (Doppelseite)",
           },
           book2: {
             title: "Die Puschelblüte",
-            img1: "Doppelseite meines zweiten Kinderbuches",
-            img2: "Doppelseite meines zweiten Kinderbuches",
+            img1: "Der kleine Bär und seine Mutter beim Kekseessen (Doppelseite)",
+            img2: "Der kleine Bär bläst kräftig auf den Löwenzahn (Doppelseite)",
           },
           book3: {
             title: "Das dunkle Etwas",
-            img1: "Doppelseite meines dritten Kinderbuches",
-            img2: "Doppelseite meines dritten Kinderbuches",
+            img1: "Der eigene Schatten ist nicht so schlimm (Doppelseite)",
+            img2: "Mutter Bär zeigt was der Schatten ist (Doppelseite)",
           },
         },
         about: {
@@ -126,17 +126,18 @@ i18next.use(initReactI18next).init({
             "When it matters and especially with my children's books, I work digitally from the start, because that's the only way I can make corrections more easily if something else should be noticed. For printing the books, I have to have everything digitally anyway and I save myself the transfer from analog.",
           book1: {
             title: "Wake up little bear, it's spring!",
-            img1: "Double page of my first children's book",
-            img2: "Double page of my first children's book",
+            img1: "The little bear discovers the dandelions (double page)",
+            img2: "In the dark forest (double page)",
           },
           book2: {
             title: "The fluffy flower",
-            img1: "Double page of my second children's book",
-            img2: "Double page of my second children's book",
+            img1: "The little bear and his mother eating cookies (double page)",
+            img2: "The little bear blows hard on the dandelions (double page)",
           },
           book3: {
             title: "The dark something",
-            img1: "Double page of my third children's book",
+            img1: "Your own shadow isn't that bad (double page)",
+            img2: "Mother Bear shows what the shadow is (double page)",
           },
         },
         about: {
@@ -150,17 +151,17 @@ i18next.use(initReactI18next).init({
       highlights: {
         childrensIllustrations: {
           title: "Characters for small children as a target group",
-          img1: "Be brave (part of an illustration series for a childcare center)",
-          img2: "Be cheeky digital illustration",
-          img3: "Be relaxed digital illustration for the cloakroom in a daycare center",
-          img4: "Be nice digital illustration with motivational saying for each child",
+          img1: "'Be brave' (part of an illustration series for a childcare center)",
+          img2: "'Be cheeky', digital illustration",
+          img3: "'Be relaxed', digital illustration for the cloakroom in a daycare center",
+          img4: "'Be nice', digital illustration with motivational saying for each child",
         },
         digitalIllustrations: {
           title: "Characters in different illustrations",
-          img1: 'Magazine cover "Biodiversity" (sketch with ballpoint pen digitally colored)',
-          img2: 'Poster "Cheap meat" (Greenpeace competition)',
-          img3: 'Poster "Dreams" (small sketch digitally colored)',
-          img4: 'Poster "It\'s raining cats and dogs" (watercolor and digitally assembled)',
+          img1: "Magazine cover 'Biodiversity' (sketch with ballpoint pen digitally colored)",
+          img2: "Poster 'Cheap meat' (Greenpeace competition)",
+          img3: "Poster 'Dreams' (small sketch digitally colored)",
+          img4: "Poster 'It\\'s raining cats and dogs' (watercolor and digitally assembled)",
         },
       },
       sketches: {
