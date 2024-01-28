@@ -7,9 +7,9 @@ import { HelmetProvider } from "react-helmet-async";
 import "./Main.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <HelmetProvider>
-    <React.StrictMode>
-      <RouterProvider router={router} />
-    </React.StrictMode>
-  </HelmetProvider>
+    <HelmetProvider>
+        <React.StrictMode>
+            <RouterProvider router={router} />
+        </React.StrictMode>
+    </HelmetProvider>
 );
