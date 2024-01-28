@@ -1,12 +1,13 @@
 import React, { useCallback, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import LanguageButton from "./LanguageButton";
 
 function LanguageSwitcher() {
   const { i18n } = useTranslation();
 
   const languages = [
-    { lang: "de", label: "Deutsch" },
-    { lang: "en", label: "English" },
+    { lang: "de", label: "DE" },
+    { lang: "en", label: "EN" },
   ];
 
   const getLanguage = useCallback((): void => {
@@ -28,18 +29,17 @@ function LanguageSwitcher() {
   }
 
   return (
-    <select
-      id="languageSwitcher"
-      className="bg-pharlap-300 mt-8 px-4 py-2 hover:bg-pharlap-400 transition-colors duration-200"
-      onChange={(event) => handleLanguageChange(event.target.value)}
-      value={i18n.language}
-    >
-      {languages.map(({ lang, label }) => (
-        <option key={lang} value={lang}>
-          {label}
-        </option>
-      ))}
-    </select>
+    <>
+      <div className="flex gap-2 mt-6 ml-4">
+        {languages.map(({ lang, label }) => (
+          <LanguageButton
+            lang={lang}
+            label={label}
+            onClick={() => handleLanguageChange(lang)}
+          />
+        ))}
+      </div>
+    </>
   );
 }
 
