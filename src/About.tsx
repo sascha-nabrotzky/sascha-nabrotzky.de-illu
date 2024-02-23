@@ -1,25 +1,32 @@
 import React from "react";
-import deranfang from "../src/assets/images/DerAnfang.jpg";
+import { useTranslation } from "react-i18next";
+import Profilfoto from "../src/assets/images/Sascha_Nabrotzky_sw.webp";
+import MainLayout from "./components/MainLayout";
 
-const Home = () => {
-  return (
-    <>
-      <h1 className="absolute bottom-8 opacity-20 uppercase tracking-widest break-all font-serif text-8xl ml-8 md:ml-16 transition-filter duration-300 hover:blur">
-        Über mich
-      </h1>
-      <div className="md:col-start-2 md:col-span-1 text-lg tracking-wider">
-        <h2 className="mb-4">Zeichnerische Kreativität war schon immer sehr ausgeprägt bei mir ...</h2>
-        <p>das merkten auch meine Lehrer, wenn sie mal meine Schulbücher oder Arbeitshefte in die Finger bekamen.</p>
-        <p>
-          Neben meinem Hauptjob als Webdesigner (UI/UX) habe ich noch Illustration und das erstellen von Kinderbüchern als weitere Leidenschaft, welche ich als Hobby betreibe.
-        </p>
-        <p></p>
-      </div>
-      <div className="md:col-start-3 md:col-span-2 flex overflow-hidden place-items-center h-96 md:h-72 lg:h-80 xl:h-[30rem] 2xl:h-[38rem]">
-        <img className="w-full" src={deranfang} alt="Collage" loading="lazy"/>
-      </div>
-    </>
-  );
+function About() {
+    const { t } = useTranslation("pages", { keyPrefix: "about" });
+
+    return (
+        <MainLayout>
+            <div className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
+                <h1 className="mb-4 uppercase tracking-widest text-2xl font-bold">
+                    {t("title")}
+                </h1>
+                <p className="font-serif">{t("text1a")}</p>
+                <p className="font-serif">{t("text1b")}</p>
+            </div>
+            <div className="md:col-start-3 md:col-span-2">
+                <div className="md:rounded-l-xl overflow-hidden w-full max-h-[32rem]">
+                    <img
+                        src={Profilfoto}
+                        alt="Foto von Sascha Nabrotzky"
+                        loading="lazy"
+                        className="w-full"
+                    />
+                </div>
+            </div>
+        </MainLayout>
+    );
 }
 
-export default Home;
+export default About;

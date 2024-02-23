@@ -1,48 +1,91 @@
 import React from "react";
-import { Carousel } from "flowbite-react";
-import image1 from "../src/assets/images/Book4.jpg";
-import image2 from "../src/assets/images/Book1.jpg";
-import image3 from "../src/assets/images/Book2.jpg";
-import image4 from "../src/assets/images/Book3.jpg";
+import { useTranslation } from "react-i18next";
+import MainLayout from "./components/MainLayout";
+import Highlights from "./components/Highlights";
+import Book4 from "../src/assets/images/Book4.webp";
+import SpreadEating from "../src/assets/images/SpreadpageEating.webp";
+import SpreadBlowing from "../src/assets/images/SpreadpageBlowing.webp";
+import SpreadWiese from "../src/assets/images/SpreadpageWiese.webp";
+import SpreadForest from "../src/assets/images/SpreadpageForest.webp";
+import SpreadShadow1 from "../src/assets/images/SpreadpageShadow1.webp";
+import SpreadShadow2 from "../src/assets/images/SpreadpageShadow2.webp";
 
-const Childrensbooks = () => {
-  return (
-    <>
-      <h1 className="absolute bottom-8 opacity-20 uppercase tracking-widest break-all font-serif text-8xl ml-8 md:ml-16 transition-filter duration-300 hover:blur">
-        Kinderbücher
-      </h1>
-      <div className="md:col-start-2 md:col-span-1 text-lg tracking-wider">
-        <h2 className="mb-3">Aus einer Idee entstand eine Zusammenarbeit ...</h2>
-        <p>und jetzt sind schon drei Kinderbücher von mir privat illustriert worden. 
-          Am Anfang stand das Characterdesign der Hauptfiguren und ein Farbschema wurde ausgearbeitet. Die Skizzen wurden eingescannt und digital weiterverarbeitet, um Farben und Hintergründe besser anpassen zu können.</p>
-          <p>Für das vierte Buch, habe ich die drei vorherigen komplett überarbeitet und die verschiedenen Zeichenstile so gut es geht angeglichen. Alle Seiten enthalten doppleseitige Illustrationen.</p>
-      </div>
-      <div className="md:col-start-3 md:col-span-2 h-96 md:h-72 lg:h-80 xl:h-[30rem] 2xl:h-[38rem]">
-        <Carousel>
-          <img
-            src={image1}
-            alt="Mein viertes Kinderbuch"
-            loading="lazy"
-          />
-          <img
-            src={image2}
-            alt="Mein erstes Kinderbuch"
-            loading="lazy"
-          />
-          <img
-            src={image3}
-            alt="Mein zweites Kinderbuch"
-            loading="lazy"
-          />
-          <img
-            src={image4}
-            alt="Mein drittes Kinderbuch"
-            loading="lazy"
-          />
-        </Carousel>
-      </div>
-    </>
-  );
+function Childrensbooks() {
+    const { t } = useTranslation("pages", { keyPrefix: "childrensBooks" });
+
+    const imgsBook1 = [
+        {
+            figcaption: `${t("book1.img1")}`,
+            src: SpreadWiese,
+            alt: `${t("book1.img2")}`,
+        },
+        {
+            figcaption: `${t("book1.img2")}`,
+            src: SpreadForest,
+            alt: `${t("book1.img3")}`,
+        },
+    ];
+
+    const imgsBook2 = [
+        {
+            figcaption: `${t("book2.img1")}`,
+            src: SpreadEating,
+            alt: `${t("book2.img1")}`,
+        },
+        {
+            figcaption: `${t("book2.img2")}`,
+            src: SpreadBlowing,
+            alt: `${t("book2.img2")}`,
+        },
+    ];
+
+    const imgsBook3 = [
+        {
+            figcaption: `${t("book3.img1")}`,
+            src: SpreadShadow1,
+            alt: `${t("book3.img1")}`,
+        },
+        {
+            figcaption: `${t("book3.img2")}`,
+            src: SpreadShadow2,
+            alt: `${t("book3.img2")}`,
+        },
+    ];
+
+    return (
+        <MainLayout>
+            <div className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
+                <h1 className="mb-4 uppercase tracking-widest text-2xl font-bold">
+                    {t("title1")}
+                </h1>
+                <p
+                    className="font-serif"
+                    dangerouslySetInnerHTML={{ __html: t("text1a") }}
+                />
+                <p className="font-serif">{t("text1b")}</p>
+            </div>
+            <div className="md:col-start-3 md:col-span-1">
+                <div className="flex justify-center">
+                    <img src={Book4} alt={t("book1.img1")} loading="lazy" />
+                </div>
+            </div>
+            <Highlights cols={2} imgs={imgsBook3} title="Das dunkle Etwas" />
+            <div className="md:col-start-3 md:col-span-1 max-md:px-4 text-lg tracking-wider">
+                <h2 className="mb-4 uppercase tracking-widest text-2xl font-bold">
+                    {t("title2")}
+                </h2>
+                <p className="font-serif">{t("text2")}</p>
+            </div>
+            <Highlights cols={2} imgs={imgsBook2} title="Die Puschelblüte" />
+            <div className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
+                <h2 className="mb-4 uppercase tracking-widest text-2xl font-bold">
+                    {t("title3")}
+                </h2>
+                <p className="font-serif">{t("text3")}</p>
+            </div>
+            <Highlights cols={2} imgs={imgsBook1} title={t("book1.title")} />
+        </MainLayout>
+    );
 }
 
 export default Childrensbooks;

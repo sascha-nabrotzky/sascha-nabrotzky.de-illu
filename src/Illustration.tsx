@@ -1,60 +1,106 @@
 import React from "react";
-import { Carousel } from "flowbite-react";
-import image1 from "../src/assets/images/illuAlebrije.jpg";
-import image2 from "../src/assets/images/illuAnimals.jpg";
-import image3 from "../src/assets/images/IlluArten.jpg";
-import image4 from "../src/assets/images/illuTheo.jpg";
-import image5 from "../src/assets/images/illuNean.jpg";
-import image6 from "../src/assets/images/illuMorla.jpg";
+import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
+import MainLayout from "./components/MainLayout";
+import DigitalIllustrations from "./components/DigitalIllustrations";
+import ChildrensIllustrations from "./components/ChildrensIllustrations";
+import CharacterDesignSketches from "./components/CharacterdesignSketches";
+import illuBiene from "../src/assets/images/Biene.webp";
+import Theo from "../src/assets/images/Theo.webp";
+import socMedImg from "../src/assets/images/SocMedImg.jpg";
 
-const Illustration = () => {
-  return (
-    <>
-      <h1 className="absolute bottom-8 opacity-20 uppercase tracking-widest break-all font-serif text-8xl ml-8 md:ml-16 transition-filter duration-300 hover:blur">
-        Illustration
-      </h1>
-      <div className="md:col-start-2 md:col-span-1 max-md:px-6 text-lg tracking-wider">
-        <h2 className="mb-4">Vieles digital, alles andere aber am liebsten handgemacht</h2>
-        <p>Ich erstelle Illustrationen sowohl im Bereich Kinderbuch als auch für den Bereich Editorial, wo ich eine Zeit lang für Bildagenturen kreativ werden durfte.</p>
-        <p>Grundsätzlich versuche ich einen handgemachten, skizzenhaften Look in meinen digitalen Illustrationen herauszuarbeiten, oder arbeite direkt mit Aquarellstiften und Wasserfarben.</p>
-        <p>Der Reiz der Wasserfarben liegt darin, dass man diese nicht immer so kontrollieren kann und immer etwas unvorhergesehnes passiert.</p>
-      </div>
-      <div className="md:col-start-3 md:col-span-2 h-96 md:h-72 lg:h-80 xl:h-[30rem] 2xl:h-[38rem]">
-        <Carousel>
-          <img
-            src={image1}
-            alt="Illustration Alebrije"
-            loading="lazy"
-          />
-          <img
-            src={image2}
-            alt="Illustration Tiere"
-            loading="lazy"
-          />
-          <img
-            src={image3}
-            alt="Illustration Artenvielfalt"
-            loading="lazy"
-          />
-          <img
-            src={image4}
-            alt="Illustration Hund"
-            loading="lazy"
-          />
-          <img
-            src={image5}
-            alt="Illustration Neantertalerjunge"
-            loading="lazy"
-          />
-          <img
-            src={image6}
-            alt="Illustration Morla"
-            loading="lazy"
-          />
-        </Carousel>
-      </div>
-    </>
-  );
+function Illustration() {
+    const { t } = useTranslation("pages", { keyPrefix: "illustration" });
+
+    return (
+        <>
+            <Helmet>
+                <title>Sascha Nabrotzky | Charakterdesign & Illustration</title>
+                <meta
+                    name="description"
+                    content="Entwickeln von Illustrationen für Kinderbücher, Editorial und vieles mehr - Illustrationen aus Ladbergen."
+                />
+                <meta
+                    name="keywords"
+                    content="Charakterdesign, Illustration, Kinderbücher, Editorial, Ladbergen, Münster, Osnabrück"
+                />
+                <meta
+                    name="image"
+                    content={`http://www.sascha-nabrotzky.de${socMedImg}`}
+                />
+                <meta
+                    property="og:url"
+                    content="http://www.sascha-nabrotzky.de"
+                />
+                <meta property="og:type" content="website" />
+                <meta
+                    property="og:title"
+                    content="Sascha Nabrotzky | Illustration"
+                />
+                <meta
+                    property="og:description"
+                    content="Entwickeln von Illustrationen für Kinderbücher, Editorial und vieles mehr - Illustrationen aus Ladbergen."
+                />
+                <meta
+                    property="og:image"
+                    content={`http://www.sascha-nabrotzky.de${socMedImg}`}
+                />
+
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta property="twitter:domain" content="sascha-nabrotzky.de" />
+                <meta
+                    property="twitter:url"
+                    content="http://www.sascha-nabrotzky.de"
+                />
+                <meta
+                    name="twitter:title"
+                    content="Sascha Nabrotzky | Charakterdesign & Illustration"
+                />
+                <meta
+                    name="twitter:description"
+                    content="Entwickeln von Illustrationen für Kinderbücher, Spiele und vieles mehr."
+                />
+                <meta
+                    name="twitter:image"
+                    content={`http://www.sascha-nabrotzky.de${socMedImg}`}
+                />
+            </Helmet>
+
+            <MainLayout>
+                <section className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
+                    <h1 className="uppercase text-2xl mb-4 font-bold tracking-wider">
+                        {t("title")}
+                    </h1>
+                    <p className="font-serif">{t("text1")}</p>
+                </section>
+                <div className="md:col-start-3 md:col-span-1">
+                    <div className="flex justify-center">
+                        <img
+                            src={Theo}
+                            alt="Characterdesign eines Hundes"
+                            loading="lazy"
+                        />
+                    </div>
+                </div>
+                <ChildrensIllustrations />
+                <div className="md:col-start-3 md:col-span-1 max-md:px-4 text-lg tracking-wider">
+                    <p className="font-serif">{t("text2")}</p>
+                </div>
+                <CharacterDesignSketches />
+                <DigitalIllustrations />
+                <div className="md:col-start-2 md:col-span-2">
+                    <div className="flex justify-center">
+                        <img
+                            src={illuBiene}
+                            alt="Illustration Biene in Wasserfarben"
+                            loading="lazy"
+                            className="animate-flying mb-6"
+                        />
+                    </div>
+                </div>
+            </MainLayout>
+        </>
+    );
 }
 
 export default Illustration;
