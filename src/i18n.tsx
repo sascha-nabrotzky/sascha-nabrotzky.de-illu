@@ -23,7 +23,7 @@ i18next.use(initReactI18next).init({
             },
             pages: {
                 illustration: {
-                    title: "Handgemachte Illustrationen",
+                    title: "Handgemachte & digitale Illustrationen",
                     text1: "Ich bin Illustrator aus Ladbergen und habe mich mit meinem einzigartigen Stil mit Stiften, Wasserfarbe und Tinte auf die Erstellung von handgemachten Illustrationen für Websites, Kinderbücher und Editorial spezialisiert.",
                     text2: "Storytelling ist mir sehr wichtig, deshalb illustriere ich die Charaktere in verschiedenen Posen und setze sie dann in die gewünschte Umgebung. So ensteht eine Geschichte, die die Leser fesselt.",
                 },
@@ -97,7 +97,7 @@ i18next.use(initReactI18next).init({
             },
             pages: {
                 illustration: {
-                    title: "Handmade illustrations",
+                    title: "Handmade & digital illustrations",
                     text1: "I am an illustrator from Ladbergen (Germany) and have specialized in creating illustrations for websites, children's books and editorial with my unique style with pens, watercolors and ink.",
                     text2: "Storytelling is very important to me, which is why I illustrate the characters in different poses and then place them in the desired environment. This creates a story that captivates the readers.",
                 },

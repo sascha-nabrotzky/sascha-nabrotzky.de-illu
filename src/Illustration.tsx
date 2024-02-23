@@ -15,7 +15,7 @@ function Illustration() {
     return (
         <>
             <Helmet>
-                <title>Sascha Nabrotzky | Charakterdesign & Illustration</title>
+                <title>Sascha Nabrotzky | Illustration</title>
                 <meta
                     name="description"
                     content="Entwickeln von Illustrationen für Kinderbücher, Editorial und vieles mehr - Illustrationen aus Ladbergen."
