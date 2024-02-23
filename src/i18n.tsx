@@ -23,9 +23,9 @@ i18next.use(initReactI18next).init({
             },
             pages: {
                 illustration: {
-                    title: "Charakterdesign & Illustration",
-                    text1: "Ich bin Illustrator aus Ladbergen und habe mich mit meinem einzigartigen Stil mit Stiften, Wasserfarbe und Tinte auf die Erstellung von Charakteren für Websites, Kinderbücher und Editorial spezialisiert.",
-                    text2: "Auf dem Weg zum fertigen Buch illustriere ich die Charaktere zuerst in verschiedenen Posen, um sie dann in der gewünschten Umgebung zu platzieren. So entsteht eine Geschichte, die die Kinder in ihren Bann zieht.",
+                    title: "Handgemachte Illustrationen",
+                    text1: "Ich bin Illustrator aus Ladbergen und habe mich mit meinem einzigartigen Stil mit Stiften, Wasserfarbe und Tinte auf die Erstellung von handgemachten Illustrationen für Websites, Kinderbücher und Editorial spezialisiert.",
+                    text2: "Storytelling ist mir sehr wichtig, deshalb illustriere ich die Charaktere in verschiedenen Posen und setze sie dann in die gewünschte Umgebung. So ensteht eine Geschichte, die die Leser fesselt.",
                 },
                 childrensBooks: {
                     title1: "Aus einer kleinen Idee ...",
@@ -67,7 +67,7 @@ i18next.use(initReactI18next).init({
                     img4: '"Sei nett" digitale Illustration mit Motivationsspruch für jedes Kind',
                 },
                 digitalIllustrations: {
-                    title: "Charaktere in verschiedenen Illustrationen",
+                    title: "Handgemachte digitale Illustrationen",
                     img1: 'Magazin-Cover "Artenvielfalt" (Skizze mit Kugelschreiber digital koloriert)',
                     img2: 'Poster "Billigfleisch" (Wettbewerb Greenpeace)',
                     img3: 'Poster "Dreams" (kleine Skizze digital koloriert)',
@@ -97,9 +97,9 @@ i18next.use(initReactI18next).init({
             },
             pages: {
                 illustration: {
-                    title: "Character design & illustration",
-                    text1: "I am an illustrator from Ladbergen and have specialized in creating characters for websites, children's books and editorial with my unique style with pens, watercolors and ink.",
-                    text2: "On the way to the finished book, I first illustrate the characters in different poses and then place them in the desired environment. This creates a story that captivates the children.",
+                    title: "Handmade illustrations",
+                    text1: "I am an illustrator from Ladbergen (Germany) and have specialized in creating illustrations for websites, children's books and editorial with my unique style with pens, watercolors and ink.",
+                    text2: "Storytelling is very important to me, which is why I illustrate the characters in different poses and then place them in the desired environment. This creates a story that captivates the readers.",
                 },
                 childrensBooks: {
                     title1: "From a small idea ...",

@@ -23,7 +23,7 @@ const Button = ({
             key={lang}
             value={lang}
             onClick={onClick}
-            className={`text-sm ${
+            className={`text-sm first:after:content-['|'] after:pl-1.5 ${
                 activeButton ? "text-gray-700" : "text-gray-400"
             }`}
         >

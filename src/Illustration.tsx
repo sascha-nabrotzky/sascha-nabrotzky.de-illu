@@ -18,7 +18,7 @@ function Illustration() {
                 <title>Sascha Nabrotzky | Charakterdesign & Illustration</title>
                 <meta
                     name="description"
-                    content="Entwickeln von Charakteren und Illustrationen für Kinderbücher, Editorial und vieles mehr - Illustrationen aus Ladbergen."
+                    content="Entwickeln von Illustrationen für Kinderbücher, Editorial und vieles mehr - Illustrationen aus Ladbergen."
                 />
                 <meta
                     name="keywords"
@@ -35,11 +35,11 @@ function Illustration() {
                 <meta property="og:type" content="website" />
                 <meta
                     property="og:title"
-                    content="Sascha Nabrotzky | Charakterdesign & Illustration"
+                    content="Sascha Nabrotzky | Illustration"
                 />
                 <meta
                     property="og:description"
-                    content="Entwickeln von Charakteren und Illustrationen für Kinderbücher, Editorial und vieles mehr - Illustrationen aus Ladbergen."
+                    content="Entwickeln von Illustrationen für Kinderbücher, Editorial und vieles mehr - Illustrationen aus Ladbergen."
                 />
                 <meta
                     property="og:image"
@@ -58,7 +58,7 @@ function Illustration() {
                 />
                 <meta
                     name="twitter:description"
-                    content="Entwickeln von Charakteren und Illustrationen für Kinderbücher, Spiele und vieles mehr."
+                    content="Entwickeln von Illustrationen für Kinderbücher, Spiele und vieles mehr."
                 />
                 <meta
                     name="twitter:image"
