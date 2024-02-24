@@ -7,26 +7,27 @@ import Impressum from "../Impressum";
 import Datenschutz from "../Datenschutz";
 
 const router = createHashRouter([
-  {
-    path: "/editorial",
-    element: <Editorial />,
-  },
-  {
-    path: "/",
-    element: <Children />,
-  },
-  {
-    path: "/ueber-mich",
-    element: <About />,
-  },
-  {
-    path: "/impressum",
-    element: <Impressum />,
-  },
-  {
-    path: "/datenschutz",
-    element: <Datenschutz />,
-  },
+    {
+        path: "/",
+        element: <Children />,
+    },
+    {
+        path: "/editorial",
+        element: <Editorial />,
+    },
+
+    {
+        path: "/ueber-mich",
+        element: <About />,
+    },
+    {
+        path: "/impressum",
+        element: <Impressum />,
+    },
+    {
+        path: "/datenschutz",
+        element: <Datenschutz />,
+    },
 ]);
 
 export default router;
