@@ -13,7 +13,7 @@ function Footer() {
   }
 
   return (
-    <footer className="flex flex-col items-center pt-16 pb-10">
+    <footer className="flex flex-col items-center pt-16">
       <div className="flex">
         <a
           className="mx-4 transition-color duration-200 text-stone-700 hover:text-pharlap-600"
