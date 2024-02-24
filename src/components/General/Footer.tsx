@@ -13,26 +13,26 @@ function Footer() {
   }
 
   return (
-    <footer className="flex flex-col items-center pt-16">
+    <footer className="flex flex-col items-center mt-auto pt-16">
       <div className="flex">
-        <a
+        <Link
           className="mx-4 transition-color duration-200 text-stone-700 hover:text-pharlap-600"
-          href="https://www.instagram.com/sascha.illustrates"
+          to="https://www.instagram.com/sascha.illustrates"
           target="_blank"
           title={t("instagram")}
         >
           <InstaLogo className="h-8" />
-        </a>
-        <a
+        </Link>
+        <Link
           className="mx-4 transition-color duration-300 text-stone-700 hover:text-pharlap-600"
-          href={`${currentMail}`}
+          to={`${currentMail}`}
           target="_blank"
           rel="noreferrer"
           title={t("mail")}
           onClick={addMail}
         >
           <MailIcon className="h-8" />
-        </a>
+        </Link>
       </div>
       <div className="flex mt-6 pt-5 border-t border-stone-700">
         <Link

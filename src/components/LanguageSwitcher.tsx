@@ -36,6 +36,7 @@ function LanguageSwitcher() {
             lang={lang}
             label={label}
             onClick={() => handleLanguageChange(lang)}
+            key={lang}
           />
         ))}
       </div>
