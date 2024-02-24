@@ -30,7 +30,7 @@ function LanguageSwitcher() {
 
   return (
     <>
-      <div className="max-sm:fixed max-sm:top-4 max-sm:right-4 flex gap-2 sm:mt-6 sm:ml-4 max-sm:p-1 bg-pharlap-100">
+      <div className="max-sm:fixed max-sm:top-4 max-sm:right-4 flex w-[fit-content] gap-2 sm:mt-6 sm:ml-4 max-sm:p-1 bg-pharlap-100">
         {languages.map(({ lang, label }) => (
           <LanguageButton
             lang={lang}
