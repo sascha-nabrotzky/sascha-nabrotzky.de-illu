@@ -15,14 +15,15 @@ function Navigation() {
             to="/"
             className="bg-pelorous-400 px-4 py-2 rounded-ee-xl hover:bg-pharlap-600 transition-colors duration-200 shadow-default"
           >
-            {t("illustration")}
+            {t("children")}
           </Link>
           <Link
-            to="/kinderbuecher"
+            to="/editorial"
             className="bg-pelorous-400 px-4 py-2 rounded-ee-xl hover:bg-pharlap-600 transition-colors duration-200 shadow-default"
           >
-            {t("childrensBooks")}
+            {t("editorial")}
           </Link>
+
           <Link
             to="/ueber-mich"
             className="bg-pelorous-400 px-4 py-2 rounded-ee-xl hover:bg-pharlap-600 transition-colors duration-200 shadow-default"
@@ -56,16 +57,16 @@ function Navigation() {
                 setTranslateNav(!translateNav);
               }}
             >
-              {t("illustration")}
+              {t("editorial")}
             </Link>
             <Link
-              to="/kinderbuecher"
+              to="/kinder"
               className="py-3 px-4"
               onClick={() => {
                 setTranslateNav(!translateNav);
               }}
             >
-              {t("childrensBooks")}
+              {t("children")}
             </Link>
             <Link
               to="/ueber-mich"
