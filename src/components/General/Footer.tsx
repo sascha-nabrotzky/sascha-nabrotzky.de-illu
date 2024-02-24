@@ -13,7 +13,7 @@ function Footer() {
   }
 
   return (
-    <footer className="flex flex-col items-center mt-auto pt-16">
+    <footer className="flex flex-col items-center pt-16 pb-12">
       <div className="flex">
         <Link
           className="mx-4 transition-color duration-200 text-stone-700 hover:text-pharlap-600"
