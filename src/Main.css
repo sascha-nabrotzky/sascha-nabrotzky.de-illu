@@ -54,5 +54,8 @@
 
 body {
   overscroll-behavior: none;
-  white-space: pre-line; /* für /n Zeilenschaltung im HTML bei Übersetzungen */
+}
+
+main {
+  white-space: pre-line; /* für /n Zeilenschaltung im HTML bei Übersetzungen NICHT AN BODY-tag anwenden! */
 }
