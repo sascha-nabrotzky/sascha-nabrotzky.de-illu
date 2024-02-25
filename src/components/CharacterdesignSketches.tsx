@@ -1,5 +1,5 @@
 import React from "react";
-import SketchesLayout from "../components/SketchesLayout";
+import SketchesLayout from "./General/SketchesLayout";
 import { useTranslation } from "react-i18next";
 import Sketch1 from "../assets/images/Skizze1.webp";
 import Sketch2 from "../assets/images/Skizze2.webp";
