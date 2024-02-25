@@ -6,7 +6,7 @@ import Handelskrieg from "../assets/images/Handelskrieg.webp";
 
 function EditorialDigitalIllustrations() {
   const { t } = useTranslation("highlights", {
-    keyPrefix: "editorilaDigitalIllustrations",
+    keyPrefix: "editorialDigitalIllustrations_1",
   });
 
   const imgs = [

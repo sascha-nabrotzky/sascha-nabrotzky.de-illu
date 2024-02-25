@@ -83,6 +83,18 @@ i18next.use(initReactI18next).init({
       },
 
       highlights: {
+        editorialDigitalIllustrations_1: {
+          title: "...",
+          img1: "...",
+          img2: "...",
+        },
+
+        editorialDigitalIllustrations_2: {
+          title: "...",
+          img1: "...",
+          img2: "...",
+        },
+
         childrensIllustrations: {
           title: "Charaktere für kleine Kinder als Zielgruppe",
           img1: '"Sei mutig" (Teil einer Illustrations-Serie für eine Kindertagespflege)',
@@ -177,12 +189,16 @@ i18next.use(initReactI18next).init({
       },
 
       highlights: {
-        editorialDigitalIllustrations: {
+        editorialDigitalIllustrations_1: {
           title: "",
           img1: "",
           img2: "",
-          img3: "",
-          img4: "",
+        },
+
+        editorialDigitalIllustrations_2: {
+          title: "",
+          img1: "",
+          img2: "",
         },
 
         childrensIllustrations: {

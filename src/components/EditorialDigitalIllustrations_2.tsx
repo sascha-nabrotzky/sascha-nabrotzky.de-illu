@@ -6,19 +6,19 @@ import SmartCity from "../assets/images/SmartCity.webp";
 
 function EditorialDigitalIllustrations() {
   const { t } = useTranslation("highlights", {
-    keyPrefix: "editorilaDigitalIllustrations",
+    keyPrefix: "editorialDigitalIllustrations_2",
   });
 
   const imgs = [
     {
-      figcaption: `${t("img3")}`,
+      figcaption: `${t("img1")}`,
       src: Runner,
-      alt: `${t("img3")}`,
+      alt: `${t("img1")}`,
     },
     {
-      figcaption: `${t("img4")}`,
+      figcaption: `${t("img2")}`,
       src: SmartCity,
-      alt: `${t("img4")}`,
+      alt: `${t("img2")}`,
     },
   ];
 
