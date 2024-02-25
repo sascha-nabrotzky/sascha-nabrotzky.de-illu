@@ -3,8 +3,6 @@ import { useTranslation } from "react-i18next";
 import Highlights from "./General/Highlights";
 import Brexit from "../assets/images/Brexit.webp";
 import Handelskrieg from "../assets/images/Handelskrieg.webp";
-import Runner from "../assets/images/Runner.webp";
-import SmartCity from "../assets/images/SmartCity.webp";
 
 function EditorialDigitalIllustrations() {
   const { t } = useTranslation("highlights", {
@@ -21,16 +19,6 @@ function EditorialDigitalIllustrations() {
       figcaption: `${t("img2")}`,
       src: Handelskrieg,
       alt: `${t("img2")}`,
-    },
-    {
-      figcaption: `${t("img3")}`,
-      src: Runner,
-      alt: `${t("img3")}`,
-    },
-    {
-      figcaption: `${t("img4")}`,
-      src: SmartCity,
-      alt: `${t("img4")}`,
     },
   ];
 
