@@ -38,6 +38,7 @@ function Navigation() {
                 >
                     <button
                         type="button"
+                        aria-label="Navigation"
                         className="flex flex-col h-10 w-10 p-3 justify-between bg-pelorous-400 order-2 rounded-r"
                         onClick={(): void => {
                             setTranslateNav(!translateNav);
