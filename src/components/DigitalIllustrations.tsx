@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import Highlights from "./General/Highlights";
+import HighlightsLayout from "./General/HighlightsLayout";
 import illuBilligfleisch from "../assets/images/Billigfleisch_400x600.webp";
 import illuDreams from "../assets/images/Dreams_400x600.webp";
 import illuArtenvielfalt from "../assets/images/Artenvielfalt.webp";
@@ -34,7 +34,7 @@ const DigitalIllustrations = () => {
         },
     ];
 
-    return <Highlights cols={4} imgs={imgs} title={`${t("title")}`} />;
+    return <HighlightsLayout cols={4} imgs={imgs} title={`${t("title")}`} />;
 };
 
 export default DigitalIllustrations;

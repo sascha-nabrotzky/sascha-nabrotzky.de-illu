@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import Highlights from "./General/Highlights";
+import HighlightsLayout from "./General/HighlightsLayout";
 import seiMutig from "../assets/images/Sei_mutig.webp";
 import seiNett from "../assets/images/Sei_nett.webp";
 import seiFrech from "../assets/images/Sei_frech.webp";
@@ -34,7 +34,7 @@ const ChildrensSketchbookIllustrations = () => {
         },
     ];
 
-    return <Highlights cols={4} imgs={imgs} title={`${t("title")}`} />;
+    return <HighlightsLayout cols={4} imgs={imgs} title={`${t("title")}`} />;
 };
 
 export default ChildrensSketchbookIllustrations;

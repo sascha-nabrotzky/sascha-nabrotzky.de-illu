@@ -31,7 +31,7 @@ const Highlights = ({
 
     return (
         <section className="md:col-span-4">
-            <div className="col-span-4 bg-line-top bg-repeat-x h-[30px]" />
+            <div className="col-span-4 bg-line-top bg-repeat-space h-[30px]" />
             <div
                 className={`grid grid-cols-1 sm:grid-cols-2 ${columns} col-start-1 gap-4 p-4 md:p-8 bg-pharlap-200 text-stone-700`}
             >
@@ -56,7 +56,7 @@ const Highlights = ({
                     )
                 )}
             </div>
-            <div className="col-span-4 bg-line-bottom bg-repeat-x h-[30px]" />
+            <div className="col-span-4 bg-line-bottom bg-repeat-space h-[30px]" />
         </section>
     );
 };

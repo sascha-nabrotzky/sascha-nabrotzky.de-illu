@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import MainLayout from "./components/General/MainLayout";
-import Highlights from "./components/General/Highlights";
+import HighlightsLayout from "./components/General/HighlightsLayout";
 import CharacterDesignSketches from "./components/CharacterdesignSketches";
 import ChildrensIllustrations from "./components/ChildrensIllustrations";
 import DigitalIllustrations from "./components/DigitalIllustrations";
@@ -151,7 +151,7 @@ const Childrensbooks = () => {
                     <p className="font-serif">{t("text2b")}</p>
                 </div>
 
-                <Highlights
+                <HighlightsLayout
                     cols={2}
                     imgs={imgsBook3}
                     title={t("book3.title")}
@@ -166,7 +166,7 @@ const Childrensbooks = () => {
 
                 <CharacterDesignSketches />
 
-                <Highlights
+                <HighlightsLayout
                     cols={2}
                     imgs={imgsBook2}
                     title={t("book2.title")}
@@ -179,7 +179,7 @@ const Childrensbooks = () => {
                     <p className="font-serif">{t("text4")}</p>
                 </div>
 
-                <Highlights
+                <HighlightsLayout
                     cols={2}
                     imgs={imgsBook1}
                     title={t("book1.title")}

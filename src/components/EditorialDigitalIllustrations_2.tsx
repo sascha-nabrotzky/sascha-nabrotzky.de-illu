@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import Highlights from "./General/Highlights";
+import HighlightsLayout from "./General/HighlightsLayout";
 import Runner from "../assets/images/Runner.webp";
 import SmartCity from "../assets/images/SmartCity.webp";
 
@@ -22,7 +22,7 @@ const EditorialDigitalIllustrations_2 = () => {
         },
     ];
 
-    return <Highlights cols={2} imgs={imgs} title={`${t("title")}`} />;
+    return <HighlightsLayout cols={2} imgs={imgs} title={`${t("title")}`} />;
 };
 
 export default EditorialDigitalIllustrations_2;

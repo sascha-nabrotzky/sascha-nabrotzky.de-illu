@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import Highlights from "./General/Highlights";
+import HighlightsLayout from "./General/HighlightsLayout";
 import Brexit from "../assets/images/Brexit.webp";
 import Handelskrieg from "../assets/images/Handelskrieg.webp";
 
@@ -22,7 +22,7 @@ const EditorialDigitalIllustrations_1 = () => {
         },
     ];
 
-    return <Highlights cols={2} imgs={imgs} title={`${t("title")}`} />;
+    return <HighlightsLayout cols={2} imgs={imgs} title={`${t("title")}`} />;
 };
 
 export default EditorialDigitalIllustrations_1;
