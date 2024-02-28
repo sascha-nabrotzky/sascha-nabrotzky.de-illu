@@ -2,7 +2,7 @@ import React, { useCallback, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import LanguageButton from "./LanguageButton";
 
-function LanguageSwitcher() {
+const LanguageSwitcher = () => {
     const { i18n } = useTranslation();
 
     const languages = [
@@ -42,6 +42,6 @@ function LanguageSwitcher() {
             </div>
         </>
     );
-}
+};
 
 export default LanguageSwitcher;

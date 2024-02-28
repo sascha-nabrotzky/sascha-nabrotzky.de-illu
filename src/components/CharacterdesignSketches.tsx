@@ -5,7 +5,7 @@ import Sketch1 from "../assets/images/Skizze1.webp";
 import Sketch2 from "../assets/images/Skizze2.webp";
 import Sketch3 from "../assets/images/Skizze3.webp";
 
-function characterDesignSketches() {
+const characterDesignSketches = () => {
     const { t } = useTranslation("sketches", {
         keyPrefix: "interactions",
     });
@@ -29,6 +29,6 @@ function characterDesignSketches() {
     ];
 
     return <SketchesLayout title={`${t("title")}`} imgs={imgs} />;
-}
+};
 
 export default characterDesignSketches;

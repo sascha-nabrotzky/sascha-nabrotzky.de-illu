@@ -4,7 +4,7 @@ import Highlights from "./General/Highlights";
 import Brexit from "../assets/images/Brexit.webp";
 import Handelskrieg from "../assets/images/Handelskrieg.webp";
 
-function EditorialDigitalIllustrations_1() {
+const EditorialDigitalIllustrations_1 = () => {
     const { t } = useTranslation("highlights", {
         keyPrefix: "editorialDigitalIllustrations_1",
     });
@@ -23,6 +23,6 @@ function EditorialDigitalIllustrations_1() {
     ];
 
     return <Highlights cols={2} imgs={imgs} title={`${t("title")}`} />;
-}
+};
 
 export default EditorialDigitalIllustrations_1;

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./LanguageSwitcher";
 
-function Navigation() {
+const Navigation = () => {
     const { t } = useTranslation("navigation");
     const [translateNav, setTranslateNav] = useState(true);
 
@@ -84,6 +84,6 @@ function Navigation() {
             </div>
         </>
     );
-}
+};
 
 export default Navigation;

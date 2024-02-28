@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from "react";
 import Logo from "../../assets/images/Logo.webp";
 import colorSplat from "../../assets/images/circle.webp";
 
-function Header() {
+const Header = () => {
     const [animation, setAnimation] = useState(true);
 
     useEffect(() => {
@@ -36,6 +36,6 @@ function Header() {
             />
         </header>
     );
-}
+};
 
 export default Header;

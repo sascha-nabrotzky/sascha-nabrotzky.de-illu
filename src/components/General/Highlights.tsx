@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-function Highlights({
+const Highlights = ({
     cols,
     imgs,
     title,
@@ -8,7 +8,7 @@ function Highlights({
     cols: 2 | 4;
     imgs: { alt: string; src: string; figcaption: string }[];
     title: string;
-}) {
+}) => {
     const [columns, setColumns] = React.useState("");
     const [headlineColumns, setHeadlineColumns] = React.useState("");
 
@@ -59,6 +59,6 @@ function Highlights({
             <div className="col-span-4 bg-line-bottom bg-repeat-x h-[30px]" />
         </section>
     );
-}
+};
 
 export default Highlights;

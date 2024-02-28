@@ -4,7 +4,7 @@ import Highlights from "./General/Highlights";
 import Runner from "../assets/images/Runner.webp";
 import SmartCity from "../assets/images/SmartCity.webp";
 
-function EditorialDigitalIllustrations_2() {
+const EditorialDigitalIllustrations_2 = () => {
     const { t } = useTranslation("highlights", {
         keyPrefix: "editorialDigitalIllustrations_2",
     });
@@ -23,6 +23,6 @@ function EditorialDigitalIllustrations_2() {
     ];
 
     return <Highlights cols={2} imgs={imgs} title={`${t("title")}`} />;
-}
+};
 
 export default EditorialDigitalIllustrations_2;

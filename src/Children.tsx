@@ -17,7 +17,7 @@ import illuBiene from "../src/assets/images/Biene.webp";
 import { Helmet } from "react-helmet-async";
 import socMedImg from "../src/assets/images/SocMedImg.jpg";
 
-function Childrensbooks() {
+const Childrensbooks = () => {
     const { t } = useTranslation("pages", { keyPrefix: "children" });
 
     const imgsBook1 = [
@@ -207,6 +207,6 @@ function Childrensbooks() {
             </MainLayout>
         </>
     );
-}
+};
 
 export default Childrensbooks;
