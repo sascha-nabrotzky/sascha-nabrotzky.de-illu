@@ -9,11 +9,11 @@ import Datenschutz from "../Datenschutz";
 const router = createHashRouter([
     {
         path: "/",
-        element: <Children />,
+        element: <Editorial />,
     },
     {
-        path: "/editorial",
-        element: <Editorial />,
+        path: "/children",
+        element: <Children />,
     },
 
     {

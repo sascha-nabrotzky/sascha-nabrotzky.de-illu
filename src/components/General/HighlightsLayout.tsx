@@ -6,7 +6,7 @@ const Highlights = ({
     title,
 }: {
     cols: 2 | 4;
-    imgs: { alt: string; src: string; figcaption: string }[];
+    imgs: { alt: string; src?: string; figcaption: string }[];
     title: string;
 }) => {
     const [columns, setColumns] = React.useState("");
@@ -41,7 +41,11 @@ const Highlights = ({
                     {title}
                 </h3>
                 {imgs.map(
-                    (img: { alt: string; src: string; figcaption: string }) => (
+                    (img: {
+                        alt: string;
+                        src?: string;
+                        figcaption: string;
+                    }) => (
                         <figure key={img.alt}>
                             <img
                                 className="w-full"

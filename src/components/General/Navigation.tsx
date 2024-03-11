@@ -15,13 +15,13 @@ const Navigation = () => {
                         to="/"
                         className="bg-pelorous-400 px-4 py-2 rounded-ee-xl hover:bg-pharlap-600 transition-colors duration-200 shadow-default"
                     >
-                        {t("children")}
+                        {t("editorial")}
                     </Link>
                     <Link
-                        to="/editorial"
+                        to="/children"
                         className="bg-pelorous-400 px-4 py-2 rounded-ee-xl hover:bg-pharlap-600 transition-colors duration-200 shadow-default"
                     >
-                        {t("editorial")}
+                        {t("children")}
                     </Link>
                     <Link
                         to="/ueber-mich"

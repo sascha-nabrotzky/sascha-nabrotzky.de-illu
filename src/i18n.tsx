@@ -12,7 +12,7 @@ i18next.use(initReactI18next).init({
         de: {
             navigation: {
                 editorial: "Editorial",
-                children: "Kinder",
+                children: "Kinderbücher",
                 about: "Über mich",
             },
 
@@ -26,14 +26,19 @@ i18next.use(initReactI18next).init({
             pages: {
                 editorial: {
                     title: "Editorial-Illustrationen",
-                    text1: "Wie meine Illustrationen für Kinder, haben auch meine Illustrationen für Editorial einen eigenen handgemachten Stil. Ich arbeite mit Stiften, Wasserfarbe und Tinte oder digital.",
+                    text1: "Ich bin Illustrator aus Ladbergen und habe mich mit meinem einzigartigen Stil mit Tinte, Stiften und Wasserfarbe auf die Erstellung von handgemachten Illustrationen für Editorial und Kinderbücher spezialisiert.",
+
                     title2: "Je nach Thema ...",
                     text2: "werden die Illustrationen in verschiedenen Stilen erstellt. Meistens sind die Illustrationen für digitale Medien, aber auch für Printmedien.",
+
+                    title_concept: "Konzept",
+                    text_concept:
+                        "Die Illustrationen für Editorial entstehen meistens auf Anfrage von Redaktionen oder Agenturen. Die Themen sind sehr vielfältig und reichen von politischen Themen, über Wirtschaftsthemen bis hin zu Umweltthemen. Die Illustrationen werden meistens digital weiterverarbeitet oder direkt in dieser Form erstellt.",
                 },
 
                 children: {
-                    title1: "Illustrationen für Editorial und Kinder",
-                    text1: "Ich bin Illustrator aus Ladbergen und habe mich mit meinem einzigartigen Stil mit Stiften, Wasserfarbe und Tinte auf die Erstellung von handgemachten Illustrationen für Websites, Kinderbücher und Editorial spezialisiert.",
+                    title1: "Illustrationen für Kinderbücher",
+                    text1: "Wie meine Illustrationen für Editorial, haben auch meine Illustrationen für Kinderbücher einen eigenen handgemachten und bunteren Stil. Ich arbeite mit Stiften, Wasserfarbe und Tinte oder digital.",
 
                     title2: "Aus einer kleinen Idee ...",
                     text2a: "entstand ein Großprojekt und jetzt sind schon drei Kinderbücher von mir privat illustriert worden. Am Anfang stand das <strong>Characterdesign </strong> der Hauptfiguren und ein <strong>Farbschema</strong> wurde ausgearbeitet.",
@@ -76,15 +81,30 @@ i18next.use(initReactI18next).init({
 
             highlights: {
                 editorialDigitalIllustrations_1: {
-                    title: "Digitale Illustrationen für politische Themen",
+                    title: "Politische Themen",
                     img1: "Thema Brexit",
                     img2: "Thema Handelskrieg",
                 },
 
                 editorialDigitalIllustrations_2: {
-                    title: "Digitale Illustrationen für lifestyle Themen",
-                    img1: "Thema Sport in der Natur im Alltag",
-                    img2: "Thema Smart City",
+                    title: "Verschiedene Themen",
+                    moth: "Motte",
+                    space: "Weltraum",
+                    giant: "Riese",
+                    tree: "Baum",
+                },
+
+                editorialDigitalIllustrations_3: {
+                    title: "Weitere Themenbereiche",
+                    plant: "Zimmerpflanze",
+                    sword: "Schwert",
+                    tower: "Turm",
+                },
+
+                editorialDigitalIllustrations_4: {
+                    title: "Themenbereich Tiere",
+                    img1: "Vogel festgekettet",
+                    img2: "Katze frisst Maus",
                 },
 
                 childrensIllustrations: {
@@ -117,7 +137,7 @@ i18next.use(initReactI18next).init({
         en: {
             navigation: {
                 editorial: "Editorial",
-                children: "Children",
+                children: "Children's books",
                 about: "About me",
             },
 
@@ -131,15 +151,19 @@ i18next.use(initReactI18next).init({
             pages: {
                 editorial: {
                     title: "Editorial Illustrations",
-                    text1: "Like my illustrations for children, my illustrations for editorial also have their own handmade style. I work with pens, watercolor and ink or digitally.",
+                    text1: "I am an illustrator from Ladbergen and have specialized in creating handmade illustrations for editorial and children's books with my unique style using ink, pens and watercolor.",
 
                     title2: "Depending on the topic ...",
                     text2: "the illustrations are created in different styles. Most of the time the illustrations are for digital media, but also for print media.",
+
+                    title_concept: "Concept",
+                    text_concept:
+                        "The illustrations for editorial are usually created on request from editorial offices or agencies. The topics are very diverse and range from political topics, to economic topics to environmental topics. The illustrations are usually further processed digitally or created in this form.",
                 },
 
                 children: {
-                    title1: "Illustrations for editorial and children",
-                    text1: "I am an illustrator from Ladbergen and have specialized in creating handmade illustrations for websites, children's books and editorial with my unique style using pens, watercolor and ink.",
+                    title1: "Illustrations for children's books",
+                    text1: "Like my illustrations for editorial, my illustrations for children's books have their own handmade style. I work with pens, watercolor and ink or digitally.",
 
                     title2: "From a small idea ...",
                     text2a: "a large project emerged and now three children's books have already been privately illustrated by me. At the beginning there was the <strong>character design</strong> of the main characters and a <strong>color scheme</strong> was worked out.",
@@ -176,15 +200,30 @@ i18next.use(initReactI18next).init({
 
             highlights: {
                 editorialDigitalIllustrations_1: {
-                    title: "Digital illustrations for political topics",
-                    img1: "Brexit topic",
-                    img2: "Trade war topic",
+                    title: "Highlights III",
+                    img1: "Theme Brexit",
+                    img2: "Theme trade war",
                 },
 
                 editorialDigitalIllustrations_2: {
-                    title: "Digital illustrations for lifestyle topics",
-                    img1: "Topic sports in nature in everyday life",
-                    img2: "Smart City topic",
+                    title: "Highlights I",
+                    moth: "Moth",
+                    space: "Space",
+                    giant: "Giant",
+                    tree: "Tree",
+                },
+
+                editorialDigitalIllustrations_3: {
+                    title: "Highlights IV",
+                    plant: "Houseplant",
+                    sword: "Sword",
+                    tower: "Tower",
+                },
+
+                editorialDigitalIllustrations_4: {
+                    title: "Highlights II",
+                    img1: "Bird chained up",
+                    img2: "Cat eats mouse",
                 },
 
                 childrensIllustrations: {

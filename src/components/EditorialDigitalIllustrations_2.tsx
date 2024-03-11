@@ -1,8 +1,10 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import HighlightsLayout from "./General/HighlightsLayout";
-import Runner from "../assets/images/Runner.webp";
-import SmartCity from "../assets/images/SmartCity.webp";
+import Moth from "../assets/images/Motte.webp";
+import Space from "../assets/images/Weltraum.webp";
+import Giant from "../assets/images/Riese.webp";
+import Tree from "../assets/images/Baum_wandern.webp";
 
 const EditorialDigitalIllustrations_2 = () => {
     const { t } = useTranslation("highlights", {
@@ -11,18 +13,28 @@ const EditorialDigitalIllustrations_2 = () => {
 
     const imgs = [
         {
-            figcaption: `${t("img1")}`,
-            src: Runner,
-            alt: `${t("img1")}`,
+            figcaption: `${t("moth")}`,
+            src: Moth,
+            alt: `${t("moth")}`,
         },
         {
-            figcaption: `${t("img2")}`,
-            src: SmartCity,
-            alt: `${t("img2")}`,
+            figcaption: `${t("tree")}`,
+            src: Tree,
+            alt: `${t("tree")}`,
+        },
+        {
+            figcaption: `${t("space")}`,
+            src: Space,
+            alt: `${t("space")}`,
+        },
+        {
+            figcaption: `${t("giant")}`,
+            src: Giant,
+            alt: `${t("giant")}`,
         },
     ];
 
-    return <HighlightsLayout cols={2} imgs={imgs} title={`${t("title")}`} />;
+    return <HighlightsLayout cols={4} imgs={imgs} title={`${t("title")}`} />;
 };
 
 export default EditorialDigitalIllustrations_2;
