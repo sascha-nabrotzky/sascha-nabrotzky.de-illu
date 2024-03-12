@@ -5,7 +5,7 @@ const Highlights = ({
     imgs,
     title,
 }: {
-    cols: 2 | 4;
+    cols: 2 | 3 | 4;
     imgs: { alt: string; src?: string; figcaption: string }[];
     title: string;
 }) => {
@@ -13,6 +13,13 @@ const Highlights = ({
     const [headlineColumns, setHeadlineColumns] = React.useState("");
 
     switch (cols) {
+        case 3: {
+            useEffect(() => {
+                setColumns("md:grid-cols-2 lg:grid-cols-3");
+                setHeadlineColumns("md:col-span-2 lg:col-span-3");
+            }, []);
+            break;
+        }
         case 4: {
             useEffect(() => {
                 setColumns("md:grid-cols-3 lg:grid-cols-4");

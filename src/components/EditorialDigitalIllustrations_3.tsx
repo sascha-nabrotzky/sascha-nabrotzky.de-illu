@@ -19,7 +19,7 @@ const EditorialDigitalIllustrations_3 = () => {
         {
             figcaption: `${t("sword")}`,
             src: Sword,
-            alt: `${t("swort")}`,
+            alt: `${t("sword")}`,
         },
         {
             figcaption: `${t("tower")}`,

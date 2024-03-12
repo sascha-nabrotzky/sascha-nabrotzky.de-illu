@@ -81,13 +81,13 @@ i18next.use(initReactI18next).init({
 
             highlights: {
                 editorialDigitalIllustrations_1: {
-                    title: "Politische Themen",
+                    title: "Highlights III",
                     img1: "Thema Brexit",
                     img2: "Thema Handelskrieg",
                 },
 
                 editorialDigitalIllustrations_2: {
-                    title: "Verschiedene Themen",
+                    title: "Highlights I",
                     moth: "Motte",
                     space: "Weltraum",
                     giant: "Riese",
@@ -95,16 +95,17 @@ i18next.use(initReactI18next).init({
                 },
 
                 editorialDigitalIllustrations_3: {
-                    title: "Weitere Themenbereiche",
+                    title: "Highlights IV",
                     plant: "Zimmerpflanze",
                     sword: "Schwert",
                     tower: "Turm",
                 },
 
                 editorialDigitalIllustrations_4: {
-                    title: "Themenbereich Tiere",
+                    title: "Highlights II",
                     img1: "Vogel festgekettet",
-                    img2: "Katze frisst Maus",
+                    img2: "Karte",
+                    img3: "Katze frisst Maus",
                 },
 
                 childrensIllustrations: {
@@ -201,8 +202,8 @@ i18next.use(initReactI18next).init({
             highlights: {
                 editorialDigitalIllustrations_1: {
                     title: "Highlights III",
-                    img1: "Theme Brexit",
-                    img2: "Theme trade war",
+                    img1: "Brexit topic",
+                    img2: "Trade war topic",
                 },
 
                 editorialDigitalIllustrations_2: {
@@ -223,7 +224,8 @@ i18next.use(initReactI18next).init({
                 editorialDigitalIllustrations_4: {
                     title: "Highlights II",
                     img1: "Bird chained up",
-                    img2: "Cat eats mouse",
+                    img2: "Map",
+                    img3: "Cat eating mouse",
                 },
 
                 childrensIllustrations: {
