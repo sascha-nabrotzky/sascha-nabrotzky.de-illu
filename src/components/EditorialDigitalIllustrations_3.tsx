@@ -4,6 +4,7 @@ import HighlightsLayout from "./General/HighlightsLayout";
 import Plant from "../assets/images/Zimmerpflanze.webp";
 import Tower from "../assets/images/Wolken_Turm.webp";
 import Sword from "../assets/images/Schwert_Krone_Herz.webp";
+import Space from "../assets/images/Weltraum.webp";
 
 const EditorialDigitalIllustrations_3 = () => {
     const { t } = useTranslation("highlights", {
@@ -27,9 +28,9 @@ const EditorialDigitalIllustrations_3 = () => {
             alt: `${t("tower")}`,
         },
         {
-            figcaption: "",
-            src: "",
-            alt: "",
+            figcaption: `${t("space")}`,
+            src: Space,
+            alt: `${t("space")}`,
         },
     ];
 

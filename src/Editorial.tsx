@@ -74,15 +74,21 @@ const Illustration = () => {
                     <p className="font-serif">{t("text1")}</p>
                 </div>
 
-                <EditorialDigitalIllustrations_2 />
-
-                <div className="md:col-start-2 md:col-span-2">
+                <div className="md:col-start-3 md:col-span-1">
                     <div className="flex justify-center">
                         <img
                             src={Scratchy}
                             alt="Illustration Wort Scratchy"
                             loading="lazy"
                         />
+                    </div>
+                </div>
+
+                <EditorialDigitalIllustrations_2 />
+
+                <div className="md:col-start-2 md:col-span-2 mx-auto flex items-center justify-center h-96 aspect-square bg-white rounded-full">
+                    <div className="flex justify-center">
+                        Bild in Bearbeitung
                     </div>
                 </div>
 
@@ -105,6 +111,12 @@ const Illustration = () => {
                 </div>
 
                 <EditorialDigitalIllustrations_3 />
+
+                <div className="md:col-start-2 md:col-span-2 mx-auto flex items-center justify-center h-96 aspect-square bg-white rounded-full">
+                    <div className="flex justify-center">
+                        Bild in Bearbeitung
+                    </div>
+                </div>
             </MainLayout>
         </>
     );

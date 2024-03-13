@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import HighlightsLayout from "./General/HighlightsLayout";
 import Moth from "../assets/images/Motte.webp";
-import Space from "../assets/images/Weltraum.webp";
+import Squid from "../assets/images/Tintenfisch.webp";
 import Giant from "../assets/images/Riese.webp";
 import Tree from "../assets/images/Baum_wandern.webp";
 
@@ -23,9 +23,9 @@ const EditorialDigitalIllustrations_2 = () => {
             alt: `${t("tree")}`,
         },
         {
-            figcaption: `${t("space")}`,
-            src: Space,
-            alt: `${t("space")}`,
+            figcaption: `${t("squid")}`,
+            src: Squid,
+            alt: `${t("squid")}`,
         },
         {
             figcaption: `${t("giant")}`,

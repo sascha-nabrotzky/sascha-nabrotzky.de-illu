@@ -86,7 +86,7 @@ i18next.use(initReactI18next).init({
                 editorialDigitalIllustrations_2: {
                     title: "Highlights I",
                     moth: "Motte",
-                    space: "Weltraum",
+                    squid: "Tintenfisch",
                     giant: "Riese",
                     tree: "Baum",
                 },
@@ -96,6 +96,7 @@ i18next.use(initReactI18next).init({
                     plant: "Zimmerpflanze",
                     sword: "Schwert",
                     tower: "Turm",
+                    space: "Weltraum",
                 },
 
                 editorialDigitalIllustrations_4: {
@@ -201,9 +202,8 @@ i18next.use(initReactI18next).init({
                 editorialDigitalIllustrations_2: {
                     title: "Highlights I",
                     moth: "Moth",
-                    space: "Space",
-                    giant: "Giant",
                     tree: "Tree",
+                    squid: "Squid",
                 },
 
                 editorialDigitalIllustrations_3: {
@@ -211,6 +211,7 @@ i18next.use(initReactI18next).init({
                     plant: "Houseplant",
                     sword: "Sword",
                     tower: "Tower",
+                    space: "Space",
                 },
 
                 editorialDigitalIllustrations_4: {

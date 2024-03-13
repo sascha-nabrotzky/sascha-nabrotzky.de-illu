@@ -4,7 +4,6 @@ import MainLayout from "./components/General/MainLayout";
 import HighlightsLayout from "./components/General/HighlightsLayout";
 import CharacterDesignSketches from "./components/CharacterdesignSketches";
 import ChildrensIllustrations from "./components/ChildrensIllustrations";
-import DigitalIllustrations from "./components/DigitalIllustrations";
 import Book4 from "../src/assets/images/Book4.webp";
 import SpreadEating from "../src/assets/images/SpreadpageEating.webp";
 import SpreadBlowing from "../src/assets/images/SpreadpageBlowing.webp";
