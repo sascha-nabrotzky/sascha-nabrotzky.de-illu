@@ -71,7 +71,7 @@ i18next.use(initReactI18next).init({
 
                 about: {
                     title: "Jahrelange Erfahrung",
-                    text1a: "Als ausgebildeter Mediengestalter und aktuell als Webdesigner UI/UX, bin ich schon seit 1994 in der Medienbranche tätig.",
+                    text1a: "Als ausgebildeter Mediengestalter und aktuell als Webdesigner UI/UX, bin ich schon seit 1994 in der Medienbranche tätig und lebe mit meiner Familie im ländlichen Ladbergen.",
                     text1b: "Ich weiß was es heißt Deadlines einzuhalten und wie wichtig es ist, dass die Kunden zufrieden sind. Aufgrund meiner langjährigen Erfahrung, kann ich meine Kunden optimal beraten und unterstützen.",
                 },
             },
@@ -79,31 +79,31 @@ i18next.use(initReactI18next).init({
             highlights: {
                 editorialDigitalIllustrations_1: {
                     title: "Highlights III",
-                    img1: "Thema Brexit",
-                    img2: "Thema Handelskrieg",
+                    img1: "Brexit: digital",
+                    img2: "Handelskrieg: digital",
                 },
 
                 editorialDigitalIllustrations_2: {
                     title: "Highlights I",
-                    moth: "Motte",
-                    squid: "Tintenfisch",
-                    giant: "Riese",
-                    tree: "Baum",
+                    moth: "Motte: Tinte, Buntstift und Aquarell",
+                    squid: "Tintenfisch: Tinte, Buntstift und Aquarell",
+                    giant: "Riese: Tinte, Buntstift und Aquarell",
+                    tree: "Baum: Tinte, Buntstift (wasserlöslich)",
                 },
 
                 editorialDigitalIllustrations_3: {
                     title: "Highlights IV",
-                    plant: "Zimmerpflanze",
-                    sword: "Schwert",
-                    tower: "Turm",
-                    space: "Weltraum",
+                    plant: "Zimmerpflanze: Tinte (wasserlöslich)",
+                    sword: "Schwert: Tinte (wasserlöslich)",
+                    tower: "Turm: Tinte (wasserlöslich)",
+                    space: "Weltraum: Tinte (wasserlöslich)",
                 },
 
                 editorialDigitalIllustrations_4: {
                     title: "Highlights II",
-                    img1: "Vogel festgekettet",
-                    img2: "Karte",
-                    img3: "Katze frisst Maus",
+                    img1: "Vogel festgekettet: Tinte (wasserlöslich)",
+                    img2: "Karte: Tinte, Buntstift (wasserlöslich)",
+                    img3: "Katze & Maus: Tinte, Buntstift",
                 },
 
                 childrensIllustrations: {
@@ -195,30 +195,31 @@ i18next.use(initReactI18next).init({
             highlights: {
                 editorialDigitalIllustrations_1: {
                     title: "Highlights III",
-                    img1: "Brexit topic",
-                    img2: "Trade war topic",
+                    img1: "Brexit: digital",
+                    img2: "Trade war: digital",
                 },
 
                 editorialDigitalIllustrations_2: {
                     title: "Highlights I",
-                    moth: "Moth",
-                    tree: "Tree",
-                    squid: "Squid",
+                    moth: "Moth: ink, colored pencil and watercolor",
+                    squid: "Squid: ink, colored pencil and watercolor",
+                    giant: "Giant: ink, colored pencil and watercolor",
+                    tree: "Tree: ink, colored pencil (water-soluble)",
                 },
 
                 editorialDigitalIllustrations_3: {
                     title: "Highlights IV",
-                    plant: "Houseplant",
-                    sword: "Sword",
-                    tower: "Tower",
-                    space: "Space",
+                    plant: "Houseplant: ink (water-soluble)",
+                    sword: "Sword: ink (water-soluble)",
+                    tower: "Tower: ink (water-soluble)",
+                    space: "Space: ink (water-soluble)",
                 },
 
                 editorialDigitalIllustrations_4: {
                     title: "Highlights II",
-                    img1: "Bird chained up",
-                    img2: "Map",
-                    img3: "Cat eating mouse",
+                    img1: "Bird chained up: ink (water-soluble)",
+                    img2: "Map: ink, colored pencil (water-soluble)",
+                    img3: "Cat & mouse: ink, colored pencil",
                 },
 
                 childrensIllustrations: {

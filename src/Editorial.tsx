@@ -8,6 +8,8 @@ import EditorialDigitalIllustrations_3 from "./components/EditorialDigitalIllust
 import EditorialDigitalIllustrations_4 from "./components/EditorialDigitalIllustrations_4";
 import socMedImg from "../src/assets/images/SocMedImg.jpg";
 import Scratchy from "../src/assets/images/Scratchy.webp";
+import NewYork from "../src/assets/images/NewYork.webp";
+import BirdAbstract from "../src/assets/images/Vogel_abstrakt.webp";
 
 const Illustration = () => {
     const { t } = useTranslation("pages", { keyPrefix: "editorial" });
@@ -86,9 +88,13 @@ const Illustration = () => {
 
                 <EditorialDigitalIllustrations_2 />
 
-                <div className="md:col-start-2 md:col-span-2 mx-auto flex items-center justify-center h-96 aspect-square bg-white rounded-full">
+                <div className="md:col-start-2 md:col-span-2 mx-auto">
                     <div className="flex justify-center">
-                        Bild in Bearbeitung
+                        <img
+                            src={NewYork}
+                            alt="Illustration Wort NewYork"
+                            loading="lazy"
+                        />
                     </div>
                 </div>
 
@@ -112,9 +118,14 @@ const Illustration = () => {
 
                 <EditorialDigitalIllustrations_3 />
 
-                <div className="md:col-start-2 md:col-span-2 mx-auto flex items-center justify-center h-96 aspect-square bg-white rounded-full">
+                <div className="md:col-start-2 md:col-span-2 mx-auto">
                     <div className="flex justify-center">
-                        Bild in Bearbeitung
+                        <img
+                            src={BirdAbstract}
+                            alt="Illustration abstrakter Vogel"
+                            loading="lazy"
+                            className="animate-flying mb-6"
+                        />
                     </div>
                 </div>
             </MainLayout>
