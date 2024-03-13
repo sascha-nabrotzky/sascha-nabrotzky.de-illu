@@ -57,16 +57,16 @@ const Navigation = () => {
                                 setTranslateNav(!translateNav);
                             }}
                         >
-                            {t("children")}
+                            {t("editorial")}
                         </Link>
                         <Link
-                            to="/editorial"
+                            to="/children"
                             className="py-3 px-4"
                             onClick={() => {
                                 setTranslateNav(!translateNav);
                             }}
                         >
-                            {t("editorial")}
+                            {t("children")}
                         </Link>
                         <Link
                             to="/ueber-mich"

@@ -185,15 +185,6 @@ const Childrensbooks = () => {
                     title={t("book1.title")}
                 />
 
-                <div className="md:col-start-3 md:col-span-1 max-md:px-4 text-lg tracking-wider">
-                    <h2 className="mb-4 uppercase tracking-widest text-2xl font-bold">
-                        {t("title5")}
-                    </h2>
-                    <p className="font-serif">{t("text5")}</p>
-                </div>
-
-                <DigitalIllustrations />
-
                 <div className="md:col-start-2 md:col-span-2">
                     <div className="flex justify-center">
                         <img

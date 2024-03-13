@@ -26,14 +26,14 @@ i18next.use(initReactI18next).init({
             pages: {
                 editorial: {
                     title: "Editorial-Illustrationen",
-                    text1: "Ich bin Illustrator aus Ladbergen und habe mich mit meinem einzigartigen Stil mit Tinte, Stiften und Wasserfarbe auf die Erstellung von handgemachten Illustrationen für Editorial und Kinderbücher spezialisiert.",
+                    text1: "Ich bin Illustrator aus Ladbergen und habe mich mit meinem einzigartigen Stil mit Tinte, Stiften und Wasserfarbe auf die Erstellung von Illustrationen für Editorial und Kinderbücher spezialisiert.",
 
-                    title2: "Je nach Thema ...",
-                    text2: "werden die Illustrationen in verschiedenen Stilen erstellt. Meistens sind die Illustrationen für digitale Medien, aber auch für Printmedien.",
+                    title2: "Stil",
+                    text2: "Meine Editorial-Illustrationen sind meist dunkler und weniger farbenfroh gehalten, da das Thema meistens ernster ist.",
 
                     title_concept: "Konzept",
                     text_concept:
-                        "Die Illustrationen für Editorial entstehen meistens auf Anfrage von Redaktionen oder Agenturen. Die Themen sind sehr vielfältig und reichen von politischen Themen, über Wirtschaftsthemen bis hin zu Umweltthemen. Die Illustrationen werden meistens digital weiterverarbeitet oder direkt in dieser Form erstellt.",
+                        "Die Themen sind sehr vielfältig und reichen von politischen Themen, über Lifestyle bis hin zu Umweltthemen. Die Illustrationen werden entweder traditionell oder digital erstellt, je nach Anforderung oder Deadline.",
                 },
 
                 children: {
@@ -41,17 +41,14 @@ i18next.use(initReactI18next).init({
                     text1: "Wie meine Illustrationen für Editorial, haben auch meine Illustrationen für Kinderbücher einen eigenen handgemachten und bunteren Stil. Ich arbeite mit Stiften, Wasserfarbe und Tinte oder digital.",
 
                     title2: "Aus einer kleinen Idee ...",
-                    text2a: "entstand ein Großprojekt und jetzt sind schon drei Kinderbücher von mir privat illustriert worden. Am Anfang stand das <strong>Characterdesign </strong> der Hauptfiguren und ein <strong>Farbschema</strong> wurde ausgearbeitet.",
+                    text2a: "entstand ein großes Projekt und jetzt sind schon drei Kinderbücher von mir privat illustriert worden.",
                     text2b: "Für das vierte Buch, habe ich die drei vorherigen komplett überarbeitet und die verschiedenen Zeichenstile so gut es geht angeglichen. Alle Seiten enthalten doppleseitige Illustrationen.",
 
                     title3: "Storytelling",
                     text3: "Storytelling ist mir sehr wichtig, deshalb illustriere ich die Charaktere in verschiedenen Posen und setze sie dann in die gewünschte Umgebung. So ensteht eine Geschichte, die die Leser fesselt.",
 
                     title4: "Charakterdesign",
-                    text4: "Seit dem zweiten Kinderbuch habe ich gemerkt, wie sehr eine Geschichte von den Charakteren lebt, also habe ich für mein viertes Buch die Charaktere noch einmal komplett überarbeitet und die verschiedenen Zeichenstile so gut es geht angeglichen.",
-
-                    title5: "Jugendliche und älter",
-                    text5: "Für die nicht mehr ganz so jungen Leser, habe ich ebenfalls während verschiedener Projekte Illustrationen erstellt. Meistens lag der Fokus auf großformatige Printmedien.",
+                    text4: "Geschichten leben ebenfalls von den Charakteren, deswegen lege ich besonders viel Wert auf die ausarbeitung von interessanten Figuren in meinen Geschichten.",
 
                     book1: {
                         title: "Wach auf, kleiner Bär, es ist Frühling!",
@@ -73,9 +70,9 @@ i18next.use(initReactI18next).init({
                 },
 
                 about: {
-                    title: "Zeichnerische Kreativität ...",
-                    text1a: "war schon immer sehr ausgeprägt bei mir, das merkten auch meine Lehrer, wenn sie mal meine Schulbücher oder Arbeitshefte in die Finger bekamen.",
-                    text1b: "Neben meinem Hauptjob als Webdesigner UI/UX, habe ich noch Illustration und das erstellen von Charakteren für Kinderbücher als weitere Leidenschaft, welche ich als Hobby und Ausgleich zum Alltag betreibe.",
+                    title: "Jahrelange Erfahrung",
+                    text1a: "Als ausgebildeter Mediengestalter und aktuell als Webdesigner UI/UX, bin ich schon seit 1994 in der Medienbranche tätig.",
+                    text1b: "Ich weiß was es heißt Deadlines einzuhalten und wie wichtig es ist, dass die Kunden zufrieden sind. Aufgrund meiner langjährigen Erfahrung, kann ich meine Kunden optimal beraten und unterstützen.",
                 },
             },
 
@@ -115,14 +112,6 @@ i18next.use(initReactI18next).init({
                     img3: '"Sei entspannt" digitale Illustration für die Garderobe in einer Kita',
                     img4: '"Sei nett" digitale Illustration mit Motivationsspruch für jedes Kind',
                 },
-
-                digitalIllustrations: {
-                    title: "Illustrationen für Printmedien",
-                    img1: 'Magazin-Cover "Artenvielfalt" (Skizze mit Kugelschreiber digital koloriert)',
-                    img2: 'Poster "Billigfleisch" (Wettbewerb Greenpeace)',
-                    img3: 'Poster "Dreams" (kleine Skizze digital koloriert)',
-                    img4: 'Poster "Es regnet Katzen und Hunde" (Wasserfarbe und digital zusammengestellt)',
-                },
             },
 
             sketches: {
@@ -152,14 +141,14 @@ i18next.use(initReactI18next).init({
             pages: {
                 editorial: {
                     title: "Editorial Illustrations",
-                    text1: "I am an illustrator from Ladbergen and have specialized in creating handmade illustrations for editorial and children's books with my unique style using ink, pens and watercolor.",
+                    text1: "I am an illustrator from Germany and have specialized in creating illustrations for editorial and children's books with my unique style using ink, pens and watercolor.",
 
-                    title2: "Depending on the topic ...",
-                    text2: "the illustrations are created in different styles. Most of the time the illustrations are for digital media, but also for print media.",
+                    title2: "Style",
+                    text2: "My editorial illustrations are usually darker and less colorful, as the topic is usually more serious.",
 
                     title_concept: "Concept",
                     text_concept:
-                        "The illustrations for editorial are usually created on request from editorial offices or agencies. The topics are very diverse and range from political topics, to economic topics to environmental topics. The illustrations are usually further processed digitally or created in this form.",
+                        "The topics are very diverse and range from political topics, to lifestyle and environmental topics. The illustrations are created either traditionally or digitally, depending on the requirements or deadlines.",
                 },
 
                 children: {
@@ -167,17 +156,14 @@ i18next.use(initReactI18next).init({
                     text1: "Like my illustrations for editorial, my illustrations for children's books have their own handmade style. I work with pens, watercolor and ink or digitally.",
 
                     title2: "From a small idea ...",
-                    text2a: "a large project emerged and now three children's books have already been privately illustrated by me. At the beginning there was the <strong>character design</strong> of the main characters and a <strong>color scheme</strong> was worked out.",
-                    text2b: "For the fourth book, I completely revised the previous three and tried to harmonize the different drawing styles as best as possible. All pages contain double-sided illustrations.",
+                    text2a: "a big project emerged and now three children's books have already been privately illustrated by me.",
+                    text2b: "For the fourth book, I completely revised the previous three and tried to harmonize the different drawing styles as best as possible. All pages contain double-page illustrations.",
 
                     title3: "Storytelling",
                     text3: "Storytelling is very important to me, so I illustrate the characters in different poses and then place them in the desired environment. This creates a story that captivates the reader.",
 
                     title4: "Character design",
-                    text4: "Since the second children's book, I have noticed how much a story lives from the characters, so for my fourth book I completely revised the characters and tried to harmonize the different drawing styles as best as possible.",
-
-                    title5: "Adolescents and older",
-                    text5: "During various projects, I also created illustrations for the not so young readers. The focus was mostly on large-format print media.",
+                    text4: "Stories also live from the characters, which is why I attach great importance to the development of interesting characters in my stories.",
 
                     book1: {
                         title: "Wake up, little bear, it's spring!",
@@ -196,6 +182,12 @@ i18next.use(initReactI18next).init({
                         img1: "The own shadow is not so bad (double page)",
                         img2: "Mother bear shows what the shadow is (double page)",
                     },
+                },
+
+                about: {
+                    title: "Years of experience",
+                    text1a: "As a trained media designer and currently as a web designer UI/UX, I have been working in the media industry since 1994.",
+                    text1b: "I know what it means to meet deadlines and how important it is that customers are satisfied. Due to my many years of experience, I can optimally advise and support my customers.",
                 },
             },
 
@@ -234,14 +226,6 @@ i18next.use(initReactI18next).init({
                     img2: '"Be cheeky" digital illustration',
                     img3: '"Be relaxed" digital illustration for the cloakroom in a daycare center',
                     img4: '"Be nice" digital illustration with a motivational saying for every child',
-                },
-
-                digitalIllustrations: {
-                    title: "Illustrations for print media",
-                    img1: 'Magazine cover "Biodiversity" (sketch with ballpoint pen digitally colored)',
-                    img2: 'Poster "Cheap meat" (Greenpeace competition)',
-                    img3: 'Poster "Dreams" (small sketch digitally colored)',
-                    img4: 'Poster "It\'s raining cats and dogs" (watercolor and digitally assembled)',
                 },
             },
 
