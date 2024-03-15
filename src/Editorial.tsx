@@ -79,8 +79,8 @@ const Illustration = () => {
                 <div className="md:col-start-3 md:col-span-1">
                     <div className="flex justify-center">
                         <img
-                            src={Scratchy}
-                            alt="Illustration Wort Scratchy"
+                            src={NewYork}
+                            alt="Illustration Wort NewYork"
                             loading="lazy"
                         />
                     </div>
@@ -91,8 +91,8 @@ const Illustration = () => {
                 <div className="md:col-start-2 md:col-span-2 mx-auto">
                     <div className="flex justify-center">
                         <img
-                            src={NewYork}
-                            alt="Illustration Wort NewYork"
+                            src={Scratchy}
+                            alt="Illustration Wort Scratchy"
                             loading="lazy"
                         />
                     </div>

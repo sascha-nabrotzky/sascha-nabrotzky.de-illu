@@ -13,14 +13,14 @@ const EditorialDigitalIllustrations_3 = () => {
 
     const imgs = [
         {
-            figcaption: `${t("plant")}`,
-            src: Plant,
-            alt: `${t("plant")}`,
-        },
-        {
             figcaption: `${t("sword")}`,
             src: Sword,
             alt: `${t("sword")}`,
+        },
+        {
+            figcaption: `${t("plant")}`,
+            src: Plant,
+            alt: `${t("plant")}`,
         },
         {
             figcaption: `${t("tower")}`,
