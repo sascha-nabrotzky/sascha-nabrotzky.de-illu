@@ -20,11 +20,11 @@ const Illustration = () => {
                 <title>Sascha Nabrotzky | Illustration</title>
                 <meta
                     name="description"
-                    content="Entwickeln von Illustrationen für Editorial und Kinderbücher - Aus Ladbergen (Germany)."
+                    content="Handgemachte Illustrationen für Editorial und Kinderbücher - Aus Ladbergen (Germany)."
                 />
                 <meta
                     name="keywords"
-                    content="Charakterdesign, Illustration, Kinderbücher, Editorial, Ladbergen, Münster, Osnabrück"
+                    content="Illustration, Kinderbücher, Editorial, Ladbergen, Münster, Osnabrück"
                 />
                 <meta
                     name="image"
@@ -41,7 +41,7 @@ const Illustration = () => {
                 />
                 <meta
                     property="og:description"
-                    content="Entwickeln von Illustrationen für Editorial und Kinderbücher - Aus Ladbergen (Germany)."
+                    content="Handgemachte Illustrationen für Editorial und Kinderbücher - Aus Ladbergen (Germany)."
                 />
                 <meta
                     property="og:image"
@@ -60,7 +60,7 @@ const Illustration = () => {
                 />
                 <meta
                     name="twitter:description"
-                    content="Entwickeln von Illustrationen für Editorial und Kinderbücher - Aus Ladbergen (Germany)."
+                    content="Handgemachte Illustrationen für Editorial und Kinderbücher - Aus Ladbergen (Germany)."
                 />
                 <meta
                     name="twitter:image"
