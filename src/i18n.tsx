@@ -18,6 +18,7 @@ i18next.use(initReactI18next).init({
 
             footer: {
                 instagram: "Zu meinem Instagram-Account",
+                behance: "Zu meinem Behance-Account",
                 mail: "Schreib mir eine E-Mail",
                 impressum: "Impressum",
                 datenschutz: "Datenschutz",
@@ -134,6 +135,7 @@ i18next.use(initReactI18next).init({
 
             footer: {
                 instagram: "To my Instagram account",
+                behance: "To my Behance account",
                 mail: "Write me an e-mail",
                 impressum: "Imprint",
                 datenschutz: "Privacy",
