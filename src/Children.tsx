@@ -13,8 +13,6 @@ import SpreadShadow1 from "../src/assets/images/SpreadpageShadow1.webp";
 import SpreadShadow2 from "../src/assets/images/SpreadpageShadow2.webp";
 import Theo from "../src/assets/images/Theo.webp";
 import illuBiene from "../src/assets/images/Biene.webp";
-import { Helmet } from "react-helmet-async";
-import socMedImg from "../src/assets/images/SocMedImg.jpg";
 
 const Childrensbooks = () => {
     const { t } = useTranslation("pages", { keyPrefix: "children" });
@@ -60,58 +58,6 @@ const Childrensbooks = () => {
 
     return (
         <>
-            <Helmet>
-                <title>Sascha Nabrotzky | Illustration</title>
-                <meta
-                    name="description"
-                    content="Entwickeln von Illustrationen für Editorial und Kinderbücher - Aus Ladbergen (Germany)."
-                />
-                <meta
-                    name="keywords"
-                    content="Charakterdesign, Illustration, Kinderbücher, Editorial, Ladbergen, Münster, Osnabrück"
-                />
-                <meta
-                    name="image"
-                    content={`http://www.sascha-nabrotzky.de${socMedImg}`}
-                />
-                <meta
-                    property="og:url"
-                    content="http://www.sascha-nabrotzky.de"
-                />
-                <meta property="og:type" content="website" />
-                <meta
-                    property="og:title"
-                    content="Sascha Nabrotzky | Illustration"
-                />
-                <meta
-                    property="og:description"
-                    content="Entwickeln von Illustrationen für Editorial und Kinderbücher - Aus Ladbergen (Germany)."
-                />
-                <meta
-                    property="og:image"
-                    content={`http://www.sascha-nabrotzky.de${socMedImg}`}
-                />
-
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta property="twitter:domain" content="sascha-nabrotzky.de" />
-                <meta
-                    property="twitter:url"
-                    content="http://www.sascha-nabrotzky.de"
-                />
-                <meta
-                    name="twitter:title"
-                    content="Sascha Nabrotzky | Illustration"
-                />
-                <meta
-                    name="twitter:description"
-                    content="Entwickeln von Illustrationen für Editorial und Kinderbücher - Aus Ladbergen (Germany)."
-                />
-                <meta
-                    name="twitter:image"
-                    content={`http://www.sascha-nabrotzky.de${socMedImg}`}
-                />
-            </Helmet>
-
             <MainLayout>
                 <div className="md:col-start-2 md:col-span-1 max-md:px-4 text-lg tracking-wider">
                     <h1 className="mb-4 uppercase tracking-widest text-2xl font-bold">
