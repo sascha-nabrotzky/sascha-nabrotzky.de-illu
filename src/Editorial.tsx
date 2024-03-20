@@ -5,7 +5,7 @@ import EditorialDigitalIllustrations_1 from "./components/EditorialDigitalIllust
 import EditorialDigitalIllustrations_2 from "./components/EditorialDigitalIllustrations_2";
 import EditorialDigitalIllustrations_3 from "./components/EditorialDigitalIllustrations_3";
 import EditorialDigitalIllustrations_4 from "./components/EditorialDigitalIllustrations_4";
-import Scratchy from "../src/assets/images/Scratchy.webp";
+import Salmon from "../src/assets/images/Lachs.webp";
 import NewYork from "../src/assets/images/NewYork.webp";
 import BirdAbstract from "../src/assets/images/Vogel_abstrakt.webp";
 
@@ -37,8 +37,8 @@ const Illustration = () => {
                 <div className="md:col-start-2 md:col-span-2 mx-auto">
                     <div className="flex justify-center">
                         <img
-                            src={Scratchy}
-                            alt="Illustration Wort Scratchy"
+                            src={Salmon}
+                            alt="Illustration Wort Salmon"
                             loading="lazy"
                         />
                     </div>

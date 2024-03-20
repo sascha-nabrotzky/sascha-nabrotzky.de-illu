@@ -29,8 +29,8 @@ i18next.use(initReactI18next).init({
                     title: "Editorial-Illustrationen",
                     text1: "Ich bin Illustrator aus Ladbergen und habe mich mit meinem einzigartigen Stil mit Tinte, Stiften und Wasserfarbe auf die Erstellung von Illustrationen für Editorial und Kinderbücher spezialisiert.",
 
-                    title2: "Stil",
-                    text2: "Meine Editorial-Illustrationen sind meist dunkler und weniger farbenfroh gehalten, da das Thema meistens ernster ist.",
+                    title2: "Vorgehensweise",
+                    text2: "Meine Vorgehensweise ist in der Regel immer gleich, zuerst wird eine Idee gesucht, die nicht zu offensichtlich ist, daraus entsteht die Skizze und dann die Illustration. Die Illustration wird traditionell/digital mit Tinte, Stiften und Wasserfarbe und einer reduzierten Farbpalette erstellt, die in beiden Medien identisch ist.",
 
                     title_concept: "Konzept",
                     text_concept:
@@ -146,8 +146,8 @@ i18next.use(initReactI18next).init({
                     title: "Editorial Illustrations",
                     text1: "I am an illustrator from Germany and have specialized in creating illustrations for editorial and children's books with my unique style using ink, pens and watercolor.",
 
-                    title2: "Style",
-                    text2: "My editorial illustrations are usually darker and less colorful, as the topic is usually more serious.",
+                    title2: "Procedure",
+                    text2: "My procedure is usually always the same, first an idea is sought that is not too obvious, from this the sketch is created and then the illustration. The illustration is created traditionally/digitally with ink, pens and watercolor and a reduced color palette that is identical in both media.",
 
                     title_concept: "Concept",
                     text_concept:
