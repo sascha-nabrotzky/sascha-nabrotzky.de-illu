@@ -88,7 +88,7 @@ i18next.use(initReactI18next).init({
                     title: "Highlights I",
                     moth: "Motte: Tinte, Buntstift und Aquarell",
                     squid: "Tintenfisch: Tinte, Buntstift und Aquarell",
-                    giant: "Riese: Tinte, Buntstift und Aquarell",
+                    beard: "Bart: Tinte, Buntstift und Aquarell",
                     tree: "Baum: Tinte, Buntstift (wasserlöslich)",
                 },
 
@@ -97,7 +97,7 @@ i18next.use(initReactI18next).init({
                     plant: "Zimmerpflanze: Tinte (wasserlöslich)",
                     sword: "Schwert: Tinte (wasserlöslich)",
                     tower: "Turm: Tinte (wasserlöslich)",
-                    space: "Weltraum: Tinte (wasserlöslich)",
+                    birdhouse: "Vogelhaus: Tinte, Bunstift, Pastellkreide",
                 },
 
                 editorialDigitalIllustrations_4: {
@@ -205,7 +205,7 @@ i18next.use(initReactI18next).init({
                     title: "Highlights I",
                     moth: "Moth: ink, colored pencil and watercolor",
                     squid: "Squid: ink, colored pencil and watercolor",
-                    giant: "Giant: ink, colored pencil and watercolor",
+                    beard: "Beard: ink, colored pencil and watercolor",
                     tree: "Tree: ink, colored pencil (water-soluble)",
                 },
 
@@ -214,7 +214,7 @@ i18next.use(initReactI18next).init({
                     plant: "Houseplant: ink (water-soluble)",
                     sword: "Sword: ink (water-soluble)",
                     tower: "Tower: ink (water-soluble)",
-                    space: "Space: ink (water-soluble)",
+                    birdhouse: "Birdhouse: ink, colored pencil, pastel chalk",
                 },
 
                 editorialDigitalIllustrations_4: {

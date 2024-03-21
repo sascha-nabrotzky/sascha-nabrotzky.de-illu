@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import HighlightsLayout from "./General/HighlightsLayout";
 import Moth from "../assets/images/Motte.webp";
 import Squid from "../assets/images/Tintenfisch.webp";
-import Giant from "../assets/images/Riese.webp";
+import Beard from "../assets/images/Bart.webp";
 import Tree from "../assets/images/Baum_wandern.webp";
 
 const EditorialDigitalIllustrations_2 = () => {
@@ -18,9 +18,9 @@ const EditorialDigitalIllustrations_2 = () => {
             alt: `${t("moth")}`,
         },
         {
-            figcaption: `${t("tree")}`,
-            src: Tree,
-            alt: `${t("tree")}`,
+            figcaption: `${t("beard")}`,
+            src: Beard,
+            alt: `${t("beard")}`,
         },
         {
             figcaption: `${t("squid")}`,
@@ -28,9 +28,9 @@ const EditorialDigitalIllustrations_2 = () => {
             alt: `${t("squid")}`,
         },
         {
-            figcaption: `${t("giant")}`,
-            src: Giant,
-            alt: `${t("giant")}`,
+            figcaption: `${t("tree")}`,
+            src: Tree,
+            alt: `${t("tree")}`,
         },
     ];
 
