@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import InstaLogo from "../../assets/icons/instagram-logo.svg?react"; //?react and svgr/client in vite-env.d.ts is needed to make the svg work
 import BehanceLogo from "../../assets/icons/behance-logo.svg?react";
+import LinkedInLogo from "../../assets/icons/linkedin-logo.svg?react";
 import MailIcon from "../../assets/icons/mail.svg?react";
 
 const Footer = () => {
@@ -28,9 +29,17 @@ const Footer = () => {
                     className="mx-4 transition-color duration-200 text-stone-700 hover:text-pharlap-600"
                     to="https://www.behance.net/sascha-nabrotzky"
                     target="_blank"
-                    title={t("instagram")}
+                    title={t("behance")}
                 >
                     <BehanceLogo className="h-8" />
+                </Link>
+                <Link
+                    className="mx-4 transition-color duration-200 text-stone-700 hover:text-pharlap-600"
+                    to="https://www.linkedin.com/in/sascha-nabrotzky/"
+                    target="_blank"
+                    title={t("linkedin")}
+                >
+                    <LinkedInLogo className="h-8" />
                 </Link>
                 <Link
                     className="mx-4 transition-color duration-300 text-stone-700 hover:text-pharlap-600"
