@@ -54,7 +54,7 @@ const Highlights = ({
                 }  `}
             >
                 <div
-                    className={`grid grid-cols-1 sm:grid-cols-2 max-w-6xl mx-auto gap-4 ${columns}`}
+                    className={`grid grid-cols-1 sm:grid-cols-2 max-w-7xl mx-auto gap-4 ${columns}`}
                 >
                     <h3
                         className={`col-span-1 sm:col-span-2 ${headlineColumns} mb-2 text-2xl`}
