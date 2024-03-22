@@ -81,8 +81,8 @@ i18next.use(initReactI18next).init({
             highlights: {
                 editorialDigitalIllustrations_1: {
                     title: "Highlights III",
-                    img1: "Brexit: digital",
-                    img2: "Handelskrieg: digital",
+                    img1: "USA-Flagge: traditionell mit Tinte, Buntstift und Aquarell",
+                    img2: "Handelskrieg: traditionell mit Tinte, Buntstift und Aquarell",
                 },
 
                 editorialDigitalIllustrations_2: {
@@ -199,8 +199,8 @@ i18next.use(initReactI18next).init({
             highlights: {
                 editorialDigitalIllustrations_1: {
                     title: "Highlights III",
-                    img1: "Brexit: digital",
-                    img2: "Trade war: digital",
+                    img1: "USA flag: traditional with ink, colored pencil and watercolor",
+                    img2: "Trade war: traditional with ink, colored pencil and watercolor",
                 },
 
                 editorialDigitalIllustrations_2: {

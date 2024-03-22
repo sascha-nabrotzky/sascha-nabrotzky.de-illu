@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import HighlightsLayout from "./General/HighlightsLayout";
-import Brexit from "../assets/images/Brexit.webp";
+import UsaFlag from "../assets/images/USA-Flagge.webp";
 import Handelskrieg from "../assets/images/Handelskrieg.webp";
 
 const EditorialDigitalIllustrations_1 = () => {
@@ -12,7 +12,7 @@ const EditorialDigitalIllustrations_1 = () => {
     const imgs = [
         {
             figcaption: `${t("img1")}`,
-            src: Brexit,
+            src: UsaFlag,
             alt: `${t("img1")}`,
         },
         {
