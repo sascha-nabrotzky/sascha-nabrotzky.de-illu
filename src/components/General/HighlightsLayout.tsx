@@ -46,28 +46,37 @@ const Highlights = ({
       {!isEditorialPage && (
         <div className="col-span-4 bg-line-top bg-repeat-space h-[30px]" />
       )}
-
       <div
-        className={`grid grid-cols-1 sm:grid-cols-2 ${columns} col-start-1 gap-4 p-4 md:p-8 ${
-          isEditorialPage ? "bg-pelorous-700 text-stone-100" : "bg-pharlap-200"
-        }  text-stone-700`}
+        className={`col-start-1 p-4 md:p-6 ${
+          isEditorialPage
+            ? "bg-pelorous-700 text-stone-100"
+            : "bg-pharlap-200 text-stone-700"
+        }  `}
       >
-        <h3
-          className={`col-span-1 sm:col-span-2 ${headlineColumns} mb-2 text-2xl`}
+        <div
+          className={`grid grid-cols-1 sm:grid-cols-2 max-w-6xl mx-auto gap-4 ${columns}`}
         >
-          {title}
-        </h3>
-        {imgs.map((img: { alt: string; src?: string; figcaption: string }) => (
-          <figure key={img.alt}>
-            <img
-              className="w-full"
-              src={img.src}
-              alt={img.alt}
-              loading="lazy"
-            />
-            <figcaption className="mt-2 text-sm">{img.figcaption}</figcaption>
-          </figure>
-        ))}
+          <h3
+            className={`col-span-1 sm:col-span-2 ${headlineColumns} mb-2 text-2xl`}
+          >
+            {title}
+          </h3>
+          {imgs.map(
+            (img: { alt: string; src?: string; figcaption: string }) => (
+              <figure key={img.alt}>
+                <img
+                  className="w-full"
+                  src={img.src}
+                  alt={img.alt}
+                  loading="lazy"
+                />
+                <figcaption className="mt-2 text-sm">
+                  {img.figcaption}
+                </figcaption>
+              </figure>
+            )
+          )}
+        </div>
       </div>
       {!isEditorialPage && (
         <div className="col-span-4 bg-line-bottom bg-repeat-space h-[30px]" />
