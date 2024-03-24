@@ -15,8 +15,6 @@ const Highlights = ({
     const location = useLocation();
     const isEditorialPage = location.pathname === '/';
 
-    console.log(isEditorialPage);
-
     switch (cols) {
         case 3: {
             useEffect(() => {
