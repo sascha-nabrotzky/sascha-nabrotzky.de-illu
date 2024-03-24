@@ -1,40 +1,46 @@
-import React from "react";
-import { useTranslation } from "react-i18next";
-import HighlightsLayout from "./General/HighlightsLayout";
-import Moth from "../assets/images/Motte.webp";
-import Squid from "../assets/images/Tintenfisch.webp";
-import Beard from "../assets/images/Bart.webp";
-import Tree from "../assets/images/Baum_wandern.webp";
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import HighlightsLayout from './General/HighlightsLayout';
+import Moth from '../assets/images/Motte.webp?preset=thumbnail&srcset';
+import Squid from '../assets/images/Tintenfisch.webp?preset=thumbnail&srcset';
+import Beard from '../assets/images/Bart.webp?preset=thumbnail&srcset';
+import Tree from '../assets/images/Baum_wandern.webp?preset=thumbnail&srcset';
 
 const EditorialDigitalIllustrations_2 = () => {
-    const { t } = useTranslation("highlights", {
-        keyPrefix: "editorialDigitalIllustrations_2",
+    const { t } = useTranslation('highlights', {
+        keyPrefix: 'editorialDigitalIllustrations_2',
     });
 
     const imgs = [
         {
-            figcaption: `${t("moth")}`,
-            src: Moth,
-            alt: `${t("moth")}`,
+            figcaption: `${t('moth')}`,
+            srcSet: Moth,
+            alt: `${t('moth')}`,
         },
         {
-            figcaption: `${t("beard")}`,
-            src: Beard,
-            alt: `${t("beard")}`,
+            figcaption: `${t('beard')}`,
+            srcSet: Beard,
+            alt: `${t('beard')}`,
         },
         {
-            figcaption: `${t("squid")}`,
-            src: Squid,
-            alt: `${t("squid")}`,
+            figcaption: `${t('squid')}`,
+            srcSet: Squid,
+            alt: `${t('squid')}`,
         },
         {
-            figcaption: `${t("tree")}`,
-            src: Tree,
-            alt: `${t("tree")}`,
+            figcaption: `${t('tree')}`,
+            srcSet: Tree,
+            alt: `${t('tree')}`,
         },
     ];
 
-    return <HighlightsLayout cols={4} imgs={imgs} title={`${t("title")}`} />;
+    return (
+        <HighlightsLayout
+            cols={4}
+            imgs={imgs}
+            title={`${t('title')}`}
+        />
+    );
 };
 
 export default EditorialDigitalIllustrations_2;

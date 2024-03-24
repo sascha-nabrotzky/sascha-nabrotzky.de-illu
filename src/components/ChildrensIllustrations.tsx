@@ -1,40 +1,46 @@
-import React from "react";
-import { useTranslation } from "react-i18next";
-import HighlightsLayout from "./General/HighlightsLayout";
-import seiMutig from "../assets/images/Sei_mutig.webp";
-import seiNett from "../assets/images/Sei_nett.webp";
-import seiFrech from "../assets/images/Sei_frech.webp";
-import seiEntspannt from "../assets/images/Sei_entspannt.webp";
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import HighlightsLayout from './General/HighlightsLayout';
+import seiMutig from '../assets/images/Sei_mutig.webp?preset=thumbnail&srcset';
+import seiNett from '../assets/images/Sei_nett.webp?preset=thumbnail&srcset';
+import seiFrech from '../assets/images/Sei_frech.webp?preset=thumbnail&srcset';
+import seiEntspannt from '../assets/images/Sei_entspannt.webp?preset=thumbnail&srcset';
 
 const ChildrensSketchbookIllustrations = () => {
-    const { t } = useTranslation("highlights", {
-        keyPrefix: "childrensIllustrations",
+    const { t } = useTranslation('highlights', {
+        keyPrefix: 'childrensIllustrations',
     });
 
     const imgs = [
         {
-            figcaption: `${t("img1")}`,
-            src: seiMutig,
-            alt: `${t("img1")}`,
+            figcaption: `${t('img1')}`,
+            srcSet: seiMutig,
+            alt: `${t('img1')}`,
         },
         {
-            figcaption: `${t("img2")}`,
-            src: seiFrech,
-            alt: `${t("img2")}`,
+            figcaption: `${t('img2')}`,
+            srcSet: seiFrech,
+            alt: `${t('img2')}`,
         },
         {
-            figcaption: `${t("img3")}`,
-            src: seiEntspannt,
-            alt: `${t("img3")}`,
+            figcaption: `${t('img3')}`,
+            srcSet: seiEntspannt,
+            alt: `${t('img3')}`,
         },
         {
-            figcaption: `${t("img4")}`,
-            src: seiNett,
-            alt: `${t("img4")}`,
+            figcaption: `${t('img4')}`,
+            srcSet: seiNett,
+            alt: `${t('img4')}`,
         },
     ];
 
-    return <HighlightsLayout cols={4} imgs={imgs} title={`${t("title")}`} />;
+    return (
+        <HighlightsLayout
+            cols={4}
+            imgs={imgs}
+            title={`${t('title')}`}
+        />
+    );
 };
 
 export default ChildrensSketchbookIllustrations;

@@ -4,7 +4,7 @@ const sketchesLayout = ({
     imgs,
     title,
 }: {
-    imgs: { figcaption?: string; alt: string; src: string }[];
+    imgs: { figcaption?: string; alt: string; srcSet: string }[];
     title: string;
 }) => {
     return (
@@ -17,7 +17,7 @@ const sketchesLayout = ({
                 >
                     <img
                         className="w-full object-cover"
-                        src={img.src}
+                        srcSet={img.srcSet}
                         alt={img.alt}
                     />
                 </div>
