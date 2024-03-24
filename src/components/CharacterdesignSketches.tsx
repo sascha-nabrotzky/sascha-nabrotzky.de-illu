@@ -1,9 +1,9 @@
 import React from 'react';
 import SketchesLayout from './General/SketchesLayout';
 import { useTranslation } from 'react-i18next';
-import Sketch1 from '../assets/images/Skizze1.webp?preset=thumbnail&srcset';
-import Sketch2 from '../assets/images/Skizze2.webp?preset=thumbnail&srcset';
-import Sketch3 from '../assets/images/Skizze3.webp?preset=thumbnail&srcset';
+import Sketch1 from '../assets/images/Skizze1.webp?preset=small&srcset';
+import Sketch2 from '../assets/images/Skizze2.webp?preset=small&srcset';
+import Sketch3 from '../assets/images/Skizze3.webp?preset=small&srcset';
 
 const characterDesignSketches = () => {
     const { t } = useTranslation('sketches', {

@@ -135,9 +135,9 @@ i18next.use(initReactI18next).init({
             },
 
             footer: {
-                instagram: 'To my Instagram account',
-                behance: 'To my Behance account',
-                linkedin: 'To my Linkedin account',
+                instagram: 'to my Instagram account',
+                behance: 'to my Behance account',
+                linkedin: 'to my Linkedin account',
                 mail: 'Write me an e-mail',
                 impressum: 'Imprint',
                 datenschutz: 'Privacy',

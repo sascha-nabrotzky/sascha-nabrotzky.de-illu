@@ -1,8 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import HighlightsLayout from './General/HighlightsLayout';
-import UsaFlag from '../assets/images/USA-Flagge.webp?preset=thumbnail&srcset';
-import Handelskrieg from '../assets/images/Handelskrieg.webp?preset=thumbnail&srcset';
+import UsaFlag from '../assets/images/USA-Flagge.webp?preset=normal&srcset';
+import Handelskrieg from '../assets/images/Handelskrieg.webp?preset=normal&srcset';
 
 const EditorialDigitalIllustrations_1 = () => {
     const { t } = useTranslation('highlights', {

@@ -1,10 +1,10 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import HighlightsLayout from './General/HighlightsLayout';
-import Moth from '../assets/images/Motte.webp?preset=thumbnail&srcset';
-import Squid from '../assets/images/Tintenfisch.webp?preset=thumbnail&srcset';
-import Beard from '../assets/images/Bart.webp?preset=thumbnail&srcset';
-import Tree from '../assets/images/Baum_wandern.webp?preset=thumbnail&srcset';
+import Moth from '../assets/images/Motte.webp?preset=small&srcset';
+import Squid from '../assets/images/Tintenfisch.webp?preset=small&srcset';
+import Beard from '../assets/images/Bart.webp?preset=small&srcset';
+import Tree from '../assets/images/Baum_wandern.webp?preset=small&srcset';
 
 const EditorialDigitalIllustrations_2 = () => {
     const { t } = useTranslation('highlights', {

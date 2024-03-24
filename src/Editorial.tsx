@@ -5,9 +5,9 @@ import EditorialDigitalIllustrations_1 from './components/EditorialDigitalIllust
 import EditorialDigitalIllustrations_2 from './components/EditorialDigitalIllustrations_2';
 import EditorialDigitalIllustrations_3 from './components/EditorialDigitalIllustrations_3';
 import EditorialDigitalIllustrations_4 from './components/EditorialDigitalIllustrations_4';
-import Salmon from '../src/assets/images/Lachs.webp?preset=thumbnail&srcset';
-import NewYork from '../src/assets/images/NewYork.webp?preset=thumbnail&srcset';
-import BirdAbstract from '../src/assets/images/Vogel_abstrakt.webp?preset=thumbnail&srcset';
+import Salmon from '../src/assets/images/Lachs.webp?preset=normal&srcset';
+import NewYork from '../src/assets/images/NewYork.webp?preset=small&srcset';
+import BirdAbstract from '../src/assets/images/Vogel_abstrakt.webp?preset=small&srcset';
 
 const Illustration = () => {
     const { t } = useTranslation('pages', { keyPrefix: 'editorial' });

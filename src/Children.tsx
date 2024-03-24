@@ -4,15 +4,15 @@ import MainLayout from './components/General/MainLayout';
 import HighlightsLayout from './components/General/HighlightsLayout';
 import CharacterDesignSketches from './components/CharacterdesignSketches';
 import ChildrensIllustrations from './components/ChildrensIllustrations';
-import Book4 from '../src/assets/images/Book4.webp?preset=thumbnail&srcset';
-import SpreadEating from '../src/assets/images/SpreadpageEating.webp?preset=thumbnail&srcset';
-import SpreadBlowing from '../src/assets/images/SpreadpageBlowing.webp?preset=thumbnail&srcset';
-import SpreadWiese from '../src/assets/images/SpreadpageWiese.webp?preset=thumbnail&srcset';
-import SpreadForest from '../src/assets/images/SpreadpageForest.webp?preset=thumbnail&srcset';
-import SpreadShadow1 from '../src/assets/images/SpreadpageShadow1.webp?preset=thumbnail&srcset';
-import SpreadShadow2 from '../src/assets/images/SpreadpageShadow2.webp?preset=thumbnail&srcset';
-import Theo from '../src/assets/images/Theo.webp?preset=thumbnail&srcset';
-import illuBiene from '../src/assets/images/Biene.webp?preset=thumbnail&srcset';
+import Book4 from '../src/assets/images/Book4.webp?preset=small&srcset';
+import SpreadEating from '../src/assets/images/SpreadpageEating.webp?preset=normal&srcset';
+import SpreadBlowing from '../src/assets/images/SpreadpageBlowing.webp?preset=normal&srcset';
+import SpreadWiese from '../src/assets/images/SpreadpageWiese.webp?preset=normal&srcset';
+import SpreadForest from '../src/assets/images/SpreadpageForest.webp?preset=normal&srcset';
+import SpreadShadow1 from '../src/assets/images/SpreadpageShadow1.webp?preset=normal&srcset';
+import SpreadShadow2 from '../src/assets/images/SpreadpageShadow2.webp?preset=normal&srcset';
+import Theo from '../src/assets/images/Theo.webp?preset=small&srcset';
+import illuBiene from '../src/assets/images/Biene.webp?preset=small&srcset';
 
 const Childrensbooks = () => {
     const { t } = useTranslation('pages', { keyPrefix: 'children' });

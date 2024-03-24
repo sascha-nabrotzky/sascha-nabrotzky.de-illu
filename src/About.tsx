@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import Profilfoto from '../src/assets/images/Sascha_Nabrotzky_sw.webp?preset=thumbnail&srcset';
+import Profilfoto from '../src/assets/images/Sascha_Nabrotzky_sw.webp?preset=normal&srcset';
 import MainLayout from './components/General/MainLayout';
 
 const About = () => {

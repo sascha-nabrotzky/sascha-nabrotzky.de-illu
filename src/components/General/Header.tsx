@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import Logo from '../../assets/images/Logo.webp?preset=thumbnail&srcset';
-import colorSplat from '../../assets/images/circle.webp?preset=thumbnail&srcset';
+import Logo from '../../assets/images/Logo.webp?preset=small&srcset';
+import colorSplat from '../../assets/images/circle.webp?preset=small&srcset';
 
 const Header = () => {
     const [animation, setAnimation] = useState(true);
@@ -28,6 +28,8 @@ const Header = () => {
                         ? 'animate-slideUp opacity-0 translate-y-12 scale-150 rotate-6'
                         : ''
                 }`}
+                rel="preload"
+                fetchPriority="high"
             />
             <img
                 className="absolute h-56 sm:h-60 opacity-80 translate-x-1/3 -translate-y-1/4"

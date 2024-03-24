@@ -1,9 +1,9 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import HighlightsLayout from './General/HighlightsLayout';
-import Vogel from '../assets/images/Vogel_festgekettet.webp?preset=thumbnail&srcset';
-import Katze from '../assets/images/Katze_Maus.webp?preset=thumbnail&srcset';
-import Karte from '../assets/images/Karte.webp?preset=thumbnail&srcset';
+import Vogel from '../assets/images/Vogel_festgekettet.webp?preset=normal&srcset';
+import Katze from '../assets/images/Katze_Maus.webp?preset=normal&srcset';
+import Karte from '../assets/images/Karte.webp?preset=normal&srcset';
 
 const EditorialDigitalIllustrations_4 = () => {
     const { t } = useTranslation('highlights', {
