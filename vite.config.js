@@ -15,7 +15,7 @@ export default defineConfig({
     plugins: [
         react(),
         svgr(),
-        viteCompression({ deleteOriginFile: true }),
+        viteCompression({ filter: /\.(css|html)$/i, deleteOriginFile: true }),
         imagePresets({
             small: widthPreset({
                 loading: 'lazy',
